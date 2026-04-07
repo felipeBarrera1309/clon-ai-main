@@ -1,0 +1,2032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zirus Riviera</name>
+    <Style id="icon-1651-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1651-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1651-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1651-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1651-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-2000-51-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>337e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-2000-51-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>337e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-2000-51">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-2000-51-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-2000-51-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-3000-41-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>297e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-3000-41-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>297e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-3000-41">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-3000-41-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-3000-41-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-3000-43-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2b7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-3000-43-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2b7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-3000-43">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-3000-43-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-3000-43-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-3000-46-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2e7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-3000-46-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2e7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-3000-46">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-3000-46-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-3000-46-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-3000-56-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>387e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-3000-56-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>387e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-3000-56">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-3000-56-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-3000-56-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-4000-33-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>217e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-4000-33-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>217e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-4000-33">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-4000-33-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-4000-33-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-4000-41-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>297e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-4000-41-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>297e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-4000-41">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-4000-41-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-4000-41-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-4000-43-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2b7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-4000-43-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2b7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-4000-43">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-4000-43-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-4000-43-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-4000-46-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2e7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-4000-46-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2e7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-4000-46">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-4000-46-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-4000-46-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-4000-48-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>307e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-4000-48-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>307e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-4000-48">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-4000-48-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-4000-48-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-1A237E-4000-54-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>367e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-4000-54-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>367e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-4000-54">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-4000-54-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-4000-54-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-3000-46-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2e0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-3000-46-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2e0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-3000-46">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-3000-46-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-3000-46-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-3000-77-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-3000-77-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-3000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-3000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-3000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4000-38-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>260051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4000-38-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>260051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4000-38">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4000-38-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4000-38-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4000-41-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>290051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4000-41-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>290051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4000-41">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4000-41-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4000-41-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4000-51-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>330051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4000-51-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>330051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4000-51">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4000-51-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4000-51-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4000-59-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3b0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4000-59-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3b0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4000-59">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4000-59-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4000-59-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4000-77-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4000-77-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-5000-77-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-5000-77-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-5000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-5000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-5000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Z3 - Riviera</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6oda5LcVJ5fuqco00Ni9QHpP0RTx3b8WeceNTLkm-6swFEOkB-DPrv2a6BaclVODXof5jGpv-1P67mKLvJQWxT2KQfFks7ow1kSM0Z7D8ks5QszT64GtLp-El5E-0Fhbnw8S2SkUh522eWZVf13Bsws2iwNzSP7ScrSiGJ-FbCksb--8dhU6SO4vFAO4wnlyWXGxZ7tXLY6JwPE8KjAp_CrHFbY5zTqxwWedXzsvsGGz5j54ltsJARgkLN_wxuFfHwaxHbkt4nb_JeA1xGabSpEVABZwb1IOGsFxfG3G91iziGZb7UcmqXd5hOrjDUV4Gqvpd_JxObEG2nCxmEfPJaxcKiGSwzsbkG23Jrku7q-vJAfqakN532Qvwo6jFO8lO3gbnZUaUPRC1AZAXqy8bbGCE5AOu5pJihNvfo46Lt2uBNxRoxT1nv5E12LqRgZCE-Eo58N2PeeaL25qyESRZAUhcD4fZLK9IjZq6GX3Sl2aKyXq0MccI_5FDO0PebJaBCP-OqNDRedQGVuBj5P3nQzNav5iNxmUK7QDXhe6ttBJav2FAedGMDooFlC4uQ53ZUplwpAQTR2hZZpdcQOCLsd4rXYvfmybrgUupFwgVcI4yFi8BpnQ" height="200" width="auto" /><br><br>Descripción: <br><br>Horario<br>Domingo a Viernes 11:00 AM - 11:00 PM<br>Sábado                     11:00 AM - 12:00 AM<br>Valor: ]]></description>
+      <styleUrl>#icon-1651-1A237E</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>
+
+Horario
+Domingo a Viernes 11:00 AM - 11:00 PM
+Sábado                     11:00 AM - 12:00 AM</value>
+        </Data>
+        <Data name="Valor">
+          <value/>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AN6v0v6oda5LcVJ5fuqco00Ni9QHpP0RTx3b8WeceNTLkm-6swFEOkB-DPrv2a6BaclVODXof5jGpv-1P67mKLvJQWxT2KQfFks7ow1kSM0Z7D8ks5QszT64GtLp-El5E-0Fhbnw8S2SkUh522eWZVf13Bsws2iwNzSP7ScrSiGJ-FbCksb--8dhU6SO4vFAO4wnlyWXGxZ7tXLY6JwPE8KjAp_CrHFbY5zTqxwWedXzsvsGGz5j54ltsJARgkLN_wxuFfHwaxHbkt4nb_JeA1xGabSpEVABZwb1IOGsFxfG3G91iziGZb7UcmqXd5hOrjDUV4Gqvpd_JxObEG2nCxmEfPJaxcKiGSwzsbkG23Jrku7q-vJAfqakN532Qvwo6jFO8lO3gbnZUaUPRC1AZAXqy8bbGCE5AOu5pJihNvfo46Lt2uBNxRoxT1nv5E12LqRgZCE-Eo58N2PeeaL25qyESRZAUhcD4fZLK9IjZq6GX3Sl2aKyXq0MccI_5FDO0PebJaBCP-OqNDRedQGVuBj5P3nQzNav5iNxmUK7QDXhe6ttBJav2FAedGMDooFlC4uQ53ZUplwpAQTR2hZZpdcQOCLsd4rXYvfmybrgUupFwgVcI4yFi8BpnQ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -73.113635,7.126406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $16,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 60-70 MIN<br><br>(HASA LAS 8:00 PM)<br>Valor: 16000]]></description>
+      <styleUrl>#poly-E65100-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 60-70 MIN
+
+(HASA LAS 8:00 PM)</value>
+        </Data>
+        <Data name="Valor">
+          <value>16000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.135605,7.150699,0
+              -73.133374,7.150955,0
+              -73.131485,7.150657,0
+              -73.12949,7.150508,0
+              -73.128653,7.151061,0
+              -73.129833,7.152552,0
+              -73.130756,7.153446,0
+              -73.132022,7.154191,0
+              -73.133481,7.154766,0
+              -73.135197,7.154851,0
+              -73.13745,7.153488,0
+              -73.13745,7.152168,0
+              -73.136313,7.151487,0
+              -73.135605,7.150699,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $15,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 60 MIN<br><br>HOSPITAL DEL NORTE<br>MINUTO DE DIOS<br>COLSEGUROS NORTE (HASTA LAS 8:00 PM LLAMAR) <br>Valor: 15000]]></description>
+      <styleUrl>#poly-E65100-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 60 MIN
+
+HOSPITAL DEL NORTE
+MINUTO DE DIOS
+COLSEGUROS NORTE (HASTA LAS 8:00 PM LLAMAR) </value>
+        </Data>
+        <Data name="Valor">
+          <value>15000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.134661,7.145249,0
+              -73.131979,7.146164,0
+              -73.128267,7.147783,0
+              -73.128159,7.150252,0
+              -73.131485,7.15021,0
+              -73.134253,7.150657,0
+              -73.135605,7.150699,0
+              -73.136978,7.149145,0
+              -73.137214,7.147122,0
+              -73.135884,7.145845,0
+              -73.134661,7.145249,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $9,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50 MIN<br><br>DON BOSCO <br>LLAMAR DESPUES DE LAS 9:00 PM A VER SI VAN<br>Valor: 9000]]></description>
+      <styleUrl>#poly-E65100-4000-38</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50 MIN
+
+DON BOSCO 
+LLAMAR DESPUES DE LAS 9:00 PM A VER SI VAN</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.142019,7.115774,0
+              -73.144212,7.115692,0
+              -73.14388,7.113754,0
+              -73.148375,7.111274,0
+              -73.146884,7.109762,0
+              -73.140178,7.113286,0
+              -73.142019,7.115774,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $9,000</name>
+      <description><![CDATA[Descripción: LA FERIA<br>NAPOLES (LLAMAR DESPUES DE LAS 9:00 PM)<br>Valor: 9000]]></description>
+      <styleUrl>#poly-E65100-4000-41</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>LA FERIA
+NAPOLES (LLAMAR DESPUES DE LAS 9:00 PM)</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.138647,7.123393,0
+              -73.141962,7.122786,0
+              -73.146897,7.121018,0
+              -73.144387,7.117292,0
+              -73.137263,7.120571,0
+              -73.138647,7.123393,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>ALBANIA (PREGUNTAR SI HAY QUE BAJAR ESCALERAS Y DECIRLE QUE SUBAN A LA PRINCIPAL) (HASTA LAS 9:00 PM LLAMAR)<br>Valor: 7500]]></description>
+      <styleUrl>#poly-E65100-3000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+ALBANIA (PREGUNTAR SI HAY QUE BAJAR ESCALERAS Y DECIRLE QUE SUBAN A LA PRINCIPAL) (HASTA LAS 9:00 PM LLAMAR)</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.106483,7.129056,0
+              -73.1061,7.129008,0
+              -73.106003,7.129006,0
+              -73.105916,7.128988,0
+              -73.105818,7.128982,0
+              -73.105759,7.128967,0
+              -73.105701,7.128973,0
+              -73.10573,7.129094,0
+              -73.105742,7.129145,0
+              -73.10575,7.129221,0
+              -73.105763,7.129294,0
+              -73.105766,7.129378,0
+              -73.105771,7.129513,0
+              -73.105778,7.129656,0
+              -73.105742,7.129889,0
+              -73.105679,7.130141,0
+              -73.105617,7.130597,0
+              -73.105563,7.13095,0
+              -73.105569,7.131136,0
+              -73.105634,7.13147,0
+              -73.105612,7.131587,0
+              -73.105566,7.131654,0
+              -73.105343,7.131916,0
+              -73.105321,7.132065,0
+              -73.105353,7.132199,0
+              -73.10544,7.132344,0
+              -73.105482,7.132432,0
+              -73.105494,7.132531,0
+              -73.105376,7.132668,0
+              -73.105251,7.132805,0
+              -73.105195,7.13295,0
+              -73.105323,7.133292,0
+              -73.105488,7.133607,0
+              -73.105524,7.133738,0
+              -73.105475,7.133831,0
+              -73.105773,7.134016,0
+              -73.106034,7.134105,0
+              -73.106562,7.133921,0
+              -73.10704,7.133929,0
+              -73.107477,7.134081,0
+              -73.1077,7.134062,0
+              -73.107893,7.133791,0
+              -73.107976,7.133405,0
+              -73.108054,7.132955,0
+              -73.107979,7.132082,0
+              -73.107796,7.13163,0
+              -73.107528,7.131199,0
+              -73.107576,7.130358,0
+              -73.107287,7.129985,0
+              -73.107092,7.129888,0
+              -73.106339,7.129585,0
+              -73.106483,7.129056,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $9,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50 MIN<br><br>NARIÑO<br>CONJUNTO MONTEVERDE<br>(HASTA LAS 8:00 PM LLAMAR)<br>Valor: 9000]]></description>
+      <styleUrl>#poly-E65100-4000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50 MIN
+
+NARIÑO
+CONJUNTO MONTEVERDE
+(HASTA LAS 8:00 PM LLAMAR)</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.135611,7.126913,0
+              -73.138416,7.126024,0
+              -73.139156,7.126492,0
+              -73.1395,7.126279,0
+              -73.138813,7.125369,0
+              -73.136469,7.125071,0
+              -73.135611,7.126913,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $8,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50 MIN<br><br>PUERTO RICO<br>-MIRADORES DE LA UIS (Hasta las 8:00 pm)<br>Preguntar al cliente si hay que bajar escaleras, ya que tendría que ir a la principal para poder entregar el pedido.<br>Valor: 8000]]></description>
+      <styleUrl>#poly-E65100-3000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50 MIN
+
+PUERTO RICO
+-MIRADORES DE LA UIS (Hasta las 8:00 pm)
+Preguntar al cliente si hay que bajar escaleras, ya que tendría que ir a la principal para poder entregar el pedido.</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.120139,7.142718,0
+              -73.120046,7.142257,0
+              -73.119779,7.14193,0
+              -73.119291,7.141643,0
+              -73.119098,7.142287,0
+              -73.116956,7.141512,0
+              -73.117428,7.142433,0
+              -73.11797,7.143327,0
+              -73.118485,7.144003,0
+              -73.119268,7.143609,0
+              -73.120139,7.142718,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $9,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50 MIN<br><br>LA JOYA DE 18W / OCCIDENTE EN ADELANTE <br>(HASTA LAS 8:00 PM)<br>Valor: 9000]]></description>
+      <styleUrl>#poly-E65100-4000-51</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50 MIN
+
+LA JOYA DE 18W / OCCIDENTE EN ADELANTE 
+(HASTA LAS 8:00 PM)</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.144634,7.10948,0
+              -73.146227,7.108304,0
+              -73.144371,7.106233,0
+              -73.142923,7.107314,0
+              -73.144634,7.10948,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $6,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>SAN FRANCISCO<br>ALARCON<br>BULEVAR BOLIVAR<br>BULEVAR SANTANDER<br>BOLIVAR<br>Valor: 6000]]></description>
+      <styleUrl>#poly-1A237E-4000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+SAN FRANCISCO
+ALARCON
+BULEVAR BOLIVAR
+BULEVAR SANTANDER
+BOLIVAR</value>
+        </Data>
+        <Data name="Valor">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.11972,7.132284,0
+              -73.124162,7.131444,0
+              -73.126786,7.130927,0
+              -73.126313,7.128238,0
+              -73.125862,7.126556,0
+              -73.125004,7.123842,0
+              -73.123927,7.123952,0
+              -73.122978,7.124794,0
+              -73.121098,7.126064,0
+              -73.119492,7.127149,0
+              -73.11977,7.127852,0
+              -73.119028,7.128228,0
+              -73.11972,7.132284,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $5,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>ANTONIA SANTOS NORTE<br>PARQUE CENTENARIO<br>Valor: 5500]]></description>
+      <styleUrl>#poly-1A237E-3000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+ANTONIA SANTOS NORTE
+PARQUE CENTENARIO</value>
+        </Data>
+        <Data name="Valor">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.124982,7.114579,0
+                -73.124771,7.114653,0
+                -73.124771,7.114654,0
+                -73.124982,7.114579,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.12004,7.116187,0
+                -73.118065,7.11696,0
+                -73.116048,7.117541,0
+                -73.119492,7.127149,0
+                -73.120634,7.126323,0
+                -73.122978,7.124794,0
+                -73.123444,7.124336,0
+                -73.123412,7.124091,0
+                -73.123326,7.123814,0
+                -73.123094,7.123351,0
+                -73.122675,7.12226,0
+                -73.12004,7.116187,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $5,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>SAN ALONSO<br>Valor: 5500]]></description>
+      <styleUrl>#poly-1A237E-4000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+SAN ALONSO</value>
+        </Data>
+        <Data name="Valor">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.119817,7.132902,0
+              -73.119613,7.131496,0
+              -73.119028,7.128228,0
+              -73.116576,7.129005,0
+              -73.115487,7.129596,0
+              -73.114613,7.130271,0
+              -73.111834,7.13224,0
+              -73.1125,7.134318,0
+              -73.117456,7.134467,0
+              -73.117907,7.134861,0
+              -73.119495,7.134776,0
+              -73.120181,7.134776,0
+              -73.119817,7.132902,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $5,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>LA AURORA<br>EL PRADO<br>MEJORAS PUBLICAS<br>Valor: 5000]]></description>
+      <styleUrl>#poly-1A237E-3000-41</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+LA AURORA
+EL PRADO
+MEJORAS PUBLICAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>5000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.116632,7.119202,0
+              -73.115191,7.120274,0
+              -73.114865,7.12106,0
+              -73.114601,7.121441,0
+              -73.114076,7.121864,0
+              -73.113637,7.122351,0
+              -73.113258,7.123383,0
+              -73.112464,7.123804,0
+              -73.112109,7.122691,0
+              -73.109374,7.123119,0
+              -73.107874,7.124256,0
+              -73.108902,7.124993,0
+              -73.111909,7.13223,0
+              -73.114987,7.129897,0
+              -73.116451,7.128943,0
+              -73.118395,7.128445,0
+              -73.119781,7.127862,0
+              -73.116632,7.119202,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $8,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50 MIN<br><br>GAITAN<br>Valor: 8000]]></description>
+      <styleUrl>#poly-1A237E-4000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50 MIN
+
+GAITAN</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.131086,7.135089,0
+              -73.137094,7.133844,0
+              -73.13469,7.128857,0
+              -73.137114,7.123652,0
+              -73.129038,7.125853,0
+              -73.131086,7.135089,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $6,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>ALTOS DE CABECERA<br>ALVAREZ<br>PARQUE LOS LEONES<br>Valor: 6000]]></description>
+      <styleUrl>#poly-1A237E-3000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+ALTOS DE CABECERA
+ALVAREZ
+PARQUE LOS LEONES</value>
+        </Data>
+        <Data name="Valor">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.109551,7.126574,0
+              -73.109296,7.125948,0
+              -73.108892,7.124982,0
+              -73.107864,7.124245,0
+              -73.107436,7.124434,0
+              -73.10719,7.124944,0
+              -73.106538,7.125818,0
+              -73.106066,7.126936,0
+              -73.105632,7.127832,0
+              -73.105415,7.128875,0
+              -73.105605,7.128944,0
+              -73.106483,7.129056,0
+              -73.106875,7.129242,0
+              -73.107436,7.129374,0
+              -73.107582,7.129424,0
+              -73.107771,7.129714,0
+              -73.108014,7.129909,0
+              -73.108173,7.130015,0
+              -73.1083,7.130099,0
+              -73.108732,7.130676,0
+              -73.109358,7.131019,0
+              -73.111421,7.130995,0
+              -73.109551,7.126574,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $5,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>EDIF MAJESTIC<br>EDIF AQUA TOWER<br>EDIF EL TORREÓN<br>EDIF TORRE DEL VENTO<br>EDIF EL CIGARRAL<br>EDIF SIMONETTA<br>JARDIN INFANTIL KIDS PARK<br>EDIFMONTEARROYO<br>EDIF BELLO HORIZONTE<br>EDIF PANORAMA<br>CONJUNTO CANTABRIA 1 Y 2<br>Valor: 5500]]></description>
+      <styleUrl>#poly-1A237E-4000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+EDIF MAJESTIC
+EDIF AQUA TOWER
+EDIF EL TORREÓN
+EDIF TORRE DEL VENTO
+EDIF EL CIGARRAL
+EDIF SIMONETTA
+JARDIN INFANTIL KIDS PARK
+EDIFMONTEARROYO
+EDIF BELLO HORIZONTE
+EDIF PANORAMA
+CONJUNTO CANTABRIA 1 Y 2</value>
+        </Data>
+        <Data name="Valor">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.105632,7.127832,0
+              -73.106517,7.125893,0
+              -73.107436,7.124508,0
+              -73.108713,7.123582,0
+              -73.10853,7.123292,0
+              -73.108169,7.123327,0
+              -73.108016,7.123227,0
+              -73.107864,7.123095,0
+              -73.107818,7.12292,0
+              -73.107813,7.12223,0
+              -73.107747,7.121804,0
+              -73.10751,7.120764,0
+              -73.107199,7.1198,0
+              -73.105922,7.12009,0
+              -73.105245,7.120259,0
+              -73.105024,7.121479,0
+              -73.105027,7.122541,0
+              -73.10566,7.124298,0
+              -73.104758,7.126501,0
+              -73.105632,7.127832,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>LA MODELO<br>MEDICINA LEGAL<br>HOSPITAL PSIQUIATRICO SAN CAMILO<br>CONJUNTO VILLA DEL PRADO<br>Valor: 7500]]></description>
+      <styleUrl>#poly-1A237E-4000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+LA MODELO
+MEDICINA LEGAL
+HOSPITAL PSIQUIATRICO SAN CAMILO
+CONJUNTO VILLA DEL PRADO</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.136271,7.11011,0
+              -73.133197,7.106852,0
+              -73.129544,7.110775,0
+              -73.130819,7.111629,0
+              -73.131701,7.111236,0
+              -73.132766,7.113061,0
+              -73.136271,7.11011,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>GIRARDOT<br>ALFONSO LOPEZ<br>Valor: 7500]]></description>
+      <styleUrl>#poly-1A237E-4000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+GIRARDOT
+ALFONSO LOPEZ</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.138514,7.123166,0
+              -73.13762,7.121289,0
+              -73.137163,7.12042,0
+              -73.136695,7.119859,0
+              -73.13171,7.111252,0
+              -73.130822,7.111627,0
+              -73.129547,7.110772,0
+              -73.128894,7.11116,0
+              -73.129505,7.112276,0
+              -73.130855,7.115995,0
+              -73.131435,7.117702,0
+              -73.130867,7.119759,0
+              -73.131307,7.121135,0
+              -73.130404,7.121725,0
+              -73.129717,7.121829,0
+              -73.128858,7.122317,0
+              -73.12816,7.122912,0
+              -73.129038,7.125853,0
+              -73.132338,7.124944,0
+              -73.138514,7.123166,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>COMUNEROS<br>EDIF CRISTO REY<br>CONDOMINIO SANTA ISABEL<br>Valor: 7500]]></description>
+      <styleUrl>#poly-1A237E-4000-41</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+COMUNEROS
+EDIF CRISTO REY
+CONDOMINIO SANTA ISABEL</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.122766,7.13828,0
+              -73.123198,7.139994,0
+              -73.128232,7.139057,0
+              -73.13111,7.138512,0
+              -73.132291,7.138262,0
+              -73.132127,7.137904,0
+              -73.13228,7.137767,0
+              -73.131096,7.135164,0
+              -73.130584,7.132779,0
+              -73.12692,7.133518,0
+              -73.120181,7.134776,0
+              -73.120439,7.137001,0
+              -73.120203,7.138789,0
+              -73.122766,7.13828,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>LA JOYA HASTA LA 1W / OCCIDENTE<br>Valor: 7500]]></description>
+      <styleUrl>#poly-1A237E-4000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+LA JOYA HASTA LA 1W / OCCIDENTE</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.132916,7.11332,0
+              -73.134718,7.11646,0
+              -73.138752,7.113463,0
+              -73.137057,7.110994,0
+              -73.132916,7.11332,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $8,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>CAMPOHERMOSO<br>Valor: 8000]]></description>
+      <styleUrl>#poly-1A237E-4000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+CAMPOHERMOSO</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.136271,7.11011,0
+              -73.144047,7.104434,0
+              -73.140603,7.100596,0
+              -73.133197,7.106852,0
+              -73.136271,7.11011,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $5,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>CABECERA<br>Valor: 5500]]></description>
+      <styleUrl>#poly-1A237E-4000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+CABECERA</value>
+        </Data>
+        <Data name="Valor">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.107199,7.1198,0
+                -73.107016,7.119835,0
+                -73.1072,7.119804,0
+                -73.107199,7.1198,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.1072,7.119804,0
+                -73.107322,7.120175,0
+                -73.107498,7.120719,0
+                -73.107733,7.121753,0
+                -73.107813,7.12223,0
+                -73.107818,7.12292,0
+                -73.107864,7.123095,0
+                -73.108016,7.123227,0
+                -73.108169,7.123327,0
+                -73.10853,7.123292,0
+                -73.108713,7.123582,0
+                -73.109358,7.123093,0
+                -73.112093,7.122664,0
+                -73.112464,7.123804,0
+                -73.113258,7.123383,0
+                -73.113637,7.122351,0
+                -73.114076,7.121864,0
+                -73.114601,7.121441,0
+                -73.114865,7.12106,0
+                -73.115191,7.120274,0
+                -73.116632,7.119202,0
+                -73.116048,7.117541,0
+                -73.109381,7.119136,0
+                -73.109109,7.119172,0
+                -73.10892,7.119154,0
+                -73.108554,7.119252,0
+                -73.108357,7.119262,0
+                -73.108148,7.119297,0
+                -73.107888,7.11943,0
+                -73.107695,7.119572,0
+                -73.107554,7.119701,0
+                -73.10742,7.119731,0
+                -73.107249,7.119721,0
+                -73.107217,7.119801,0
+                -73.1072,7.119804,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $6,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>ESTADIO ALFONSO LÓPEZ<br>Valor: 6500]]></description>
+      <styleUrl>#poly-1A237E-2000-51</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+ESTADIO ALFONSO LÓPEZ</value>
+        </Data>
+        <Data name="Valor">
+          <value>6500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.113187,7.138907,0
+              -73.116073,7.140003,0
+              -73.117146,7.139066,0
+              -73.117682,7.138353,0
+              -73.1178,7.137512,0
+              -73.117928,7.13485,0
+              -73.117478,7.134456,0
+              -73.111235,7.134224,0
+              -73.111333,7.135344,0
+              -73.111482,7.138216,0
+              -73.113187,7.138907,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $8,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>Santander<br>Valor: 8000]]></description>
+      <styleUrl>#poly-1A237E-3000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+Santander</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.14203,7.115742,0
+              -73.140378,7.11358,0
+              -73.135099,7.117126,0
+              -73.135936,7.118563,0
+              -73.136692,7.119862,0
+              -73.14203,7.115742,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $6,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>UIS<br>Valor: 6500]]></description>
+      <styleUrl>#poly-1A237E-4000-33</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+UIS</value>
+        </Data>
+        <Data name="Valor">
+          <value>6500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.123202,7.140051,0
+              -73.122766,7.13828,0
+              -73.120203,7.138789,0
+              -73.120407,7.137107,0
+              -73.120181,7.134776,0
+              -73.117907,7.134861,0
+              -73.1178,7.137512,0
+              -73.117682,7.138353,0
+              -73.117146,7.139066,0
+              -73.116073,7.140003,0
+              -73.113187,7.138907,0
+              -73.113036,7.139322,0
+              -73.11382,7.140126,0
+              -73.116459,7.140935,0
+              -73.117028,7.141526,0
+              -73.118084,7.141935,0
+              -73.119098,7.142287,0
+              -73.119291,7.141643,0
+              -73.119779,7.14193,0
+              -73.120048,7.142303,0
+              -73.120139,7.142718,0
+              -73.121056,7.143224,0
+              -73.121603,7.14341,0
+              -73.121759,7.143186,0
+              -73.12222,7.142542,0
+              -73.123223,7.141877,0
+              -73.123433,7.141105,0
+              -73.123352,7.140786,0
+              -73.123202,7.140051,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $8,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50 MIN<br><br>CONJUNTO SOLERI<br>SAN RAFEL<br>MAXIMUEBLES<br>CAI DE LA VIRGEN<br>Valor: 8500]]></description>
+      <styleUrl>#poly-1A237E-4000-41</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50 MIN
+
+CONJUNTO SOLERI
+SAN RAFEL
+MAXIMUEBLES
+CAI DE LA VIRGEN</value>
+        </Data>
+        <Data name="Valor">
+          <value>8500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.137273,7.143048,0
+              -73.137138,7.142085,0
+              -73.135293,7.139115,0
+              -73.135315,7.13805,0
+              -73.133003,7.137179,0
+              -73.132127,7.137904,0
+              -73.132291,7.138262,0
+              -73.132643,7.13903,0
+              -73.133032,7.140099,0
+              -73.133337,7.141338,0
+              -73.132012,7.141648,0
+              -73.13211,7.14194,0
+              -73.133357,7.141925,0
+              -73.13495,7.143458,0
+              -73.136227,7.14472,0
+              -73.137273,7.143048,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $8,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>LA JOYA DE LA 2W HASTA LA 17W / OCCIDENTE<br>Valor: 8000]]></description>
+      <styleUrl>#poly-1A237E-4000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+LA JOYA DE LA 2W HASTA LA 17W / OCCIDENTE</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.138752,7.113463,0
+              -73.144794,7.109707,0
+              -73.142906,7.107279,0
+              -73.137057,7.110994,0
+              -73.138752,7.113463,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45 MIN<br><br>LOS PINOS $6,500<br>EL DIVISO $7,500<br>VEGAS DE MORRORICO $8,000<br>JERUSALEN $8,000 (LLAMAR DESPUES DE LAS 9:00 PM)<br>Valor: 8000]]></description>
+      <styleUrl>#poly-1A237E-3000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45 MIN
+
+LOS PINOS $6,500
+EL DIVISO $7,500
+VEGAS DE MORRORICO $8,000
+JERUSALEN $8,000 (LLAMAR DESPUES DE LAS 9:00 PM)</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.107856,7.141836,0
+              -73.108671,7.1419,0
+              -73.109068,7.140718,0
+              -73.107952,7.139451,0
+              -73.106804,7.137961,0
+              -73.107824,7.138089,0
+              -73.107974,7.137024,0
+              -73.107866,7.136194,0
+              -73.108982,7.136864,0
+              -73.110533,7.13745,0
+              -73.110634,7.138224,0
+              -73.111482,7.138216,0
+              -73.111471,7.136939,0
+              -73.111235,7.134224,0
+              -73.112521,7.134307,0
+              -73.111855,7.13223,0
+              -73.108338,7.130914,0
+              -73.108574,7.134586,0
+              -73.108725,7.135821,0
+              -73.108373,7.135178,0
+              -73.107938,7.134368,0
+              -73.107254,7.134642,0
+              -73.106982,7.13483,0
+              -73.106926,7.134886,0
+              -73.107009,7.135106,0
+              -73.107074,7.135445,0
+              -73.106904,7.135942,0
+              -73.106702,7.135957,0
+              -73.106493,7.136433,0
+              -73.106589,7.136617,0
+              -73.106556,7.13688,0
+              -73.106083,7.137194,0
+              -73.105758,7.137258,0
+              -73.106214,7.137972,0
+              -73.106944,7.139143,0
+              -73.106944,7.140048,0
+              -73.10703,7.141176,0
+              -73.107856,7.141836,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $9,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50-60 MIN<br><br>QUINTA ESTRELLA<br>Valor: 9000]]></description>
+      <styleUrl>#poly-1A237E-4000-41</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50-60 MIN
+
+QUINTA ESTRELLA</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.144047,7.104434,0
+              -73.149131,7.101917,0
+              -73.145815,7.097179,0
+              -73.140603,7.100596,0
+              -73.144047,7.104434,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $7,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>CENTRO<br>SAN ANDERSITO CENTRO<br>EXITO CENTRO<br>GALAN<br>PARQUE GALAN<br>GOBERNACION DE SANTANDER<br>PARQUE ROMERO<br>PARQUE SANTANDER<br>ALCALDIA<br>PALACIO DE JUSTICIA<br>Valor: 7000]]></description>
+      <styleUrl>#poly-1A237E-4000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+CENTRO
+SAN ANDERSITO CENTRO
+EXITO CENTRO
+GALAN
+PARQUE GALAN
+GOBERNACION DE SANTANDER
+PARQUE ROMERO
+PARQUE SANTANDER
+ALCALDIA
+PALACIO DE JUSTICIA</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.123444,7.124336,0
+              -73.123927,7.123952,0
+              -73.124811,7.123799,0
+              -73.126388,7.123586,0
+              -73.128158,7.122915,0
+              -73.128856,7.12232,0
+              -73.129714,7.121832,0
+              -73.130402,7.121728,0
+              -73.131304,7.121137,0
+              -73.130864,7.119762,0
+              -73.131432,7.117705,0
+              -73.129502,7.112279,0
+              -73.128332,7.11288,0
+              -73.127107,7.113536,0
+              -73.125151,7.114319,0
+              -73.123282,7.115032,0
+              -73.121686,7.115604,0
+              -73.12004,7.116187,0
+              -73.121506,7.119519,0
+              -73.122923,7.12267,0
+              -73.123223,7.123522,0
+              -73.123412,7.124091,0
+              -73.123444,7.124336,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $6,500</name>
+      <description><![CDATA[Descripción: AQUARIUM<br>BOSQUES DEL VENADO<br>Valor: 6500]]></description>
+      <styleUrl>#poly-1A237E-4000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>AQUARIUM
+BOSQUES DEL VENADO</value>
+        </Data>
+        <Data name="Valor">
+          <value>6500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.107287,7.129985,0
+              -73.107576,7.130358,0
+              -73.108177,7.130127,0
+              -73.1083,7.130099,0
+              -73.107949,7.129862,0
+              -73.107771,7.129714,0
+              -73.107582,7.129424,0
+              -73.106875,7.129242,0
+              -73.106483,7.129056,0
+              -73.106339,7.129585,0
+              -73.107092,7.129888,0
+              -73.107287,7.129985,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $7,000</name>
+      <description><![CDATA[Descripción: URBANIZACION VILLAS DEL ROMERO<br>CRUZ ROJA<br>CEMENTERIO<br>BARRIO CHORRERAS DE DON JUAN<br>Éxito La Rosita<br>HomeCenter<br>Valor: 7000]]></description>
+      <styleUrl>#poly-1A237E-3000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>URBANIZACION VILLAS DEL ROMERO
+CRUZ ROJA
+CEMENTERIO
+BARRIO CHORRERAS DE DON JUAN
+Éxito La Rosita
+HomeCenter</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.128894,7.11116,0
+              -73.128456,7.111406,0
+              -73.127752,7.111694,0
+              -73.127026,7.112,0
+              -73.126702,7.112103,0
+              -73.126283,7.112146,0
+              -73.125079,7.112292,0
+              -73.124229,7.112513,0
+              -73.123478,7.112827,0
+              -73.12344,7.113029,0
+              -73.122806,7.113,0
+              -73.121015,7.113782,0
+              -73.119379,7.115166,0
+              -73.11843,7.116806,0
+              -73.12279,7.115197,0
+              -73.123879,7.114798,0
+              -73.124955,7.114391,0
+              -73.127107,7.113536,0
+              -73.129505,7.112276,0
+              -73.128894,7.11116,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $7,000</name>
+      <description><![CDATA[Descripción: <br>Valor: 7000]]></description>
+      <styleUrl>#poly-1A237E-4000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value/>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.120181,7.134776,0
+              -73.130584,7.132779,0
+              -73.129038,7.125853,0
+              -73.12816,7.122912,0
+              -73.126388,7.123586,0
+              -73.125004,7.123842,0
+              -73.126286,7.128078,0
+              -73.126786,7.130927,0
+              -73.11972,7.132284,0
+              -73.120181,7.134776,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z3 - $8,000</name>
+      <description><![CDATA[Descripción: <br>Valor: 8000]]></description>
+      <styleUrl>#poly-1A237E-4000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value/>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.132012,7.141648,0
+              -73.133337,7.141338,0
+              -73.133032,7.140099,0
+              -73.132291,7.138262,0
+              -73.123198,7.139994,0
+              -73.123358,7.140722,0
+              -73.125117,7.140366,0
+              -73.125284,7.141223,0
+              -73.128551,7.140611,0
+              -73.12876,7.141319,0
+              -73.130423,7.141244,0
+              -73.130498,7.141425,0
+              -73.132012,7.141648,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

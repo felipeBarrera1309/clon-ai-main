@@ -1,0 +1,41 @@
+{
+  "tailwindCSS.experimental.configFile": "packages/ui/src/styles/globals.css",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.biome": "explicit"
+  },
+  "claude-code.environmentVariables": [
+    {
+      "name": "CLAUDE_CODE_USE_BEDROCK",
+      "value": "true"
+    },
+    {
+      "name": "AWS_REGION",
+      "value": "us-west-2"
+    },
+    {
+      "name": "AWS_PROFILE",
+      "value": "claudecode"
+    },
+    {
+      "name": "ANTHROPIC_MODEL",
+      "value": "global.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    },
+    {
+      "name": "DISABLE_BUG_COMMAND",
+      "value": "1"
+    },
+    {
+      "name": "DISABLE_ERROR_REPORTING",
+      "value": "1"
+    },
+    {
+      "name": "DISABLE_TELEMETRY",
+      "value": "1"
+    },
+    {
+      "name": "MAX_THINKING_TOKENS",
+      "value": "1024"
+    }
+  ]
+}

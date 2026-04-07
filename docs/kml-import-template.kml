@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Plantilla Áreas de Entrega - Restaurante</name>
+    <description>Plantilla para importar áreas de entrega desde KML. Modifica los nombres, coordenadas y precios según tu negocio.</description>
+
+    <!-- Estilos para visualización -->
+    <Style id="zonaBasica">
+      <PolyStyle>
+        <color>ff00ff00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+
+    <Style id="zonaPremium">
+      <PolyStyle>
+        <color>ff0080ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+
+    <Style id="zonaExpress">
+      <PolyStyle>
+        <color>ffffff00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+
+    <!-- Ejemplo 1: Sede Principal -->
+    <Folder>
+      <name>Sede Principal - Centro</name>
+      <description>Zonas de entrega para la sede principal del restaurante</description>
+
+      <!-- Área 1: Zona Express (cerca del restaurante) -->
+      <Placemark>
+        <name>Zona Express Centro</name>
+        <description><![CDATA[
+          <h3>🚀 Zona Express - Centro Histórico</h3>
+          <img src="https://example.com/centro-map.jpg" width="200" alt="Zona Centro"/>
+          <br><br>
+          <b>🏢 Tipo de zona:</b> Centro comercial/histórico
+          <br>
+          <b>📝 Observaciones:</b> Área peatonal, entregas por carrera principal
+          <br>
+          <b>🚚 Restricciones:</b> Solo entregas en horario comercial (8 AM - 6 PM)
+          <br>valor: 3500
+        ]]></description>
+        <styleUrl>#zonaExpress</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.075000,4.600000,0
+                -74.080000,4.600000,0
+                -74.080000,4.605000,0
+                -74.075000,4.605000,0
+                -74.075000,4.600000,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+      <!-- Área 2: Zona Básica (residencial cercana) -->
+      <Placemark>
+        <name>Zona Residencial Norte</name>
+        <description><![CDATA[
+          <h3>🏡 Zona Residencial Norte</h3>
+          <br><br>
+          <b>🏢 Tipo de zona:</b> Residencial clase media
+          <br>
+          <b>📝 Observaciones:</b> Zona segura, buen acceso vehicular
+          <br>
+          <b>🚚 Restricciones:</b> No entregas después de 9:00 PM
+          <br>valor: 5500
+        ]]></description>
+        <styleUrl>#zonaBasica</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.065000,4.610000,0
+                -74.075000,4.610000,0
+                -74.075000,4.620000,0
+                -74.070000,4.625000,0
+                -74.065000,4.620000,0
+                -74.065000,4.610000,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+      <!-- Área 3: Zona Premium (área exclusiva) -->
+      <Placemark>
+        <name>Zona Premium El Lago</name>
+        <description><![CDATA[
+          <h3>💎 Zona Premium - El Lago</h3>
+          <br><br>
+          <b>🏢 Tipo de zona:</b> Residencial exclusiva / Conjuntos cerrados
+          <br>
+          <b>📝 Observaciones:</b> Área exclusiva con portería 24/7
+          <br>
+          <b>🚚 Restricciones:</b> Llamar al cliente 5 min antes de llegar
+          <br>
+          <b>📞 Contacto:</b> Coordinar entregas con administración
+          <br>valor: 8500
+        ]]></description>
+        <styleUrl>#zonaPremium</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.055000,4.630000,0
+                -74.065000,4.630000,0
+                -74.065000,4.640000,0
+                -74.060000,4.645000,0
+                -74.055000,4.640000,0
+                -74.055000,4.630000,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+    </Folder>
+
+    <!-- Ejemplo 2: Sede Secundaria -->
+    <Folder>
+      <name>Sede Norte - Zona Rosa</name>
+      <description>Zonas de entrega para la sede norte del restaurante</description>
+
+      <!-- Área 4: Zona Básica Norte -->
+      <Placemark>
+        <name>Zona Norte Residencial</name>
+        <description><![CDATA[
+          <h3>🏘️ Zona Norte Residencial</h3>
+          <br><br>
+          <b>🏢 Tipo de zona:</b> Residencial norte
+          <br>
+          <b>📝 Observaciones:</b> Área en crecimiento, buen flujo vehicular
+          <br>valor: 6500
+        ]]></description>
+        <styleUrl>#zonaBasica</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.045000,4.650000,0
+                -74.055000,4.650000,0
+                -74.055000,4.660000,0
+                -74.050000,4.665000,0
+                -74.045000,4.660000,0
+                -74.045000,4.650000,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+      <!-- Área 5: Zona Express Norte -->
+      <Placemark>
+        <name>Zona Norte Express</name>
+        <description><![CDATA[
+          <h3>🚀 Zona Norte Express</h3>
+          <br><br>
+          <b>🏢 Tipo de zona:</b> Centro comercial norte
+          <br>
+          <b>📝 Observaciones:</b> Alta densidad comercial, múltiples accesos
+          <br>valor: 4500
+        ]]></description>
+        <styleUrl>#zonaExpress</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.035000,4.640000,0
+                -74.045000,4.640000,0
+                -74.045000,4.650000,0
+                -74.040000,4.655000,0
+                -74.035000,4.650000,0
+                -74.035000,4.640000,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+    </Folder>
+
+    <!-- Ejemplo 3: Punto de referencia (restaurante) -->
+    <Placemark>
+      <name>Ubicación Restaurante Principal</name>
+      <description><![CDATA[
+        <h3>🏪 Ubicación del Restaurante</h3>
+        <br>
+        <b>📍 Dirección:</b> Carrera 7 # 23-45, Centro
+        <br>
+        <b>📞 Teléfono:</b> (1) 555-0123
+        <br>
+        <b>🕒 Horario:</b> Lunes a Domingo 11:00 AM - 10:00 PM
+      ]]></description>
+      <Point>
+        <coordinates>-74.077500,4.602500,0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml></content>
+</xai:function_call/>
+</xai:function_call name="write">
+<parameter name="filePath">docs/kml-import-process-guide.md

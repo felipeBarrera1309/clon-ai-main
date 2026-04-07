@@ -1,0 +1,77 @@
+"use client"
+
+import { glass } from "@dicebear/collection"
+import { createAvatar } from "@dicebear/core"
+import { Avatar, AvatarImage } from "@workspace/ui/components/avatar"
+import { cn } from "@workspace/ui/lib/utils"
+import { useMemo } from "react"
+
+interface DicebearAvatarProps {
+  seed: string
+  size?: number
+  containerClassName?: string
+  avatarClassName?: string
+  badgeClassName?: string
+  imageUrl?: string
+  badgeImageUrl?: string
+}
+
+export const DicebearAvatar = ({
+  seed,
+  size = 32,
+  containerClassName,
+  avatarClassName,
+  imageUrl,
+  badgeClassName,
+  badgeImageUrl,
+}: DicebearAvatarProps) => {
+  const avatarSrc = useMemo(() => {
+    if (imageUrl) {
+      return imageUrl
+    }
+
+    const avatar = createAvatar(glass, {
+      seed: seed.toLowerCase().trim(),
+      size,
+    })
+
+    return avatar.toDataUri()
+  }, [seed, size, imageUrl])
+
+  const badgeSize = Math.round(size * 0.5)
+
+  return (
+    <div
+      className={cn("relative inline-block", containerClassName)}
+      style={{ width: size, height: size }}
+    >
+      <Avatar
+        className={cn("border", avatarClassName)}
+        style={{ width: size, height: size }}
+      >
+        <AvatarImage alt="Avatar" src={avatarSrc} />
+      </Avatar>
+      {badgeImageUrl && (
+        <div
+          className={cn(
+            "absolute right-0 bottom-0 flex items-center justify-center overflow-hidden rounded-full border-2 border-background bg-background",
+            badgeClassName
+          )}
+          style={{
+            width: badgeSize,
+            height: badgeSize,
+            transform: "translate(15%, 15%)",
+          }}
+        >
+          <img
+            alt="Badge"
+            className="h-full w-full object-cover"
+            height={badgeSize}
+            src={badgeImageUrl}
+            width={badgeSize}
+          />
+        </div>
+      )}
+    </div>
+  )
+}

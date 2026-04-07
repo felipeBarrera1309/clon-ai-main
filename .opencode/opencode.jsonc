@@ -1,0 +1,112 @@
+{
+	"$schema": "https://opencode.ai/config.json",
+	"model": "amazon-bedrock/anthropic.claude-opus-4-6-v1",
+	"plugin": [
+		"corvus-ai@latest", "open-mem@latest"],
+	"provider": {
+		"google": {
+			"name": "Google",
+			"models": {
+				"gemini-3-pro-high": {
+					"name": "Gemini 3 Pro High (Antigravity)",
+					"attachment": true,
+					"limit": {
+						"context": 1048576,
+						"output": 65535
+					},
+					"modalities": {
+						"input": ["text", "image", "pdf"],
+						"output": ["text"]
+					}
+				},
+				"gemini-3-pro-medium": {
+					"name": "Gemini 3 Pro Medium (Antigravity)",
+					"attachment": true,
+					"limit": {
+						"context": 1048576,
+						"output": 65535
+					},
+					"modalities": {
+						"input": ["text", "image", "pdf"],
+						"output": ["text"]
+					}
+				},
+				"gemini-3-pro-low": {
+					"name": "Gemini 3 Pro Low (Antigravity)",
+					"attachment": true,
+					"limit": {
+						"context": 1048576,
+						"output": 65535
+					},
+					"modalities": {
+						"input": ["text", "image", "pdf"],
+						"output": ["text"]
+					}
+				},
+				"gemini-3-flash": {
+					"name": "Gemini 3 Flash (Antigravity)",
+					"attachment": true,
+					"limit": {
+						"context": 1048576,
+						"output": 65536
+					},
+					"modalities": {
+						"input": ["text", "image", "pdf"],
+						"output": ["text"]
+					}
+				},
+				"gemini-3-flash-lite": {
+					"name": "Gemini 3 Flash Lite (Antigravity)",
+					"attachment": true,
+					"limit": {
+						"context": 1048576,
+						"output": 65536
+					},
+					"modalities": {
+						"input": ["text", "image", "pdf"],
+						"output": ["text"]
+					}
+				}
+			}
+		},
+		"openai": {
+			"api": "codex",
+			"name": "OpenAI",
+			"models": {
+				"gpt-5.2": {
+					"name": "GPT-5.2"
+				},
+				"o3": {
+					"name": "o3"
+				},
+				"o4-mini": {
+					"name": "o4-mini"
+				},
+				"codex-1": {
+					"name": "Codex-1"
+				}
+			}
+		}
+	},
+	"mcp": {
+		"context7": {
+			"type": "remote",
+			"url": "https://mcp.context7.com/mcp",
+			"headers": {
+				"CONTEXT7_API_KEY": "YOUR_API_KEY",
+				"Accept": "application/json, text/event-stream"
+			},
+			"enabled": true
+		},
+		"sentry": {
+			"type": "local",
+			"command": ["npx", "-y", "mcp-remote@latest", "https://mcp.sentry.dev/mcp"],
+			"enabled": true
+		},
+		"axiom": {
+			"type": "local",
+			"command": ["npx", "-y", "mcp-remote", "https://mcp.axiom.co/mcp"],
+			"enabled": true
+		}
+	}
+}

@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zirus Girón</name>
+    <Style id="icon-1651-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1651-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1651-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1651-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1651-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4000-77-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4000-77-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4000-82-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>520051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4000-82-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>520051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4000-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4000-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4000-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-5000-54-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>360051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-5000-54-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>360051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-5000-54">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-5000-54-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-5000-54-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-5000-64-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>400051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-5000-64-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>400051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-5000-64">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-5000-64-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-5000-64-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-3000-69-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>45b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-3000-69-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>45b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-3000-69">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-3000-69-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-3000-69-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-3000-77-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-3000-77-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-3000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-3000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-3000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-4000-54-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>36b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-4000-54-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>36b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-4000-54">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-4000-54-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-4000-54-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-4000-66-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>42b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-4000-66-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>42b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-4000-66">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-4000-66-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-4000-66-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-4000-77-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-4000-77-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-4000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-4000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-4000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-4000-84-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>54b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-4000-84-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>54b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-4000-84">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-4000-84-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-4000-84-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-4000-99-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>63b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-4000-99-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>63b18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-4000-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-4000-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-4000-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-5000-74-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4ab18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-5000-74-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4ab18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-5000-74">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-5000-74-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-5000-74-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F48FB1-5000-77-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F48FB1-5000-77-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db18ff4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F48FB1-5000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F48FB1-5000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F48FB1-5000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-5000-82-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-5000-82-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-5000-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-5000-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-5000-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-6000-77-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-6000-77-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>9</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-6000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-6000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-6000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Z6 - GIRÓN</name>
+      <description><![CDATA[Descripción: CASCO ANTIGUO<br>Horario:<br>Todos los días de 11:00 AM - 11:00 PM<br>Valor: ]]></description>
+      <styleUrl>#icon-1651-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CASCO ANTIGUO
+Horario:
+Todos los días de 11:00 AM - 11:00 PM</value>
+        </Data>
+        <Data name="Valor">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -73.170735,7.067391,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - NO SE VA</name>
+      <description><![CDATA[Descripción: NUEVO GIRON, ZONA PELIGROSA<br>Valor: ]]></description>
+      <styleUrl>#poly-E65100-4000-82</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>NUEVO GIRON, ZONA PELIGROSA</value>
+        </Data>
+        <Data name="Valor">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.162368,7.033836,0
+              -73.172238,7.03243,0
+              -73.172066,7.030684,0
+              -73.168998,7.030343,0
+              -73.168698,7.027575,0
+              -73.158612,7.027873,0
+              -73.159321,7.03209,0
+              -73.162368,7.033836,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - PELIGROSO</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50-60 MIN<br><br>- INMACULADA 2 $11,000 (Hasta las 6:00 pm)<br>-"INMACULADA 1 INVASIÓN, ZONA PELIGROSA, NO SE VA A NINGUNA HORA"<br>Valor: ]]></description>
+      <styleUrl>#poly-E65100-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value><![CDATA[TIEMPO APROX 50-60 MIN
+
+- INMACULADA 2 $11,000 (Hasta las 6:00 pm)
+-"INMACULADA 1 INVASIÓN, ZONA PELIGROSA, NO SE VA A NINGUNA HORA"]]></value>
+        </Data>
+        <Data name="Valor">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.163361,7.106517,0
+              -73.163465,7.10546,0
+              -73.158938,7.105545,0
+              -73.158981,7.106482,0
+              -73.163361,7.106517,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $5,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40 MIN<br><br>Giron centro<br>Parque las nieves<br>Parque peralta<br>Valor: 5000]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40 MIN
+
+Giron centro
+Parque las nieves
+Parque peralta</value>
+        </Data>
+        <Data name="Valor">
+          <value>5000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.168809,7.069435,0
+              -73.172436,7.070115,0
+              -73.172504,7.070197,0
+              -73.173776,7.069552,0
+              -73.173401,7.069242,0
+              -73.176512,7.066325,0
+              -73.173154,7.066122,0
+              -73.169367,7.06592,0
+              -73.16853,7.065867,0
+              -73.1675,7.066921,0
+              -73.167693,7.068624,0
+              -73.168809,7.069435,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $5,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40MIN<br><br>SAN JORGE, 2, 3 Y 4<br>LOS CEDROS<br>LOS ROBLES<br>Valor: 5500]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40MIN
+
+SAN JORGE, 2, 3 Y 4
+LOS CEDROS
+LOS ROBLES</value>
+        </Data>
+        <Data name="Valor">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.165696,7.069674,0
+              -73.16531,7.065969,0
+              -73.164966,7.063904,0
+              -73.16443,7.061668,0
+              -73.163572,7.060965,0
+              -73.162252,7.061284,0
+              -73.160761,7.062008,0
+              -73.160138,7.062589,0
+              -73.159645,7.063723,0
+              -73.163679,7.065586,0
+              -73.164173,7.069398,0
+              -73.165696,7.069674,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $6,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40 MIN<br><br>CIUDADELA VILLAMIL<br>VILLA LINDA<br>ARENALES CAMPESTRE<br>1 DE MAYO<br>CORVIANDI 1<br>EL CONSUELO<br>Valor: 6000]]></description>
+      <styleUrl>#poly-F48FB1-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40 MIN
+
+CIUDADELA VILLAMIL
+VILLA LINDA
+ARENALES CAMPESTRE
+1 DE MAYO
+CORVIANDI 1
+EL CONSUELO</value>
+        </Data>
+        <Data name="Valor">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.174112,7.062873,0
+              -73.174348,7.060594,0
+              -73.173683,7.059125,0
+              -73.173307,7.058401,0
+              -73.170625,7.058422,0
+              -73.169929,7.058284,0
+              -73.170155,7.057959,0
+              -73.170134,7.057422,0
+              -73.169853,7.056064,0
+              -73.166875,7.056242,0
+              -73.1658,7.056294,0
+              -73.165986,7.057957,0
+              -73.163512,7.057975,0
+              -73.163619,7.060828,0
+              -73.164499,7.061702,0
+              -73.165142,7.064747,0
+              -73.167052,7.064619,0
+              -73.169906,7.064875,0
+              -73.174112,7.062873,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $5,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40 MIN<br><br>La campiña<br>El tejar<br>Eloy Valenzuela<br>Valor: 5000]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40 MIN
+
+La campiña
+El tejar
+Eloy Valenzuela</value>
+        </Data>
+        <Data name="Valor">
+          <value>5000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.177414,7.066324,0
+              -73.178336,7.063876,0
+              -73.174345,7.062917,0
+              -73.16853,7.065867,0
+              -73.177414,7.066324,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $5,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40 MIN<br><br>KUMANA<br>CAMPIÑA<br>ALTOS DE LA CAMPIÑA<br>ALDEA, BAJA, ALTA Y MEDIA<br>VILLA CAROLINA 1 Y 2<br>CONJUNTO GRAN ALICANTE<br>MIRADOR DEL ORIENTE<br>BALCONES DEL TEJAR<br>BRISAS DE LA CAMPIÑA<br>ALCANTARA<br>Valor: 5500]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40 MIN
+
+KUMANA
+CAMPIÑA
+ALTOS DE LA CAMPIÑA
+ALDEA, BAJA, ALTA Y MEDIA
+VILLA CAROLINA 1 Y 2
+CONJUNTO GRAN ALICANTE
+MIRADOR DEL ORIENTE
+BALCONES DEL TEJAR
+BRISAS DE LA CAMPIÑA
+ALCANTARA</value>
+        </Data>
+        <Data name="Valor">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.178443,7.064548,0
+              -73.178464,7.064398,0
+              -73.177837,7.065367,0
+              -73.177477,7.066464,0
+              -73.17647,7.066287,0
+              -73.173401,7.069242,0
+              -73.173776,7.069552,0
+              -73.172494,7.070233,0
+              -73.172472,7.070716,0
+              -73.172542,7.071262,0
+              -73.174682,7.070994,0
+              -73.175873,7.07191,0
+              -73.176437,7.072062,0
+              -73.177156,7.072102,0
+              -73.177284,7.071458,0
+              -73.179446,7.071207,0
+              -73.179527,7.069861,0
+              -73.18016,7.06755,0
+              -73.178443,7.064548,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $5,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40 MIN<br><br>POBLADO<br>LLANITO BAJO Y ALTO<br>METRO<br>LA YOGUR<br>MAS X MENOS<br>RINCON BAJO<br>PENAGOS<br>ALTOS DEL POBLADO (SOLO TIENE UNA ENTRADA Y UNA SALIDA)<br>Valor: 5500]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40 MIN
+
+POBLADO
+LLANITO BAJO Y ALTO
+METRO
+LA YOGUR
+MAS X MENOS
+RINCON BAJO
+PENAGOS
+ALTOS DEL POBLADO (SOLO TIENE UNA ENTRADA Y UNA SALIDA)</value>
+        </Data>
+        <Data name="Valor">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.170911,7.078395,0
+              -73.172177,7.078054,0
+              -73.172456,7.070133,0
+              -73.168851,7.069494,0
+              -73.167714,7.068664,0
+              -73.167349,7.066768,0
+              -73.16825,7.066108,0
+              -73.168572,7.065661,0
+              -73.170129,7.064967,0
+              -73.167322,7.064723,0
+              -73.165375,7.064916,0
+              -73.165397,7.065618,0
+              -73.165504,7.066406,0
+              -73.165545,7.068114,0
+              -73.166105,7.070878,0
+              -73.165676,7.07305,0
+              -73.165246,7.074136,0
+              -73.165225,7.075393,0
+              -73.170911,7.078395,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $7,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>ALTOS DE ARENALES<br>MIRADOR DE ARENALES<br>ARENALES 1, 2, 3 Y 4<br>PUERTO MADERO<br>BAMBUES<br>HACIENDA LA MESETA<br>VILLAS DE DON JUAN 1 Y 2<br>VILLA DEL SOL<br>TORRE GIRONELA<br>Valor: 7000]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+ALTOS DE ARENALES
+MIRADOR DE ARENALES
+ARENALES 1, 2, 3 Y 4
+PUERTO MADERO
+BAMBUES
+HACIENDA LA MESETA
+VILLAS DE DON JUAN 1 Y 2
+VILLA DEL SOL
+TORRE GIRONELA</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.170614,7.058422,0
+              -73.173296,7.058401,0
+              -73.171958,7.055282,0
+              -73.171175,7.053514,0
+              -73.169952,7.051861,0
+              -73.168965,7.052093,0
+              -73.168386,7.050855,0
+              -73.16933,7.050597,0
+              -73.16757,7.047392,0
+              -73.167055,7.046838,0
+              -73.16536,7.048137,0
+              -73.162056,7.04901,0
+              -73.16021,7.050671,0
+              -73.158064,7.05197,0
+              -73.161755,7.055889,0
+              -73.163579,7.057933,0
+              -73.165986,7.057957,0
+              -73.1658,7.056294,0
+              -73.169853,7.056064,0
+              -73.170134,7.057422,0
+              -73.170155,7.057959,0
+              -73.169929,7.058284,0
+              -73.170614,7.058422,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $6,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>VILLA SANDRA<br>BRISA CAMPESTRE<br>Valor: 6500]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+VILLA SANDRA
+BRISA CAMPESTRE</value>
+        </Data>
+        <Data name="Valor">
+          <value>6500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.160925,7.072153,0
+              -73.160839,7.069683,0
+              -73.155582,7.070769,0
+              -73.15614,7.072856,0
+              -73.160925,7.072153,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $9,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>VALLE DE LOS CABALLEROS<br>ALPES CAMPESTRE<br>Valor: 9000]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+VALLE DE LOS CABALLEROS
+ALPES CAMPESTRE</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.161064,7.055169,0
+              -73.158489,7.05238,0
+              -73.154262,7.054744,0
+              -73.15233,7.057001,0
+              -73.154734,7.057789,0
+              -73.154845,7.057477,0
+              -73.155152,7.057203,0
+              -73.155608,7.05682,0
+              -73.155757,7.056721,0
+              -73.156072,7.056649,0
+              -73.156111,7.056647,0
+              -73.156418,7.056618,0
+              -73.156678,7.055787,0
+              -73.157325,7.055654,0
+              -73.15807,7.055398,0
+              -73.158324,7.056183,0
+              -73.161064,7.055169,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>PALENQUE<br>CENFER<br>TRANSITO DE GIRON<br>ITALCOL<br>PLAZA DE TOROS<br>HOTEL SAN JUAN<br>Valor: 7500]]></description>
+      <styleUrl>#poly-F48FB1-3000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+PALENQUE
+CENFER
+TRANSITO DE GIRON
+ITALCOL
+PLAZA DE TOROS
+HOTEL SAN JUAN</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.167902,7.081765,0
+              -73.164898,7.082106,0
+              -73.152775,7.080849,0
+              -73.152002,7.079604,0
+              -73.150436,7.07987,0
+              -73.150232,7.08202,0
+              -73.150286,7.082617,0
+              -73.151466,7.082872,0
+              -73.151916,7.082963,0
+              -73.151874,7.083607,0
+              -73.151589,7.084592,0
+              -73.152871,7.084746,0
+              -73.15682,7.084946,0
+              -73.159138,7.08582,0
+              -73.161122,7.086852,0
+              -73.16506,7.087874,0
+              -73.165725,7.088423,0
+              -73.166117,7.088982,0
+              -73.167265,7.089141,0
+              -73.167876,7.087922,0
+              -73.167984,7.08715,0
+              -73.167887,7.086171,0
+              -73.168981,7.083572,0
+              -73.169137,7.082566,0
+              -73.167902,7.081765,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $6,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>CENTRO EMPRESARIAL SAN JORGE<br>CENDIS JAMAR<br>Valor: 6000]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+CENTRO EMPRESARIAL SAN JORGE
+CENDIS JAMAR</value>
+        </Data>
+        <Data name="Valor">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.159608,7.063717,0
+              -73.16,7.062772,0
+              -73.160434,7.062144,0
+              -73.159812,7.061175,0
+              -73.159029,7.060578,0
+              -73.157044,7.060632,0
+              -73.157881,7.06357,0
+              -73.159608,7.063717,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $6,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>RINCON PARTE ALTA<br>PORTAL DE CASTILLA<br>PORTAL 1<br>SENA GIRÓN<br>Valor: 6000]]></description>
+      <styleUrl>#poly-F48FB1-3000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+RINCON PARTE ALTA
+PORTAL DE CASTILLA
+PORTAL 1
+SENA GIRÓN</value>
+        </Data>
+        <Data name="Valor">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.160728,7.071159,0
+              -73.161672,7.072203,0
+              -73.162241,7.073826,0
+              -73.161849,7.075264,0
+              -73.159248,7.077005,0
+              -73.163131,7.077462,0
+              -73.163593,7.07792,0
+              -73.164226,7.078516,0
+              -73.165599,7.081253,0
+              -73.167525,7.081663,0
+              -73.168592,7.082222,0
+              -73.170663,7.080209,0
+              -73.170599,7.079741,0
+              -73.17062,7.079198,0
+              -73.17062,7.078484,0
+              -73.168109,7.077196,0
+              -73.165084,7.075514,0
+              -73.164944,7.074545,0
+              -73.165416,7.073278,0
+              -73.165867,7.071734,0
+              -73.165781,7.06969,0
+              -73.164987,7.069562,0
+              -73.164358,7.06946,0
+              -73.163636,7.06937,0
+              -73.162477,7.069349,0
+              -73.161157,7.069285,0
+              -73.161028,7.069583,0
+              -73.161329,7.070925,0
+              -73.160728,7.071159,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $6,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40 MIN<br><br>BRISAS DEL PARAISO<br>PARAISO ALTO<br>PARAISO BAJO (PELIGROSO HASTA LAS 9:00 PM)<br>ALTOS DE BELLAVISTA GIRON<br>BALCONES DE ALEJANDRIA<br>PORTAL DEL LLANITO<br>BOMBA TERPEL LA HORMIGA<br>GIRALUZ<br>Valor: 6500]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40 MIN
+
+BRISAS DEL PARAISO
+PARAISO ALTO
+PARAISO BAJO (PELIGROSO HASTA LAS 9:00 PM)
+ALTOS DE BELLAVISTA GIRON
+BALCONES DE ALEJANDRIA
+PORTAL DEL LLANITO
+BOMBA TERPEL LA HORMIGA
+GIRALUZ</value>
+        </Data>
+        <Data name="Valor">
+          <value>6500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.174645,7.071085,0
+              -73.172542,7.071262,0
+              -73.172483,7.072268,0
+              -73.172312,7.075079,0
+              -73.172226,7.078018,0
+              -73.173277,7.078359,0
+              -73.177054,7.078955,0
+              -73.181753,7.077805,0
+              -73.181281,7.076206,0
+              -73.180959,7.075708,0
+              -73.180272,7.075282,0
+              -73.179462,7.074904,0
+              -73.17921,7.074089,0
+              -73.178985,7.073493,0
+              -73.178803,7.072497,0
+              -73.17832,7.072524,0
+              -73.175788,7.072162,0
+              -73.174645,7.071085,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $6,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>CANCHA DE FUTBOL VILLAMPIS<br>LOMAS DEL VIENTO GIRON<br>IGLESIA PENTECOSTAL GIRON<br>VILLAMPIS<br>URBANIZACION VILLA SOFIA<br><br>HACIENDA LA MESETA ($7,000) (ES UN POCO PELIGROSO)<br>Valor: 6500]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+CANCHA DE FUTBOL VILLAMPIS
+LOMAS DEL VIENTO GIRON
+IGLESIA PENTECOSTAL GIRON
+VILLAMPIS
+URBANIZACION VILLA SOFIA
+
+HACIENDA LA MESETA ($7,000) (ES UN POCO PELIGROSO)</value>
+        </Data>
+        <Data name="Valor">
+          <value>6500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.159126,7.055848,0
+              -73.158324,7.056183,0
+              -73.158269,7.056479,0
+              -73.156072,7.056649,0
+              -73.155757,7.056721,0
+              -73.154845,7.057477,0
+              -73.154717,7.057924,0
+              -73.155918,7.05819,0
+              -73.156766,7.059798,0
+              -73.158751,7.05982,0
+              -73.159931,7.060938,0
+              -73.160553,7.061789,0
+              -73.161873,7.061193,0
+              -73.163407,7.060735,0
+              -73.163461,7.05819,0
+              -73.163437,7.057927,0
+              -73.163069,7.057408,0
+              -73.162549,7.056838,0
+              -73.162018,7.056279,0
+              -73.160017,7.056242,0
+              -73.159126,7.055848,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $7,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>EMPRESA TIENDAS D1<br>Valor: 7000]]></description>
+      <styleUrl>#poly-F48FB1-3000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+EMPRESA TIENDAS D1</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.159435,7.064325,0
+              -73.159612,7.063755,0
+              -73.157858,7.063611,0
+              -73.157622,7.063893,0
+              -73.157686,7.064239,0
+              -73.159435,7.064325,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $10,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50 MIN<br><br>ANILLO VIAL<br>CENTROS EMPRESARIALES<br>Valor: 10000]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50 MIN
+
+ANILLO VIAL
+CENTROS EMPRESARIALES</value>
+        </Data>
+        <Data name="Valor">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.156359,7.06418,0
+              -73.156509,7.063754,0
+              -73.150094,7.063158,0
+              -73.149707,7.065543,0
+              -73.149106,7.068652,0
+              -73.153012,7.070568,0
+              -73.156359,7.06418,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45 MIN<br><br>MOTEL STARS<br>Valor: 7500]]></description>
+      <styleUrl>#poly-F48FB1-3000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45 MIN
+
+MOTEL STARS</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.179462,7.074904,0
+              -73.180455,7.075322,0
+              -73.181431,7.075014,0
+              -73.181265,7.074322,0
+              -73.181013,7.074226,0
+              -73.179355,7.074348,0
+              -73.179462,7.074904,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>CARRIZAL<br>ALTOS DE CARRIZAL<br>BOSQUES DEL CARRIZAL<br>MIRADOR DE SAN ANTONIO DE CARRIZAL<br>SAN ANTONIO DE CARRIZAL<br>Valor: 7500]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+CARRIZAL
+ALTOS DE CARRIZAL
+BOSQUES DEL CARRIZAL
+MIRADOR DE SAN ANTONIO DE CARRIZAL
+SAN ANTONIO DE CARRIZAL</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.186324,7.085746,0
+              -73.186045,7.083191,0
+              -73.186538,7.082424,0
+              -73.184693,7.080891,0
+              -73.183534,7.079549,0
+              -73.183384,7.077612,0
+              -73.181238,7.077995,0
+              -73.176925,7.078953,0
+              -73.176084,7.078816,0
+              -73.175833,7.079999,0
+              -73.175382,7.080102,0
+              -73.17515,7.080078,0
+              -73.174967,7.07997,0
+              -73.173181,7.079645,0
+              -73.171689,7.078921,0
+              -73.170842,7.080188,0
+              -73.173363,7.082701,0
+              -73.174007,7.08434,0
+              -73.174543,7.085576,0
+              -73.180938,7.086534,0
+              -73.186324,7.085746,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $10,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>CENTRO ABASTOS SI HAY QUE ENTRAR VALE $14,000<br>TERPEL CHIMITA<br>NORGAS<br>SUBESTACIÓN ELÉCTRICA PALENQUE ESSA<br>INMACULADA 2 $11,000 (Hasta las 6:00 pm)<br><br>HOTEL LA RIVERA GIRON $14,000<br>Valor: 10000]]></description>
+      <styleUrl>#poly-F48FB1-4000-84</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+CENTRO ABASTOS SI HAY QUE ENTRAR VALE $14,000
+TERPEL CHIMITA
+NORGAS
+SUBESTACIÓN ELÉCTRICA PALENQUE ESSA
+INMACULADA 2 $11,000 (Hasta las 6:00 pm)
+
+HOTEL LA RIVERA GIRON $14,000</value>
+        </Data>
+        <Data name="Valor">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.164394,7.104241,0
+              -73.166046,7.104231,0
+              -73.168857,7.104209,0
+              -73.169232,7.102357,0
+              -73.168841,7.098072,0
+              -73.17199,7.099184,0
+              -73.172043,7.098183,0
+              -73.172108,7.097183,0
+              -73.172264,7.095326,0
+              -73.170809,7.095234,0
+              -73.168428,7.095149,0
+              -73.167168,7.094896,0
+              -73.166539,7.094787,0
+              -73.16567,7.098109,0
+              -73.162999,7.103666,0
+              -73.164394,7.104241,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $9,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45 MIN<br><br>MOTEL MIRADOR CABAÑAS<br>Valor: 9000]]></description>
+      <styleUrl>#poly-F48FB1-4000-99</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45 MIN
+
+MOTEL MIRADOR CABAÑAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.181753,7.077762,0
+              -73.186302,7.077526,0
+              -73.185873,7.075972,0
+              -73.184306,7.075333,0
+              -73.181281,7.076206,0
+              -73.181753,7.077762,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $18,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50-60 MIN<br><br>CONJUNTO LA PRADERA<br>Valor: 18000]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50-60 MIN
+
+CONJUNTO LA PRADERA</value>
+        </Data>
+        <Data name="Valor">
+          <value>18000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.182152,7.095561,0
+              -73.18226,7.094582,0
+              -73.180929,7.094454,0
+              -73.180672,7.091813,0
+              -73.184234,7.090919,0
+              -73.183075,7.089322,0
+              -73.181402,7.089088,0
+              -73.17902,7.090025,0
+              -73.177732,7.09077,0
+              -73.179277,7.092133,0
+              -73.179685,7.093815,0
+              -73.179234,7.094709,0
+              -73.179256,7.095668,0
+              -73.182152,7.095561,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $14,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50-60 MIN<br><br>PARQUE INDUSTRIAL 1, HAY QUE PAGAR ENTRADA<br>Valor: 14000]]></description>
+      <styleUrl>#poly-F48FB1-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50-60 MIN
+
+PARQUE INDUSTRIAL 1, HAY QUE PAGAR ENTRADA</value>
+        </Data>
+        <Data name="Valor">
+          <value>14000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.165764,7.109434,0
+              -73.165506,7.108241,0
+              -73.165485,7.106708,0
+              -73.163361,7.106517,0
+              -73.162298,7.108124,0
+              -73.161745,7.109522,0
+              -73.160773,7.113314,0
+              -73.164068,7.114648,0
+              -73.165302,7.112062,0
+              -73.165764,7.109434,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $9,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>CONJUNTO MONTEVERDI<br>BOSQUES DE SAN SEBASTIAN<br>CONJUNTO PRADOS DE SAN JUAN<br>CONJUNTO MONTEBIANCO<br>MORADA DEL VIENTO (NO HAY PASO, MONTAÑA)<br>CONJUNTO BELLOMONTE INACAR<br>Valor: 9000]]></description>
+      <styleUrl>#poly-F48FB1-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+CONJUNTO MONTEVERDI
+BOSQUES DE SAN SEBASTIAN
+CONJUNTO PRADOS DE SAN JUAN
+CONJUNTO MONTEBIANCO
+MORADA DEL VIENTO (NO HAY PASO, MONTAÑA)
+CONJUNTO BELLOMONTE INACAR</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.172502,7.094603,0
+              -73.179669,7.093837,0
+              -73.179262,7.092133,0
+              -73.177867,7.090941,0
+              -73.175742,7.090089,0
+              -73.174519,7.086107,0
+              -73.174015,7.084766,0
+              -73.172545,7.087747,0
+              -73.171644,7.08879,0
+              -73.1707,7.089834,0
+              -73.171153,7.092402,0
+              -73.172502,7.094603,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 40-45 MIN<br><br>SACEITES<br>GRUPO WONDER<br>CAMPOLLO<br>DISTRAVES<br>INCUBADORA MAC POLLO<br>Valor: 7500]]></description>
+      <styleUrl>#poly-F48FB1-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 40-45 MIN
+
+SACEITES
+GRUPO WONDER
+CAMPOLLO
+DISTRAVES
+INCUBADORA MAC POLLO</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.170767,7.080148,0
+              -73.168852,7.082188,0
+              -73.169174,7.082571,0
+              -73.168873,7.084104,0
+              -73.167929,7.086255,0
+              -73.168079,7.087554,0
+              -73.167135,7.089385,0
+              -73.166518,7.094798,0
+              -73.168508,7.095134,0
+              -73.172264,7.095326,0
+              -73.172414,7.09458,0
+              -73.171255,7.092494,0
+              -73.17104,7.091812,0
+              -73.170654,7.089832,0
+              -73.171727,7.088618,0
+              -73.1725,7.08766,0
+              -73.174066,7.084615,0
+              -73.17325,7.082635,0
+              -73.170767,7.080148,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $9,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>BARRIO RINCON DE LA PAZ HASTA LAS 5:00 PM<br>Valor: 9000]]></description>
+      <styleUrl>#poly-E65100-5000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+BARRIO RINCON DE LA PAZ HASTA LAS 5:00 PM</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.165088,7.09716,0
+              -73.165206,7.095659,0
+              -73.160206,7.095446,0
+              -73.158887,7.095404,0
+              -73.158865,7.096543,0
+              -73.161805,7.096969,0
+              -73.165088,7.09716,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $8,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>BARRIO GALÁN GIRON,<br>BARRIO ANDINO<br>BARRIO CONVIVIR<br>"POR LA PRINCIPAL HASTA LAS 6:00 PM"<br>Valor: 8500]]></description>
+      <styleUrl>#poly-E65100-5000-64</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value><![CDATA[TIEMPO APROX 45-50 MIN
+
+BARRIO GALÁN GIRON,
+BARRIO ANDINO
+BARRIO CONVIVIR
+"POR LA PRINCIPAL HASTA LAS 6:00 PM"]]></value>
+        </Data>
+        <Data name="Valor">
+          <value>8500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.168857,7.104209,0
+              -73.17018,7.103691,0
+              -73.172015,7.102285,0
+              -73.17199,7.099184,0
+              -73.168841,7.098072,0
+              -73.169044,7.100237,0
+              -73.169268,7.102243,0
+              -73.169032,7.103403,0
+              -73.168857,7.104209,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - NO SE VA</name>
+      <description><![CDATA[Descripción: -BARRIO LAS MARIAS<br>PELIGROSO NO SE VA<br>Valor: ]]></description>
+      <styleUrl>#poly-F57C00-5000-82</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>-BARRIO LAS MARIAS
+PELIGROSO NO SE VA</value>
+        </Data>
+        <Data name="Valor">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.168976,7.052093,0
+              -73.169963,7.051861,0
+              -73.16934,7.050597,0
+              -73.168396,7.050855,0
+              -73.168976,7.052093,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $18,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 60-70 MIN<br><br>PARQUE INDUSTRIAL 2<br>RUTA 169 INACAR<br>Valor: 18000]]></description>
+      <styleUrl>#poly-F48FB1-4000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 60-70 MIN
+
+PARQUE INDUSTRIAL 2
+RUTA 169 INACAR</value>
+        </Data>
+        <Data name="Valor">
+          <value>18000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.157087,7.144704,0
+              -73.158761,7.138062,0
+              -73.151101,7.136667,0
+              -73.150028,7.144481,0
+              -73.150253,7.145535,0
+              -73.150811,7.147685,0
+              -73.153429,7.146589,0
+              -73.157087,7.144704,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $7,500</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 45-50 MIN<br><br>LOMAS DEL VIENTO GIRON<br>Valor: 7500]]></description>
+      <styleUrl>#poly-F48FB1-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 45-50 MIN
+
+LOMAS DEL VIENTO GIRON</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.162018,7.056279,0
+              -73.161086,7.055231,0
+              -73.159208,7.055849,0
+              -73.160017,7.056242,0
+              -73.162018,7.056279,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $8,000</name>
+      <description><![CDATA[Descripción: TRANSITO DE GIRON<br>Valor: 8000]]></description>
+      <styleUrl>#poly-F48FB1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TRANSITO DE GIRON</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.151589,7.084592,0
+              -73.151874,7.083607,0
+              -73.151916,7.082963,0
+              -73.150215,7.082597,0
+              -73.14616,7.083182,0
+              -73.146438,7.084907,0
+              -73.151589,7.084592,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $12,000</name>
+      <description><![CDATA[Descripción: TIEMPO APROX 50-60 MIN<br><br>EL LAGUITO, SON VEREDAS<br>Valor: 12000]]></description>
+      <styleUrl>#poly-F48FB1-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIEMPO APROX 50-60 MIN
+
+EL LAGUITO, SON VEREDAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.160918,7.049591,0
+              -73.159964,7.048132,0
+              -73.158783,7.047717,0
+              -73.157432,7.048313,0
+              -73.156455,7.050081,0
+              -73.157292,7.05089,0
+              -73.160918,7.049591,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $7,000</name>
+      <description><![CDATA[Descripción: MIRADOR DE SAN JUAN<br>Valor: 7000]]></description>
+      <styleUrl>#poly-F48FB1-4000-84</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MIRADOR DE SAN JUAN</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.170831,7.080153,0
+              -73.171689,7.078921,0
+              -73.173181,7.079645,0
+              -73.174967,7.07997,0
+              -73.17515,7.080078,0
+              -73.175382,7.080102,0
+              -73.175833,7.079999,0
+              -73.176084,7.078816,0
+              -73.173277,7.078359,0
+              -73.172236,7.078061,0
+              -73.170954,7.078407,0
+              -73.170649,7.078434,0
+              -73.170665,7.079999,0
+              -73.170831,7.080153,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $8,000</name>
+      <description><![CDATA[Descripción: PUERTO VIENTO<br>Valor: 8000]]></description>
+      <styleUrl>#poly-F48FB1-5000-74</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>PUERTO VIENTO</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.158269,7.056479,0
+              -73.158324,7.056183,0
+              -73.15807,7.055398,0
+              -73.157325,7.055654,0
+              -73.156678,7.055787,0
+              -73.156418,7.056618,0
+              -73.158269,7.056479,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - NO SE VA</name>
+      <description><![CDATA[Descripción: Talleres de Chimita - ZONA PELIGROSA<br>Valor: ]]></description>
+      <styleUrl>#poly-F57C00-6000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Talleres de Chimita - ZONA PELIGROSA</value>
+        </Data>
+        <Data name="Valor">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.169822,7.095182,0
+              -73.169878,7.094879,0
+              -73.16946,7.094842,0
+              -73.169433,7.095174,0
+              -73.169822,7.095201,0
+              -73.169822,7.095182,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z6 - $8,000</name>
+      <description><![CDATA[Descripción: MOTEL EXTASIS <br>MOTEL EDEN<br>Estación de Buses COTRAGAS<br>(hay que dar un retorno)<br>Valor: 8000]]></description>
+      <styleUrl>#poly-F48FB1-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MOTEL EXTASIS 
+MOTEL EDEN
+Estación de Buses COTRAGAS
+(hay que dar un retorno)</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.177156,7.072102,0
+              -73.17881,7.072455,0
+              -73.179094,7.072487,0
+              -73.179791,7.071587,0
+              -73.179446,7.071207,0
+              -73.177284,7.071458,0
+              -73.177156,7.072102,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

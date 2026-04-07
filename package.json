@@ -1,0 +1,37 @@
+{
+  "name": "shadcn-ui-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "biome format --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "cvdp": "cd packages/backend && pnpm convex deploy"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.6",
+    "@workspace/typescript-config": "workspace:*",
+    "turbo": "^2.6.1",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@10.30.1+sha512.3590e550d5384caa39bd5c7c739f72270234b2f6059e13018f975c313b1eb9fefcc09714048765d4d9efe961382c312e624572c0420762bdc5d5940cdf9be73a",
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@sentry/cli",
+      "@swc/core",
+      "@tailwindcss/oxide",
+      "core-js-pure",
+      "esbuild",
+      "sharp"
+    ],
+    "overrides": {
+      "jotai": "^2.13.1"
+    }
+  }
+}

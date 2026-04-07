@@ -1,0 +1,76 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+env:
+  SKIP_ENV_VALIDATION: "1"
+  NEXT_PUBLIC_CONVEX_URL: "https://placeholder.convex.cloud"
+  NEXT_PUBLIC_CONVEX_SITE_URL: "https://placeholder.convex.site"
+  NEXT_PUBLIC_SITE_URL: "https://placeholder.vercel.app"
+  NEXT_PUBLIC_BACKEND_WEBHOOK_URL: "https://placeholder.convex.site/whatsapp/incoming"
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    env:
+      SENTRY_AUTH_TOKEN: placeholder-for-ci
+      NEXT_TELEMETRY_DISABLED: "1"
+      NODE_OPTIONS: "--max-old-space-size=4096"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm build
+
+  lint:
+    name: Lint & Typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Lint changed files
+        shell: bash
+        run: |
+          changed_files="$(mktemp)"
+
+          git diff --name-only -z "origin/${{ github.base_ref }}...HEAD" -- \
+            '*.js' \
+            '*.jsx' \
+            '*.json' \
+            '*.ts' \
+            '*.tsx' > "$changed_files"
+
+          if [ ! -s "$changed_files" ]; then
+            echo "No changed files to lint with Biome."
+            exit 0
+          fi
+
+          xargs -0 pnpm exec biome check < "$changed_files"
+
+      - run: pnpm turbo typecheck

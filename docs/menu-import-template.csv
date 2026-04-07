@@ -1,0 +1,16 @@
+nombre_producto,descripcion,categoria,subcategoria,tamaño,precio,individual,combinable_mitad,cantidad_minima,cantidad_maxima,combinable_con,codigo_externo
+Pizza Margarita,Salsa de tomate queso mozzarella fresco albahaca,Pizzas,Clasicas,Personal,15000,Si,Si,1,5,Bebidas&350ml;Bebidas&500ml;Adicionales,PIZZA-MARG-P
+Pizza Margarita,Salsa de tomate queso mozzarella fresco albahaca,Pizzas,Clasicas,Mediana,22000,Si,Si,1,5,Bebidas;Adicionales,PIZZA-MARG-M
+Pizza Margarita,Salsa de tomate queso mozzarella fresco albahaca,Pizzas,Clasicas,Grande,28000,Si,Si,1,5,Bebidas;Adicionales,PIZZA-MARG-G
+Pizza Pepperoni,Salsa de tomate queso mozzarella pepperoni,Pizzas,Clasicas,Personal,16000,Si,Si,1,5,Bebidas&350ml;Bebidas&500ml;Adicionales,PIZZA-PEPP-P
+Pizza Pepperoni,Salsa de tomate queso mozzarella pepperoni,Pizzas,Clasicas,Mediana,23000,Si,Si,1,5,Bebidas;Adicionales,PIZZA-PEPP-M
+Pizza Pepperoni,Salsa de tomate queso mozzarella pepperoni,Pizzas,Clasicas,Grande,29000,Si,Si,1,5,Bebidas;Adicionales,PIZZA-PEPP-G
+Pizza BBQ,Pizza con salsa barbacoa pollo y cebolla morada,Pizzas,Especiales,Personal,18000,Si,Si,1,5,Bebidas&350ml;Bebidas&500ml;Adicionales,PIZZA-BBQ-P
+Pizza BBQ,Pizza con salsa barbacoa pollo y cebolla morada,Pizzas,Especiales,Mediana,25000,Si,Si,1,5,Bebidas;Adicionales,PIZZA-BBQ-M
+Coca Cola 350ml,Bebida gaseosa sabor original,Bebidas,Gaseosas,350ml,3500,Si,No,1,10,,COCACOLA-350
+Coca Cola 500ml,Bebida gaseosa sabor original,Bebidas,Gaseosas,500ml,4500,Si,No,1,10,,COCACOLA-500
+Agua Natural,Agua embotellada 500ml,Bebidas,Aguas,,2500,Si,No,1,10,,AGUA-500
+Queso Extra,Porcion adicional de queso mozzarella,Adicionales,Quesos,,2500,No,No,1,3,Pizzas&Personal;Pizzas&Mediana;Pizzas&Grande,EXTRA-QUESO
+Jamon Extra,Porcion adicional de jamon,Adicionales,Carnes,,3000,No,No,1,3,Pizzas&Personal;Pizzas&Mediana;Pizzas&Grande,EXTRA-JAMON
+Aros de Cebolla,Aros de cebolla empanizados y fritos,Entrantes,Fritos,,8500,Si,No,1,2,Bebidas,AROS-CEBOLLA
+Deditos de Queso,Bastones de queso empanizados,Entrantes,Fritos,,9500,Si,No,1,2,Bebidas,DEDOS-QUESO

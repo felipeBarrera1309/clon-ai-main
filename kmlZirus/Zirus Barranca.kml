@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zirus Barranca</name>
+    <Style id="icon-1651-817717-normal">
+      <IconStyle>
+        <color>ff177781</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1651-817717-highlight">
+      <IconStyle>
+        <color>ff177781</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1651-817717">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1651-817717-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1651-817717-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-4000-61-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3d177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-4000-61-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3d177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-4000-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-4000-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-4000-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-4000-64-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-4000-64-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-4000-64">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-4000-64-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-4000-64-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-4000-66-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>42177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-4000-66-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>42177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-4000-66">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-4000-66-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-4000-66-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-4000-69-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>45177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-4000-69-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>45177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-4000-69">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-4000-69-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-4000-69-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-4000-77-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-4000-77-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-4000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-4000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-4000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-5000-59-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3b177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-5000-59-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3b177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-5000-59">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-5000-59-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-5000-59-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-5000-66-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>42177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-5000-66-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>42177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-5000-66">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-5000-66-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-5000-66-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-5000-77-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-5000-77-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-5000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-5000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-5000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-817717-5000-82-normal">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-817717-5000-82-highlight">
+      <LineStyle>
+        <color>ff177781</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52177781</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-817717-5000-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-817717-5000-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-817717-5000-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4000-77-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4000-77-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-5000-77-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-5000-77-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-5000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-5000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-5000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>ZIRUS BARRANCA</name>
+      <description><![CDATA[Descripción: Horario:<br>Todos los días de 11:00 AM - 11:00 PM<br>Precio: ]]></description>
+      <styleUrl>#icon-1651-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Horario:
+Todos los días de 11:00 AM - 11:00 PM</value>
+        </Data>
+        <Data name="Precio">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -73.852292,7.057194,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $6,000</name>
+      <description><![CDATA[Descripción: CINCUENTENARIO<br>LOS PINOS<br>EL CERRO<br>PLANADA DEL CERRO<br>EL LIMONAR<br>EL CASTILLO<br>ALPES<br>ALTOS DE CAÑAVERAL<br>ANTONIA SANTOS<br>PALMIRA<br>YARIMA EL PALMAR<br>FLORESTA BAJA<br>RESERVA CARDALES<br>VILLA DE LEYVA<br>SANTA ROSA<br>BARRIO RAFAEL RANGEL HASTA LAS 9:30 PM<br>Precio: 6000]]></description>
+      <styleUrl>#poly-817717-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CINCUENTENARIO
+LOS PINOS
+EL CERRO
+PLANADA DEL CERRO
+EL LIMONAR
+EL CASTILLO
+ALPES
+ALTOS DE CAÑAVERAL
+ANTONIA SANTOS
+PALMIRA
+YARIMA EL PALMAR
+FLORESTA BAJA
+RESERVA CARDALES
+VILLA DE LEYVA
+SANTA ROSA
+BARRIO RAFAEL RANGEL HASTA LAS 9:30 PM</value>
+        </Data>
+        <Data name="Precio">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.848185,7.05169,0
+              -73.849719,7.05086,0
+              -73.85032,7.049699,0
+              -73.854354,7.047239,0
+              -73.852895,7.041101,0
+              -73.852825,7.040707,0
+              -73.852927,7.038593,0
+              -73.852627,7.038109,0
+              -73.852471,7.038045,0
+              -73.851945,7.037699,0
+              -73.851699,7.037262,0
+              -73.85127,7.037124,0
+              -73.850492,7.036485,0
+              -73.85032,7.036378,0
+              -73.849607,7.037262,0
+              -73.849644,7.037539,0
+              -73.849789,7.037811,0
+              -73.850033,7.037779,0
+              -73.850226,7.037779,0
+              -73.850596,7.037765,0
+              -73.849074,7.038522,0
+              -73.848841,7.038732,0
+              -73.848868,7.039121,0
+              -73.848962,7.039634,0
+              -73.848804,7.039871,0
+              -73.848704,7.040143,0
+              -73.846799,7.037752,0
+              -73.846424,7.038167,0
+              -73.846274,7.038699,0
+              -73.846274,7.039083,0
+              -73.846402,7.039328,0
+              -73.84667,7.039583,0
+              -73.846778,7.039903,0
+              -73.846735,7.04018,0
+              -73.846595,7.04036,0
+              -73.846156,7.040786,0
+              -73.845705,7.040946,0
+              -73.844943,7.041159,0
+              -73.843445,7.040351,0
+              -73.842023,7.039558,0
+              -73.840931,7.03898,0
+              -73.840813,7.039263,0
+              -73.839874,7.040088,0
+              -73.839488,7.040626,0
+              -73.839616,7.040849,0
+              -73.839048,7.041733,0
+              -73.838318,7.041749,0
+              -73.838023,7.041909,0
+              -73.837991,7.042068,0
+              -73.837996,7.042462,0
+              -73.837589,7.043048,0
+              -73.837213,7.043394,0
+              -73.836409,7.043644,0
+              -73.837358,7.044592,0
+              -73.837455,7.045784,0
+              -73.838361,7.046796,0
+              -73.839391,7.048196,0
+              -73.839987,7.049442,0
+              -73.840662,7.050124,0
+              -73.842342,7.050981,0
+              -73.842744,7.051226,0
+              -73.84335,7.051327,0
+              -73.844348,7.053494,0
+              -73.845979,7.053387,0
+              -73.846832,7.053217,0
+              -73.847202,7.051896,0
+              -73.848185,7.05169,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $7,000</name>
+      <description><![CDATA[Descripción: SIENA 37<br>VIVERO CLUB<br>BUENA VISTA<br>BOSQUES DE LA CIRA<br>SAN JOSE OBRERO<br>BARRIO VILLA ROSA HASTA LAS 9:30 PM<br>Precio: 7000]]></description>
+      <styleUrl>#poly-817717-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>SIENA 37
+VIVERO CLUB
+BUENA VISTA
+BOSQUES DE LA CIRA
+SAN JOSE OBRERO
+BARRIO VILLA ROSA HASTA LAS 9:30 PM</value>
+        </Data>
+        <Data name="Precio">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.844559,7.039894,0
+              -73.845326,7.035176,0
+              -73.841807,7.032493,0
+              -73.837966,7.033238,0
+              -73.837108,7.035602,0
+              -73.83331,7.037497,0
+              -73.830476,7.039028,0
+              -73.829775,7.039856,0
+              -73.829427,7.040574,0
+              -73.82948,7.041948,0
+              -73.829738,7.042518,0
+              -73.831438,7.042172,0
+              -73.832822,7.04174,0
+              -73.833675,7.041634,0
+              -73.834298,7.04198,0
+              -73.835204,7.042757,0
+              -73.836411,7.043598,0
+              -73.837109,7.043359,0
+              -73.837468,7.043082,0
+              -73.837956,7.042443,0
+              -73.837945,7.041996,0
+              -73.83809,7.04181,0
+              -73.838418,7.041703,0
+              -73.839018,7.041698,0
+              -73.839566,7.040838,0
+              -73.839437,7.04062,0
+              -73.839539,7.040439,0
+              -73.840225,7.039726,0
+              -73.840813,7.039263,0
+              -73.840923,7.038938,0
+              -73.841304,7.03914,0
+              -73.844559,7.039894,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $8,000</name>
+      <description><![CDATA[Descripción: ZONA PELIGROSA<br>HASTA LAS 6:00 PM BARRIOS:<br> <br>22 DE MARZO<br>ALTOS DE ISRAEL<br>LA PAZ<br>SAN SILVESTRE<br>RANGEL<br>EL BOSTON<br>PABLO ACUÑA<br>LA BENDICION DE DIOS<br>CIUDAD DEL SOL<br>TERRAZAS DEL PUERTO<br>PRADOS DE ARGELIA<br>LA INDEPENDENCIA<br>VILLALINDA<br>BELEN<br>SAN SILVESTRE<br>SAN FRANCISCO<br>BENDICION DE DIOS<br>COMUNEROS<br>VILLA NUEVA<br>Precio: 8000]]></description>
+      <styleUrl>#poly-E65100-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ZONA PELIGROSA
+HASTA LAS 6:00 PM BARRIOS:
+ 
+22 DE MARZO
+ALTOS DE ISRAEL
+LA PAZ
+SAN SILVESTRE
+RANGEL
+EL BOSTON
+PABLO ACUÑA
+LA BENDICION DE DIOS
+CIUDAD DEL SOL
+TERRAZAS DEL PUERTO
+PRADOS DE ARGELIA
+LA INDEPENDENCIA
+VILLALINDA
+BELEN
+SAN SILVESTRE
+SAN FRANCISCO
+BENDICION DE DIOS
+COMUNEROS
+VILLA NUEVA</value>
+        </Data>
+        <Data name="Precio">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.845421,7.082705,0
+              -73.846376,7.078819,0
+              -73.844284,7.078052,0
+              -73.841838,7.076977,0
+              -73.841548,7.076604,0
+              -73.841509,7.075833,0
+              -73.842432,7.074789,0
+              -73.843526,7.071989,0
+              -73.839621,7.073054,0
+              -73.839149,7.073096,0
+              -73.837583,7.071989,0
+              -73.834321,7.071733,0
+              -73.830502,7.076056,0
+              -73.8296,7.076503,0
+              -73.828721,7.07629,0
+              -73.824086,7.073842,0
+              -73.825588,7.067751,0
+              -73.826897,7.067815,0
+              -73.826918,7.066942,0
+              -73.826124,7.066176,0
+              -73.826596,7.064706,0
+              -73.827347,7.065004,0
+              -73.82754,7.063705,0
+              -73.828485,7.06345,0
+              -73.828098,7.062875,0
+              -73.82754,7.062917,0
+              -73.826382,7.061171,0
+              -73.825223,7.061554,0
+              -73.824966,7.061384,0
+              -73.825416,7.060554,0
+              -73.824837,7.060426,0
+              -73.824408,7.059808,0
+              -73.823893,7.060021,0
+              -73.824107,7.061001,0
+              -73.822755,7.06115,0
+              -73.822605,7.060788,0
+              -73.82282,7.058296,0
+              -73.823506,7.058158,0
+              -73.823764,7.057093,0
+              -73.823646,7.056582,0
+              -73.824129,7.053473,0
+              -73.823678,7.052408,0
+              -73.823399,7.051482,0
+              -73.823818,7.050918,0
+              -73.823249,7.049416,0
+              -73.824129,7.047787,0
+              -73.824107,7.046446,0
+              -73.806027,7.056714,0
+              -73.812293,7.068106,0
+              -73.818408,7.077816,0
+              -73.819631,7.085418,0
+              -73.840338,7.085418,0
+              -73.844694,7.085397,0
+              -73.845421,7.082705,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $5,500</name>
+      <description><![CDATA[Descripción: ZONA PELIGROSA<br>BARRIO ARENAL<br>BRISAS DEL RIO<br>LOS MANDARINOS<br>BARRIO DAVID NUÑEZ <br> HASTA LAS 6:00 PM <br>Precio: 5500]]></description>
+      <styleUrl>#poly-E65100-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ZONA PELIGROSA
+BARRIO ARENAL
+BRISAS DEL RIO
+LOS MANDARINOS
+BARRIO DAVID NUÑEZ 
+ HASTA LAS 6:00 PM </value>
+        </Data>
+        <Data name="Precio">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.862402,7.055564,0
+              -73.862777,7.054467,0
+              -73.864853,7.052513,0
+              -73.865948,7.051629,0
+              -73.865744,7.051427,0
+              -73.865594,7.05131,0
+              -73.86532,7.051246,0
+              -73.865159,7.051118,0
+              -73.864285,7.050868,0
+              -73.863104,7.050368,0
+              -73.86275,7.050027,0
+              -73.861694,7.048616,0
+              -73.860937,7.047163,0
+              -73.859913,7.045778,0
+              -73.859993,7.04761,0
+              -73.859457,7.04925,0
+              -73.858915,7.053168,0
+              -73.859371,7.054148,0
+              -73.859693,7.054726,0
+              -73.86002,7.054776,0
+              -73.860894,7.054994,0
+              -73.861463,7.055132,0
+              -73.861806,7.055574,0
+              -73.862402,7.055564,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $7,000</name>
+      <description><![CDATA[Descripción: ZONA PELIGROSA<br>VÍA A YONDÓ<br>CAMPOHERMOSO<br>HASTA LAS 6:00 PM<br>Precio: 7000]]></description>
+      <styleUrl>#poly-E65100-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ZONA PELIGROSA
+VÍA A YONDÓ
+CAMPOHERMOSO
+HASTA LAS 6:00 PM</value>
+        </Data>
+        <Data name="Precio">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.858244,7.078934,0
+              -73.857106,7.078572,0
+              -73.856902,7.079052,0
+              -73.856302,7.079201,0
+              -73.855583,7.078902,0
+              -73.854714,7.079978,0
+              -73.854853,7.080159,0
+              -73.855325,7.080425,0
+              -73.855497,7.080659,0
+              -73.856098,7.080979,0
+              -73.856506,7.081628,0
+              -73.855905,7.082139,0
+              -73.855454,7.082203,0
+              -73.858176,7.084244,0
+              -73.861674,7.087236,0
+              -73.862457,7.087768,0
+              -73.863878,7.085894,0
+              -73.863428,7.085468,0
+              -73.863363,7.084872,0
+              -73.860188,7.081934,0
+              -73.859972,7.081558,0
+              -73.859854,7.081185,0
+              -73.859693,7.080229,0
+              -73.85958,7.08,0
+              -73.859325,7.079796,0
+              -73.858528,7.079324,0
+              -73.858408,7.079199,0
+              -73.85836,7.079111,0
+              -73.858327,7.078928,0
+              -73.858244,7.078934,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $10,000</name>
+      <description><![CDATA[Descripción: ECOPETROL<br>25 DE AGOSTO<br>EL ROSARIO<br>YARIGUÍES<br>CLUB MIRAMAR<br>SOLO LO LLEVA DOMICILIARIO INTERNO<br><br>Tiempo aprox 50-60 minutos<br>Precio: 10000]]></description>
+      <styleUrl>#poly-817717-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ECOPETROL
+25 DE AGOSTO
+EL ROSARIO
+YARIGUÍES
+CLUB MIRAMAR
+SOLO LO LLEVA DOMICILIARIO INTERNO
+
+Tiempo aprox 50-60 minutos</value>
+        </Data>
+        <Data name="Precio">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.85747,7.07553,0
+              -73.856837,7.077021,0
+              -73.858918,7.077649,0
+              -73.858403,7.078916,0
+              -73.858596,7.079267,0
+              -73.859659,7.079927,0
+              -73.859938,7.081162,0
+              -73.86019,7.081817,0
+              -73.863451,7.08483,0
+              -73.86372,7.085139,0
+              -73.865093,7.086374,0
+              -73.865436,7.086619,0
+              -73.865983,7.086672,0
+              -73.867367,7.085256,0
+              -73.869674,7.08334,0
+              -73.869964,7.07956,0
+              -73.874084,7.078027,0
+              -73.873365,7.076877,0
+              -73.873665,7.074907,0
+              -73.87256,7.074386,0
+              -73.870682,7.07445,0
+              -73.871165,7.072703,0
+              -73.870908,7.072373,0
+              -73.870039,7.071969,0
+              -73.869513,7.072554,0
+              -73.867646,7.074716,0
+              -73.866595,7.07512,0
+              -73.86608,7.075834,0
+              -73.86388,7.077026,0
+              -73.863269,7.076994,0
+              -73.862132,7.07561,0
+              -73.860683,7.075354,0
+              -73.858784,7.07577,0
+              -73.858312,7.075961,0
+              -73.85747,7.07553,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $4,500</name>
+      <description><![CDATA[Descripción: EL RECREO<br>LA MAGDANELA<br>COLOMBIA<br>PARQUE INSCREDIAL<br>LAS MARGARITAS<br>LA VICTORIA -> (Peligroso hasta las 8:00 pm)<br>LAS BRISAS<br>EL PARAISO<br>BARRIO MINAS PARAISO HASTA LAS 9:30 PM<br>Precio: 4500]]></description>
+      <styleUrl>#poly-817717-4000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value><![CDATA[EL RECREO
+LA MAGDANELA
+COLOMBIA
+PARQUE INSCREDIAL
+LAS MARGARITAS
+LA VICTORIA -> (Peligroso hasta las 8:00 pm)
+LAS BRISAS
+EL PARAISO
+BARRIO MINAS PARAISO HASTA LAS 9:30 PM]]></value>
+        </Data>
+        <Data name="Precio">
+          <value>4500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.847562,7.062213,0
+              -73.85584,7.061249,0
+              -73.859531,7.061675,0
+              -73.859639,7.054563,0
+              -73.858915,7.053168,0
+              -73.8582,7.052752,0
+              -73.855346,7.052795,0
+              -73.855068,7.050857,0
+              -73.853372,7.051027,0
+              -73.853287,7.054008,0
+              -73.848072,7.054967,0
+              -73.846334,7.057139,0
+              -73.845964,7.059732,0
+              -73.847562,7.062213,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $5,500</name>
+      <description><![CDATA[Descripción: TORCOROMA<br>URIBE URIBE<br>GALÁN<br>PUEBLO NUEVO<br>CIUDAD BOLIVAR<br>GALAN GOMEZ<br>Precio: 5500]]></description>
+      <styleUrl>#poly-817717-4000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TORCOROMA
+URIBE URIBE
+GALÁN
+PUEBLO NUEVO
+CIUDAD BOLIVAR
+GALAN GOMEZ</value>
+        </Data>
+        <Data name="Precio">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.859531,7.061675,0
+              -73.85584,7.061249,0
+              -73.847562,7.062213,0
+              -73.846753,7.063503,0
+              -73.847056,7.063727,0
+              -73.847649,7.067885,0
+              -73.84858,7.068377,0
+              -73.849686,7.068538,0
+              -73.857561,7.068325,0
+              -73.860243,7.067154,0
+              -73.859685,7.065173,0
+              -73.859385,7.064108,0
+              -73.859531,7.061675,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $6,000</name>
+      <description><![CDATA[Descripción: PARNASO<br>UIS<br>POLICLINICA<br>BARRIO CIUDAD DEL SOL HASTA LAS 9:30 PM<br>Precio: 6000]]></description>
+      <styleUrl>#poly-817717-5000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>PARNASO
+UIS
+POLICLINICA
+BARRIO CIUDAD DEL SOL HASTA LAS 9:30 PM</value>
+        </Data>
+        <Data name="Precio">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.860243,7.067154,0
+              -73.857561,7.068325,0
+              -73.849686,7.068538,0
+              -73.84858,7.068377,0
+              -73.848682,7.069858,0
+              -73.849589,7.072131,0
+              -73.853672,7.072369,0
+              -73.856723,7.072387,0
+              -73.860817,7.07222,0
+              -73.860796,7.066981,0
+              -73.860243,7.067154,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $5,500</name>
+      <description><![CDATA[Descripción: BENOS AIRES<br>BARILOCHE<br>LAS PLAYAS<br>Precio: 5500]]></description>
+      <styleUrl>#poly-817717-4000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>BENOS AIRES
+BARILOCHE
+LAS PLAYAS</value>
+        </Data>
+        <Data name="Precio">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.859531,7.061675,0
+              -73.859672,7.061647,0
+              -73.862204,7.062158,0
+              -73.865165,7.061966,0
+              -73.86731,7.057728,0
+              -73.864628,7.056387,0
+              -73.862804,7.056046,0
+              -73.862402,7.055564,0
+              -73.861806,7.055574,0
+              -73.861463,7.055132,0
+              -73.859693,7.054726,0
+              -73.859531,7.061675,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $7,000</name>
+      <description><![CDATA[Descripción: PARQUE SANTANDER<br>Precio: 7000]]></description>
+      <styleUrl>#poly-817717-5000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>PARQUE SANTANDER</value>
+        </Data>
+        <Data name="Precio">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.86731,7.057728,0
+              -73.865165,7.061966,0
+              -73.873834,7.061668,0
+              -73.876087,7.060326,0
+              -73.873469,7.057473,0
+              -73.869842,7.058708,0
+              -73.86731,7.057728,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $6,000</name>
+      <description><![CDATA[Descripción: PARQUE OLAYA HERRERA<br>VIZCAYA PLAZA<br>Precio: 6000]]></description>
+      <styleUrl>#poly-817717-5000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>PARQUE OLAYA HERRERA
+VIZCAYA PLAZA</value>
+        </Data>
+        <Data name="Precio">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.860796,7.066981,0
+              -73.865332,7.065098,0
+              -73.865171,7.063958,0
+              -73.864495,7.063926,0
+              -73.865165,7.061966,0
+              -73.862204,7.062158,0
+              -73.859838,7.06168,0
+              -73.859531,7.061675,0
+              -73.859385,7.064108,0
+              -73.860243,7.067154,0
+              -73.860796,7.066981,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $7,000</name>
+      <description><![CDATA[Descripción: AGUAS CLARAS<br>HOSPITAL GENERAL<br>ESTADIO MUNICIPAL DE FUTBOL<br>PISCINAS OLIMPICAS<br>Precio: 7000]]></description>
+      <styleUrl>#poly-817717-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>AGUAS CLARAS
+HOSPITAL GENERAL
+ESTADIO MUNICIPAL DE FUTBOL
+PISCINAS OLIMPICAS</value>
+        </Data>
+        <Data name="Precio">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.865332,7.065098,0
+              -73.860796,7.066981,0
+              -73.860817,7.07222,0
+              -73.863853,7.072188,0
+              -73.863861,7.073817,0
+              -73.865468,7.073743,0
+              -73.865366,7.071251,0
+              -73.865387,7.068334,0
+              -73.86779,7.067344,0
+              -73.867565,7.06662,0
+              -73.865623,7.065992,0
+              -73.865332,7.065098,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $7,000</name>
+      <description><![CDATA[Descripción: ALCAZAR<br>CHAPINERO<br>MIRAFLORES<br>RAMARAL<br>BARRANCABERMEJA<br>EL CHICO<br>PRIMERO DE MAYO<br>ALTOS DEL ROSARIO<br>NUEVA ESPERANZA<br>EL TRIUNFO PARTE BAJA<br>SAN PEDRO CLAVER HASTA LAS 9:30 PM<br>BARRIO LOS LAGOS HASTA LAS 9:30 PM<br>Precio: 7000]]></description>
+      <styleUrl>#poly-817717-4000-64</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ALCAZAR
+CHAPINERO
+MIRAFLORES
+RAMARAL
+BARRANCABERMEJA
+EL CHICO
+PRIMERO DE MAYO
+ALTOS DEL ROSARIO
+NUEVA ESPERANZA
+EL TRIUNFO PARTE BAJA
+SAN PEDRO CLAVER HASTA LAS 9:30 PM
+BARRIO LOS LAGOS HASTA LAS 9:30 PM</value>
+        </Data>
+        <Data name="Precio">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.848682,7.069858,0
+              -73.84858,7.068377,0
+              -73.847649,7.067885,0
+              -73.847056,7.063727,0
+              -73.846753,7.063503,0
+              -73.847562,7.062213,0
+              -73.845964,7.059732,0
+              -73.843471,7.055003,0
+              -73.841261,7.055088,0
+              -73.841154,7.057196,0
+              -73.838128,7.058389,0
+              -73.836755,7.060028,0
+              -73.834437,7.059837,0
+              -73.831991,7.060199,0
+              -73.834321,7.071733,0
+              -73.837583,7.071989,0
+              -73.839149,7.073096,0
+              -73.843526,7.071989,0
+              -73.846604,7.068951,0
+              -73.848682,7.069858,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $7,500</name>
+      <description><![CDATA[Descripción: KENEDY HASTA LAS 9:30 PM<br>BOSTON<br>LAS GRANJAS<br>VILLARELYS 1,2 Y 3 HASTA LAS 9:30 PM<br>PAIPA<br>EL PROGRESO<br>20 DE JULIO<br>PUERTA DEL SOL HOTEL<br>20 DE AGOSTO HASTA LAS 9:30 PM<br>BARRIO NARIÑO HASTA LAS 9:30 PM<br>BARRIO DANUBIO HASTA LAS 9:30 PM<br>BARRIO LAS BRISAS HASTA LAS 9:30 PM<br>Precio: 7500]]></description>
+      <styleUrl>#poly-817717-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>KENEDY HASTA LAS 9:30 PM
+BOSTON
+LAS GRANJAS
+VILLARELYS 1,2 Y 3 HASTA LAS 9:30 PM
+PAIPA
+EL PROGRESO
+20 DE JULIO
+PUERTA DEL SOL HOTEL
+20 DE AGOSTO HASTA LAS 9:30 PM
+BARRIO NARIÑO HASTA LAS 9:30 PM
+BARRIO DANUBIO HASTA LAS 9:30 PM
+BARRIO LAS BRISAS HASTA LAS 9:30 PM</value>
+        </Data>
+        <Data name="Precio">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.831991,7.060199,0
+              -73.823646,7.056582,0
+              -73.823506,7.058158,0
+              -73.82282,7.058296,0
+              -73.822605,7.060788,0
+              -73.822755,7.06115,0
+              -73.824107,7.061001,0
+              -73.823893,7.060021,0
+              -73.824408,7.059808,0
+              -73.824837,7.060426,0
+              -73.825416,7.060554,0
+              -73.824966,7.061384,0
+              -73.825223,7.061554,0
+              -73.826382,7.061171,0
+              -73.82754,7.062917,0
+              -73.828098,7.062875,0
+              -73.828485,7.06345,0
+              -73.82754,7.063705,0
+              -73.827347,7.065004,0
+              -73.826596,7.064706,0
+              -73.826124,7.066176,0
+              -73.826918,7.066942,0
+              -73.826897,7.067815,0
+              -73.825588,7.067751,0
+              -73.824086,7.073842,0
+              -73.828721,7.07629,0
+              -73.8296,7.076503,0
+              -73.830502,7.076056,0
+              -73.834321,7.071733,0
+              -73.831991,7.060199,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $8,000</name>
+      <description><![CDATA[Descripción: POLIPOLVO<br>LA INDEPENDENCIA HASTA LAS 9:30PM<br>CARDALES<br>EL PARAISO HASTA LAS 9:30 PM<br>MINAS DEL PARAISO HASTA LAS 9:30 PM<br>MARIA EUGENIA<br>ALTOS DEL CAMPESTRE<br>EL TRIUNFO<br>EL NOGAL<br>EL CAMPIN<br>BARRIO 9 DE ABRIL HASTA LAS 9:30 PM<br>BARRIO LOS CORALES HASTA LAS 9:30 PM<br>Precio: 8000]]></description>
+      <styleUrl>#poly-817717-4000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>POLIPOLVO
+LA INDEPENDENCIA HASTA LAS 9:30PM
+CARDALES
+EL PARAISO HASTA LAS 9:30 PM
+MINAS DEL PARAISO HASTA LAS 9:30 PM
+MARIA EUGENIA
+ALTOS DEL CAMPESTRE
+EL TRIUNFO
+EL NOGAL
+EL CAMPIN
+BARRIO 9 DE ABRIL HASTA LAS 9:30 PM
+BARRIO LOS CORALES HASTA LAS 9:30 PM</value>
+        </Data>
+        <Data name="Precio">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.831991,7.060199,0
+              -73.832684,7.05754,0
+              -73.831354,7.05573,0
+              -73.832148,7.05539,0
+              -73.834186,7.056923,0
+              -73.8394,7.055794,0
+              -73.838692,7.054069,0
+              -73.833993,7.05441,0
+              -73.833585,7.052493,0
+              -73.835066,7.05243,0
+              -73.837018,7.048937,0
+              -73.838925,7.047565,0
+              -73.837455,7.045784,0
+              -73.837358,7.044592,0
+              -73.834298,7.04198,0
+              -73.833675,7.041634,0
+              -73.832822,7.04174,0
+              -73.831438,7.042172,0
+              -73.829738,7.042518,0
+              -73.828905,7.042242,0
+              -73.82618,7.042518,0
+              -73.825493,7.045542,0
+              -73.82163,7.045287,0
+              -73.82148,7.046373,0
+              -73.824107,7.046446,0
+              -73.824129,7.047787,0
+              -73.823249,7.049416,0
+              -73.823818,7.050918,0
+              -73.823399,7.051482,0
+              -73.824129,7.053473,0
+              -73.823646,7.056582,0
+              -73.831991,7.060199,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z7 - $7,500</name>
+      <description><![CDATA[Descripción: LA FLORESTA<br>COVIVA<br>GAITAN<br>LA LIBERTAD<br>SANTA ISABEL<br>CORTIJILLO<br>CIUDADELA PIPATÓN<br>SAN JUDAS<br>ALTOS DE LOS ANGELES<br>20 DE ENERO<br>CANCHA VILLA LUZ<br>CAMPO HERMOSO<br>LA CASTELLANA<br>LOS FICUS<br>Precio: 7500]]></description>
+      <styleUrl>#poly-817717-5000-82</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>LA FLORESTA
+COVIVA
+GAITAN
+LA LIBERTAD
+SANTA ISABEL
+CORTIJILLO
+CIUDADELA PIPATÓN
+SAN JUDAS
+ALTOS DE LOS ANGELES
+20 DE ENERO
+CANCHA VILLA LUZ
+CAMPO HERMOSO
+LA CASTELLANA
+LOS FICUS</value>
+        </Data>
+        <Data name="Precio">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.856723,7.072387,0
+              -73.849589,7.072131,0
+              -73.848682,7.069858,0
+              -73.846604,7.068951,0
+              -73.843526,7.071989,0
+              -73.842432,7.074789,0
+              -73.841509,7.075833,0
+              -73.841548,7.076604,0
+              -73.841838,7.076977,0
+              -73.844284,7.078052,0
+              -73.846376,7.078819,0
+              -73.845421,7.082705,0
+              -73.846995,7.083494,0
+              -73.849506,7.083621,0
+              -73.851652,7.083281,0
+              -73.852574,7.08492,0
+              -73.854248,7.084942,0
+              -73.855471,7.083536,0
+              -73.855454,7.082203,0
+              -73.855905,7.082139,0
+              -73.856506,7.081628,0
+              -73.856098,7.080979,0
+              -73.855497,7.080659,0
+              -73.854714,7.079978,0
+              -73.855583,7.078902,0
+              -73.856302,7.079201,0
+              -73.856902,7.079052,0
+              -73.857106,7.078572,0
+              -73.858244,7.078934,0
+              -73.858918,7.077649,0
+              -73.856837,7.077021,0
+              -73.85747,7.07553,0
+              -73.856723,7.072387,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

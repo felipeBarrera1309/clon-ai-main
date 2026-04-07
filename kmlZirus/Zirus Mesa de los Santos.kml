@@ -1,0 +1,3287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zirus Mesa de los Santos</name>
+    <Style id="icon-1651-880E4F-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1651-880E4F-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1651-880E4F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1651-880E4F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1651-880E4F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-3000-61-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-3000-61-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-3000-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-3000-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-3000-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-3000-69-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>454f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-3000-69-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>454f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-3000-69">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-3000-69-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-3000-69-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-54-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>364f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-54-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>364f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-54">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-54-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-54-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-56-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>384f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-56-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>384f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-56">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-56-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-56-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-59-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3b4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-59-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3b4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-59">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-59-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-59-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-61-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-61-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-64-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>404f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-64-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>404f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-64">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-64-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-64-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-66-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>424f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-66-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>424f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-66">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-66-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-66-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-69-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>454f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-69-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>454f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-69">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-69-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-69-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-74-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4a4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-74-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4a4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-74">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-74-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-74-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-4000-77-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-4000-77-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-4000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-4000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-4000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-48-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>304f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-48-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>304f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-48">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-48-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-48-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-54-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>364f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-54-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>364f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-54">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-54-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-54-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-56-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>384f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-56-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>384f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-56">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-56-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-56-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-59-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3b4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-59-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3b4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-59">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-59-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-59-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-61-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-61-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-66-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>424f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-66-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>424f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-66">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-66-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-66-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-69-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>454f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-69-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>454f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-69">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-69-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-69-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-77-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-77-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-5000-82-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>524f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-5000-82-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>524f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-5000-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-5000-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-5000-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-6000-56-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>384f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-880E4F-6000-56-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>9</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>384f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-6000-56">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-6000-56-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-6000-56-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Zirus Pizza Mesa de los Santos</name>
+      <description><![CDATA[Descripción: LUNES A MIERCOLES: CERRADO<br><br>JUEVES : 12 PM A 8 PM<br>VIERNES Y SABADO: 12 PM A 10 PM<br>DOMINGO: 12 PM A 9 PM<br>DOMINGO (CON LUNES FESTIVO): 12 PM A 10 PM<br>Valor: ]]></description>
+      <styleUrl>#icon-1651-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>LUNES A MIERCOLES: CERRADO
+
+JUEVES : 12 PM A 8 PM
+VIERNES Y SABADO: 12 PM A 10 PM
+DOMINGO: 12 PM A 9 PM
+DOMINGO (CON LUNES FESTIVO): 12 PM A 10 PM</value>
+        </Data>
+        <Data name="Valor">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -73.04839,6.882894,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $4,000</name>
+      <description><![CDATA[Descripción: RESTAURANTE LA VICTORIA MESA DE LOS SANTOS<br>CABRITO A LA BRASA PARRILLA<br>EL BOSQUE RESTAURANTE<br>Valor: 4000]]></description>
+      <styleUrl>#poly-880E4F-4000-74</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>RESTAURANTE LA VICTORIA MESA DE LOS SANTOS
+CABRITO A LA BRASA PARRILLA
+EL BOSQUE RESTAURANTE</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.048247,6.883403,0
+              -73.047818,6.882647,0
+              -73.04666,6.881208,0
+              -73.042433,6.883572,0
+              -73.044171,6.885511,0
+              -73.048247,6.883403,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $3,000</name>
+      <description><![CDATA[Descripción: VILLA GRES MESA DE LOS SANTOS<br>Valor: 3000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>VILLA GRES MESA DE LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>3000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.048929,6.883132,0
+              -73.04858,6.882274,0
+              -73.047818,6.882647,0
+              -73.048247,6.883403,0
+              -73.048929,6.883132,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $4,000</name>
+      <description><![CDATA[Descripción: GREENLANDOMESA<br>AQUILES GRILL<br>TRIBU HOSTAL<br>Valor: 4000]]></description>
+      <styleUrl>#poly-880E4F-4000-64</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>GREENLANDOMESA
+AQUILES GRILL
+TRIBU HOSTAL</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.048929,6.883132,0
+              -73.050828,6.882349,0
+              -73.050189,6.879595,0
+              -73.047486,6.880224,0
+              -73.04858,6.882274,0
+              -73.048929,6.883132,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $5,000</name>
+      <description><![CDATA[Descripción: EL GUAYABAL<br>TERPEL BASAN<br>FRUVER SANTA MARIA<br>GRANJA LA CABAÑA<br>Valor: 5000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>EL GUAYABAL
+TERPEL BASAN
+FRUVER SANTA MARIA
+GRANJA LA CABAÑA</value>
+        </Data>
+        <Data name="Valor">
+          <value>5000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.044171,6.885511,0
+              -73.042433,6.883572,0
+              -73.041861,6.883096,0
+              -73.04023,6.887922,0
+              -73.037895,6.893127,0
+              -73.039826,6.894043,0
+              -73.04459,6.886054,0
+              -73.044171,6.885511,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9,000</name>
+      <description><![CDATA[Descripción: PONY PARQUE MESA DE LOS SANTOS<br>PRIMAX PONY PARQUE<br>HOTEL MESA DE LOS SANTOS<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>PONY PARQUE MESA DE LOS SANTOS
+PRIMAX PONY PARQUE
+HOTEL MESA DE LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.034192,6.90842,0
+              -73.030358,6.908716,0
+              -73.025883,6.908684,0
+              -73.026925,6.913146,0
+              -73.035573,6.913295,0
+              -73.034192,6.90842,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $10,000</name>
+      <description><![CDATA[Descripción: MIRADOR PUNTA LA MESA<br>PEAJE LA PUNTA<br>PUNTA DE PIEDRA CONDOMINIO<br>Valor: 10000]]></description>
+      <styleUrl>#poly-880E4F-5000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MIRADOR PUNTA LA MESA
+PEAJE LA PUNTA
+PUNTA DE PIEDRA CONDOMINIO</value>
+        </Data>
+        <Data name="Valor">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.035573,6.913295,0
+              -73.032853,6.913267,0
+              -73.033282,6.917016,0
+              -73.035139,6.920999,0
+              -73.039945,6.917825,0
+              -73.035573,6.913295,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $7,000</name>
+      <description><![CDATA[Descripción: LA TIENDA DE LUCY<br>PARADOR SAN FERNANDO<br>LUCHO PARRILLA<br>TIENDA DE OTI<br>CASA DE LA ESPIRITUALIDAD<br>LAS MARGARITAS<br>EL VIEJO JORGE<br>LA CABAÑA AZUL<br>PANDORA<br>COLEGIO HOLANDA<br>LA BOVEDA<br>DONDE RUBEN´S<br>EL KIOSCO CAFETERIA<br>TALLER DE ORNAMENTACION FORJARTE<br>MARTINA<br>Valor: 7000]]></description>
+      <styleUrl>#poly-880E4F-5000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>LA TIENDA DE LUCY
+PARADOR SAN FERNANDO
+LUCHO PARRILLA
+TIENDA DE OTI
+CASA DE LA ESPIRITUALIDAD
+LAS MARGARITAS
+EL VIEJO JORGE
+LA CABAÑA AZUL
+PANDORA
+COLEGIO HOLANDA
+LA BOVEDA
+DONDE RUBEN´S
+EL KIOSCO CAFETERIA
+TALLER DE ORNAMENTACION FORJARTE
+MARTINA</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.039826,6.894043,0
+              -73.037895,6.893127,0
+              -73.033357,6.893872,0
+              -73.029324,6.898473,0
+              -73.03177,6.900539,0
+              -73.03456,6.90218,0
+              -73.035998,6.902861,0
+              -73.039828,6.899687,0
+              -73.039826,6.894043,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9,000</name>
+      <description><![CDATA[Descripción: VILLA DE SANTA TERESA<br>IGLESIA PENTESCOSTAL UNIDA DE COLOMBIA<br>HACIENDA EL MADRIGAL MESA DE LOS SANTOS<br>GRANJA MADRIGAL<br>TIENDA LOS CANARIOS<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-5000-82</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>VILLA DE SANTA TERESA
+IGLESIA PENTESCOSTAL UNIDA DE COLOMBIA
+HACIENDA EL MADRIGAL MESA DE LOS SANTOS
+GRANJA MADRIGAL
+TIENDA LOS CANARIOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.037895,6.893127,0
+              -73.038874,6.890889,0
+              -73.038456,6.885702,0
+              -73.032898,6.884903,0
+              -73.031169,6.890378,0
+              -73.033357,6.893872,0
+              -73.037895,6.893127,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $13,000</name>
+      <description><![CDATA[Descripción: CABAÑA CAPRICHITOS LOS SANTOS<br>Valor: 13000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CABAÑA CAPRICHITOS LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>13000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.027683,6.918001,0
+              -73.027544,6.916851,0
+              -73.025859,6.916744,0
+              -73.025194,6.920056,0
+              -73.027822,6.920099,0
+              -73.027683,6.918001,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9,000</name>
+      <description><![CDATA[Descripción: ALTAMIRA 3, 4, 5, 10<br>PARCELA LA FORTUNA<br>HOTEL OCCIDENTAL MADRID<br>EUGENIA<br>VILLA STELLA<br>CONJUNTO PINAR DEL LAGO<br>CASA DE RETIROS SANTA MADRE LAURA MONTOYA<br>VILLA HELENITA ALTAMIRA RINCON DEL PINAR<br>SATORI JARDIN GLAMPING<br>CASA BELLA<br>VILLA SOFIA ALTAMIRA 11<br>MAMBE REFUGIO MESA DE LOS SANTOS<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ALTAMIRA 3, 4, 5, 10
+PARCELA LA FORTUNA
+HOTEL OCCIDENTAL MADRID
+EUGENIA
+VILLA STELLA
+CONJUNTO PINAR DEL LAGO
+CASA DE RETIROS SANTA MADRE LAURA MONTOYA
+VILLA HELENITA ALTAMIRA RINCON DEL PINAR
+SATORI JARDIN GLAMPING
+CASA BELLA
+VILLA SOFIA ALTAMIRA 11
+MAMBE REFUGIO MESA DE LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.03099,6.905851,0
+              -73.0341,6.901898,0
+              -73.03177,6.900539,0
+              -73.029324,6.898473,0
+              -73.027717,6.89978,0
+              -73.026596,6.897804,0
+              -73.024746,6.897277,0
+              -73.020486,6.894561,0
+              -73.018287,6.896116,0
+              -73.025883,6.908684,0
+              -73.03099,6.905851,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $8,000</name>
+      <description><![CDATA[Descripción: SAN TELMO<br>OXXO MESA DE LOS SANTOS<br>VINOTINTO CAMPESTRE<br>ALTAMIRA 2<br>JESUS ES MI ROCA<br>PARADOR ALTAMIRA<br>HACIENDA LAS TRUCAS<br>Valor: 8000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>SAN TELMO
+OXXO MESA DE LOS SANTOS
+VINOTINTO CAMPESTRE
+ALTAMIRA 2
+JESUS ES MI ROCA
+PARADOR ALTAMIRA
+HACIENDA LAS TRUCAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.035998,6.902861,0
+              -73.03456,6.90218,0
+              -73.0341,6.901898,0
+              -73.03099,6.905851,0
+              -73.025883,6.908684,0
+              -73.030201,6.908719,0
+              -73.034192,6.90842,0
+              -73.035998,6.902861,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $10,000</name>
+      <description><![CDATA[Descripción: PINAR DEL LAGO MESA DE LOS SANTOS<br>BUKAREGUA CONDOMINIO<br>Valor: 10000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>PINAR DEL LAGO MESA DE LOS SANTOS
+BUKAREGUA CONDOMINIO</value>
+        </Data>
+        <Data name="Valor">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.031371,6.889772,0
+              -73.031929,6.887983,0
+              -73.027402,6.885789,0
+              -73.022144,6.887876,0
+              -73.020486,6.894561,0
+              -73.022466,6.895758,0
+              -73.028196,6.888558,0
+              -73.031371,6.889772,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $12,000</name>
+      <description><![CDATA[Descripción: HOTEL EMUNA BIORESORT<br>Valor: 12000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HOTEL EMUNA BIORESORT</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.039014,6.91845,0
+              -73.036568,6.920048,0
+              -73.038467,6.922306,0
+              -73.04087,6.920783,0
+              -73.039014,6.91845,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $12,000</name>
+      <description><![CDATA[Descripción: EDUCANINO<br>FINCA SAN FELIPE DEL OCASI<br>MIRADOR EL TREBOL<br>Valor: 12000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>EDUCANINO
+FINCA SAN FELIPE DEL OCASI
+MIRADOR EL TREBOL</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.03382,6.918139,0
+              -73.033282,6.917016,0
+              -73.032853,6.913267,0
+              -73.026996,6.913176,0
+              -73.027683,6.918001,0
+              -73.03382,6.918139,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $8,000</name>
+      <description><![CDATA[Descripción: GRANJA GUACHIPALO<br>FINCA LA QUINA<br>VILLA NUEVA MESA DE LOS SANTOS<br>GRANJA EL CAMPIN<br>FINCA LAS AGUILITAS<br>Valor: 8000]]></description>
+      <styleUrl>#poly-880E4F-4000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>GRANJA GUACHIPALO
+FINCA LA QUINA
+VILLA NUEVA MESA DE LOS SANTOS
+GRANJA EL CAMPIN
+FINCA LAS AGUILITAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.041861,6.883096,0
+              -73.037122,6.879976,0
+              -73.03179,6.881574,0
+              -73.030224,6.883129,0
+              -73.032898,6.884903,0
+              -73.038456,6.885702,0
+              -73.041861,6.883096,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $11,000</name>
+      <description><![CDATA[Descripción: MAURICIO OSORIO<br>VILLA EVA<br>CAMPOCAMPIÑA<br>GRANJA AVICOLA LA RINCONADA<br>MONTEZA GLAMPING<br>VILLA RUECA - CAMPO CAMPIÑA<br>CAMPIÑA ROCA SECA<br>Valor: 11000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MAURICIO OSORIO
+VILLA EVA
+CAMPOCAMPIÑA
+GRANJA AVICOLA LA RINCONADA
+MONTEZA GLAMPING
+VILLA RUECA - CAMPO CAMPIÑA
+CAMPIÑA ROCA SECA</value>
+        </Data>
+        <Data name="Valor">
+          <value>11000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.030224,6.883129,0
+              -73.03179,6.881574,0
+              -73.030667,6.878778,0
+              -73.028642,6.876558,0
+              -73.023664,6.876856,0
+              -73.015317,6.877644,0
+              -73.015596,6.881394,0
+              -73.016883,6.884227,0
+              -73.030224,6.883129,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $14,000</name>
+      <description><![CDATA[Descripción: HOSPEDAJE CASA SAN JUAN<br>4KO BRANGUS - LOS ARROYUELOS<br>CONJUNTO CAMPESTRE LOS ALPES MESA DE <br>SAN JUAN DE LUZ<br>Valor: 14000]]></description>
+      <styleUrl>#poly-880E4F-4000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HOSPEDAJE CASA SAN JUAN
+4KO BRANGUS - LOS ARROYUELOS
+CONJUNTO CAMPESTRE LOS ALPES MESA DE 
+SAN JUAN DE LUZ</value>
+        </Data>
+        <Data name="Valor">
+          <value>14000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.038467,6.922306,0
+              -73.043706,6.927161,0
+              -73.04456,6.926581,0
+              -73.045739,6.925784,0
+              -73.046484,6.9251,0
+              -73.049113,6.922751,0
+              -73.045819,6.920536,0
+              -73.04087,6.920783,0
+              -73.038467,6.922306,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $14,000</name>
+      <description><![CDATA[Descripción: BOCORE<br>FINCA MESA<br>GRANJA BELLAVISTA - HORIZONTES<br>INCUBADORA HUEVOS KIKES MESA DE LOS SANTOS<br>Valor: 14000]]></description>
+      <styleUrl>#poly-880E4F-4000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>BOCORE
+FINCA MESA
+GRANJA BELLAVISTA - HORIZONTES
+INCUBADORA HUEVOS KIKES MESA DE LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>14000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.015317,6.877644,0
+              -73.019691,6.877237,0
+              -73.014284,6.865627,0
+              -73.00967,6.866564,0
+              -73.015317,6.877644,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $8,000</name>
+      <description><![CDATA[Descripción: EL REMANSO<br>PARCELAS EL REMANDO<br>LA PEÑA DE ARMANDO<br>CONDOMINIO BRISAS DE JERIDAS<br>Valor: 8000]]></description>
+      <styleUrl>#poly-880E4F-4000-64</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>EL REMANSO
+PARCELAS EL REMANDO
+LA PEÑA DE ARMANDO
+CONDOMINIO BRISAS DE JERIDAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.044235,6.882556,0
+              -73.04666,6.881208,0
+              -73.044943,6.877433,0
+              -73.040072,6.875303,0
+              -73.033345,6.8764,0
+              -73.034225,6.878157,0
+              -73.042282,6.879212,0
+              -73.044235,6.882556,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $5,000</name>
+      <description><![CDATA[Descripción: BONANZA RESTAURANTE BAR<br>CABAÑAS MESA DE LOS SANTOS<br>Valor: 5000]]></description>
+      <styleUrl>#poly-880E4F-4000-64</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>BONANZA RESTAURANTE BAR
+CABAÑAS MESA DE LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>5000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.050828,6.882349,0
+              -73.053386,6.884113,0
+              -73.055242,6.883005,0
+              -73.053011,6.878723,0
+              -73.050189,6.879595,0
+              -73.050828,6.882349,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $7,000</name>
+      <description><![CDATA[Descripción: GRANJA EL ROBLE<br>PARADOR LOS SAUCES<br>GRANJA MADROÑO<br>PARROQUIA NUESTRA SEÑORA DE LAS GRANJAS<br>COLEGIO INTERNADO MESA DE JERIDAS<br>Valor: 7000]]></description>
+      <styleUrl>#poly-880E4F-4000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>GRANJA EL ROBLE
+PARADOR LOS SAUCES
+GRANJA MADROÑO
+PARROQUIA NUESTRA SEÑORA DE LAS GRANJAS
+COLEGIO INTERNADO MESA DE JERIDAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.058227,6.87436,0
+              -73.056837,6.870136,0
+              -73.055128,6.870444,0
+              -73.053779,6.871941,0
+              -73.053592,6.874583,0
+              -73.058227,6.87436,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $6,000</name>
+      <description><![CDATA[Descripción: PARA PICAR <br>PANADERIA SANTA ISABEL<br>SERFISA MONTALLANTAS<br>ML DISTRIBUIDORA<br>CAFE MESA DE LOS SANTOS<br>Valor: 6000]]></description>
+      <styleUrl>#poly-880E4F-4000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>PARA PICAR 
+PANADERIA SANTA ISABEL
+SERFISA MONTALLANTAS
+ML DISTRIBUIDORA
+CAFE MESA DE LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.054472,6.881486,0
+              -73.05885,6.880058,0
+              -73.058227,6.87436,0
+              -73.053592,6.874583,0
+              -73.053011,6.878723,0
+              -73.054472,6.881486,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $8,000</name>
+      <description><![CDATA[Descripción: LA TRINIDAD PARRILLA Y BAR<br>ESTACION DE POLICIA MESA DE LOS SANTOS<br>Valor: 8000]]></description>
+      <styleUrl>#poly-880E4F-4000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>LA TRINIDAD PARRILLA Y BAR
+ESTACION DE POLICIA MESA DE LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.05539,6.870402,0
+              -73.056837,6.870136,0
+              -73.058287,6.865033,0
+              -73.057117,6.865097,0
+              -73.05421,6.86874,0
+              -73.05539,6.870402,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9,000</name>
+      <description><![CDATA[Descripción: CONDOMINIO RESIDENCIAL RESERVA DEL DUENDE<br>GRANJA JERIDAS MADROÑO<br>CALIXTO<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-5000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CONDOMINIO RESIDENCIAL RESERVA DEL DUENDE
+GRANJA JERIDAS MADROÑO
+CALIXTO</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.058287,6.865033,0
+              -73.05811,6.865634,0
+              -73.060213,6.866199,0
+              -73.062466,6.871855,0
+              -73.063764,6.873729,0
+              -73.065921,6.873357,0
+              -73.063166,6.866594,0
+              -73.060408,6.865326,0
+              -73.058287,6.865033,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9,000</name>
+      <description><![CDATA[Descripción: CLUB NAUTICO ACUARELA <br>CONJUNTO MANIGUA<br>HOTEL SKY HOUSE <br>PANADERIA SHADDAI<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-4000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CLUB NAUTICO ACUARELA 
+CONJUNTO MANIGUA
+HOTEL SKY HOUSE 
+PANADERIA SHADDAI</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.062646,6.866338,0
+              -73.066517,6.862473,0
+              -73.071146,6.859103,0
+              -73.070539,6.858715,0
+              -73.06128,6.855349,0
+              -73.05715,6.853399,0
+              -73.053684,6.856201,0
+              -73.057117,6.865097,0
+              -73.058287,6.865033,0
+              -73.060408,6.865326,0
+              -73.062646,6.866338,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 </name>
+      <description><![CDATA[Descripción: MI COLOMBIA QUERIDA  (11.000)<br>Los Gabys (10.000)<br>Mariposario (11.000)<br>Cabañas La carolina (11.000)<br>CONJUNTO MI TERRUÑO (INGRESO)16.000<br>CONJUNTO MI TERRUÑO (PORTERIA)13.000<br>FINCA EL VERDE(10.000)<br>Valor: 16000]]></description>
+      <styleUrl>#poly-880E4F-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MI COLOMBIA QUERIDA  (11.000)
+Los Gabys (10.000)
+Mariposario (11.000)
+Cabañas La carolina (11.000)
+CONJUNTO MI TERRUÑO (INGRESO)16.000
+CONJUNTO MI TERRUÑO (PORTERIA)13.000
+FINCA EL VERDE(10.000)</value>
+        </Data>
+        <Data name="Valor">
+          <value>16000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.068114,6.851297,0
+              -73.074855,6.846916,0
+              -73.076937,6.84437,0
+              -73.0793,6.840918,0
+              -73.077596,6.840567,0
+              -73.072946,6.841164,0
+              -73.070907,6.842932,0
+              -73.068611,6.84372,0
+              -73.065635,6.850668,0
+              -73.068114,6.851297,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $15.000</name>
+      <description><![CDATA[Descripción: FERRETERIA LINDEROS<br>PINTANDO LA FINCA SAS<br>PARADOR LLANERO<br>AGROVETERINARIA Y FERRETERIA LA FUENTE<br>CONJUNTO CAMPESTRE VILLA PROVINCIA<br>SUPERMERCADO MARPAC<br>HACIENDA EL ENCANTO<br>HOTEL EL SOL<br>COLEGIO LA FUENTE<br>Valor: 15000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>FERRETERIA LINDEROS
+PINTANDO LA FINCA SAS
+PARADOR LLANERO
+AGROVETERINARIA Y FERRETERIA LA FUENTE
+CONJUNTO CAMPESTRE VILLA PROVINCIA
+SUPERMERCADO MARPAC
+HACIENDA EL ENCANTO
+HOTEL EL SOL
+COLEGIO LA FUENTE</value>
+        </Data>
+        <Data name="Valor">
+          <value>15000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.091732,6.82829,0
+              -73.091268,6.82515,0
+              -73.094259,6.822202,0
+              -73.090262,6.819501,0
+              -73.084415,6.823283,0
+              -73.079137,6.82814,0
+              -73.07988,6.832711,0
+              -73.082224,6.834079,0
+              -73.087226,6.831571,0
+              -73.09332,6.833701,0
+              -73.095166,6.831272,0
+              -73.091732,6.82829,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8- $12.000</name>
+      <description><![CDATA[Descripción: BOSQUES DEL LAGO<br>SANTORINI MESA DE LOS SANTOS<br>BOSQUE DEL LAGO VILLA SUSANA<br>VISTA DEL CAMPO<br>CABAÑA DEL LAGO<br>ARBOLEDA DEL CAMPO ($11,000)<br>Valor: 12000]]></description>
+      <styleUrl>#poly-880E4F-5000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>BOSQUES DEL LAGO
+SANTORINI MESA DE LOS SANTOS
+BOSQUE DEL LAGO VILLA SUSANA
+VISTA DEL CAMPO
+CABAÑA DEL LAGO
+ARBOLEDA DEL CAMPO ($11,000)</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.037113,6.85438,0
+              -73.039524,6.855689,0
+              -73.0406,6.855864,0
+              -73.041698,6.855847,0
+              -73.045769,6.855504,0
+              -73.045216,6.851152,0
+              -73.037585,6.85078,0
+              -73.034656,6.849246,0
+              -73.032456,6.849608,0
+              -73.037113,6.85438,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $18,000</name>
+      <description><![CDATA[Descripción: ALTOS DEL CHICAMOCHA VIA EL TELFERICO<br>SANTA CLARA TELEFERICO <br>HOTEL CRISTO REY<br>CASA LAGO<br>LA COLINA DE LOS REYES<br>FINCA EL ENCANTO<br>HOTEL ECOPOSADA VIÑA DE AÑDANA<br>HOTEL SANTA CLARA<br>NICOLAS GASTRONOMIA ARTESANAL<br>SIBARIS<br>PANACHI PUERTO FONICULAR<br>Valor: 18000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ALTOS DEL CHICAMOCHA VIA EL TELFERICO
+SANTA CLARA TELEFERICO 
+HOTEL CRISTO REY
+CASA LAGO
+LA COLINA DE LOS REYES
+FINCA EL ENCANTO
+HOTEL ECOPOSADA VIÑA DE AÑDANA
+HOTEL SANTA CLARA
+NICOLAS GASTRONOMIA ARTESANAL
+SIBARIS
+PANACHI PUERTO FONICULAR</value>
+        </Data>
+        <Data name="Valor">
+          <value>18000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.057499,6.825518,0
+              -73.061855,6.817678,0
+              -73.054334,6.813491,0
+              -73.046685,6.810029,0
+              -73.041406,6.815483,0
+              -73.037305,6.820825,0
+              -73.040186,6.822544,0
+              -73.050193,6.828725,0
+              -73.057499,6.825518,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $17.000</name>
+      <description><![CDATA[Descripción: CABAÑAS VISTA HERMOSA<br>CONDOMINIO VACACIONAL EL RECREO<br>GRANJA ALBORADA<br>EL CAMILO<br>LA CEIBA<br>Valor: 17000]]></description>
+      <styleUrl>#poly-880E4F-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CABAÑAS VISTA HERMOSA
+CONDOMINIO VACACIONAL EL RECREO
+GRANJA ALBORADA
+EL CAMILO
+LA CEIBA</value>
+        </Data>
+        <Data name="Valor">
+          <value>17000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.065417,6.838683,0
+              -73.066725,6.83963,0
+              -73.071173,6.838444,0
+              -73.070664,6.835477,0
+              -73.06752,6.832846,0
+              -73.065299,6.831642,0
+              -73.06061,6.833975,0
+              -73.062997,6.836972,0
+              -73.065417,6.838683,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8-$9.000</name>
+      <description><![CDATA[Descripción: CHALETS LA MESA<br>ECOGUANE VILLAS<br>ECOROOM<br>TIENDA DONDE XIMENA<br>GRANJA SAN ROQUE<br>EL JARDIN DE GLORIA<br>VILLA VARELA<br>LA PICOLINA CASA DE CAMPO<br>SAUCES<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CHALETS LA MESA
+ECOGUANE VILLAS
+ECOROOM
+TIENDA DONDE XIMENA
+GRANJA SAN ROQUE
+EL JARDIN DE GLORIA
+VILLA VARELA
+LA PICOLINA CASA DE CAMPO
+SAUCES</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.059437,6.89552,0
+              -73.061161,6.893967,0
+              -73.06409,6.892093,0
+              -73.062687,6.889952,0
+              -73.068686,6.885682,0
+              -73.067577,6.884548,0
+              -73.05988,6.888143,0
+              -73.058348,6.885918,0
+              -73.056406,6.886632,0
+              -73.055752,6.888687,0
+              -73.05555,6.889838,0
+              -73.055063,6.891941,0
+              -73.056615,6.894961,0
+              -73.059437,6.89552,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8  - $16.000</name>
+      <description><![CDATA[Descripción: CLUB CAMPESTRE (INGRESO) 16.000<br>CLUB CAMPESTRE (PORTERIA) 14.000<br>EL SALVAVIDAS<br>RESERVA DEL ROBLE<br>VILLA OLIVA<br>FINCA LA FELICIDAD<br>ESCUELA RURAL LOS CACAOS<br>CONDOMINIO MIRADOR DEL LAGO<br>CASAS NUEVAS<br>GRANJA AVICOLA EL MADROÑO<br>CONJUNTO CAMPESTRE ALTOVIENTO COUNTRY<br>Valor: 16000]]></description>
+      <styleUrl>#poly-880E4F-5000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CLUB CAMPESTRE (INGRESO) 16.000
+CLUB CAMPESTRE (PORTERIA) 14.000
+EL SALVAVIDAS
+RESERVA DEL ROBLE
+VILLA OLIVA
+FINCA LA FELICIDAD
+ESCUELA RURAL LOS CACAOS
+CONDOMINIO MIRADOR DEL LAGO
+CASAS NUEVAS
+GRANJA AVICOLA EL MADROÑO
+CONJUNTO CAMPESTRE ALTOVIENTO COUNTRY</value>
+        </Data>
+        <Data name="Valor">
+          <value>16000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.026498,6.851607,0
+              -73.016694,6.856769,0
+              -73.013002,6.855367,0
+              -73.009783,6.856309,0
+              -73.013299,6.862836,0
+              -73.014284,6.865627,0
+              -73.015955,6.869117,0
+              -73.034913,6.863952,0
+              -73.032404,6.858182,0
+              -73.033322,6.853871,0
+              -73.035312,6.852512,0
+              -73.033525,6.850728,0
+              -73.030296,6.853088,0
+              -73.026498,6.851607,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8-$12.000</name>
+      <description><![CDATA[Descripción: COLINAS DEL LAGO<br>RENTA ME<br>CABAÑAS LA HORMIGA<br>MARGARITA PIZZA DELIVERY<br>VILLA SOFIA<br>EL ENSUEÑO<br>CASA DE CAMPO EL LAGUITO<br>DUNAS DLE CIENTO<br>LA PRADERA CONDOMINIO<br>HOTEL JG<br>LOS ALCARAVANES<br>CABAÑA LA PRADERA<br>Valor: 12000]]></description>
+      <styleUrl>#poly-880E4F-5000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>COLINAS DEL LAGO
+RENTA ME
+CABAÑAS LA HORMIGA
+MARGARITA PIZZA DELIVERY
+VILLA SOFIA
+EL ENSUEÑO
+CASA DE CAMPO EL LAGUITO
+DUNAS DLE CIENTO
+LA PRADERA CONDOMINIO
+HOTEL JG
+LOS ALCARAVANES
+CABAÑA LA PRADERA</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.056174,6.845004,0
+              -73.055785,6.844282,0
+              -73.056316,6.842737,0
+              -73.053987,6.841296,0
+              -73.049202,6.844286,0
+              -73.049163,6.845632,0
+              -73.050058,6.846702,0
+              -73.054347,6.847632,0
+              -73.056026,6.848612,0
+              -73.056174,6.845004,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8-$13.000</name>
+      <description><![CDATA[Descripción: CONDOMINIO MESA DE LOS SANTOS (INGRESAR) 20.000<br>CONDOMINIO MESA DE LOS SANTOS (PORTERIA) 15.000<br><br>GRANJA CAPRI<br>F12MESA<br>AJAIB ASHRAM<br>CONDOMINIO SAN SILVESTRE<br>EL SOLAR BAZAR GASTRONOMICO<br>TOTO PARRILLA<br>BOMBA DE LINDEROS<br>FINCA SALIM<br>RESTAURANTE SANTOS EXPRESS<br>Valor: 13000]]></description>
+      <styleUrl>#poly-880E4F-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CONDOMINIO MESA DE LOS SANTOS (INGRESAR) 20.000
+CONDOMINIO MESA DE LOS SANTOS (PORTERIA) 15.000
+
+GRANJA CAPRI
+F12MESA
+AJAIB ASHRAM
+CONDOMINIO SAN SILVESTRE
+EL SOLAR BAZAR GASTRONOMICO
+TOTO PARRILLA
+BOMBA DE LINDEROS
+FINCA SALIM
+RESTAURANTE SANTOS EXPRESS</value>
+        </Data>
+        <Data name="Valor">
+          <value>13000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.0793,6.840918,0
+              -73.082224,6.834079,0
+              -73.07988,6.832711,0
+              -73.079156,6.833403,0
+              -73.0773,6.834681,0
+              -73.076341,6.837072,0
+              -73.07609,6.839526,0
+              -73.077596,6.840567,0
+              -73.0793,6.840918,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8-$20.000</name>
+      <description><![CDATA[Descripción: ECO HOTEL EL FIQUE<br>CASA EN EL AIRE<br>SAIVITA CASA DE CAMPO<br>LA FRANCA<br>LA FRAGUA<br>MICROMERCADO MIRADOR DEL CARRIZAL<br>VILLA LOLITA<br>CASA PINTO<br>CHALET MC MIRADOR CHICAMOCHA<br>MOUNTAIN VIEW<br>FINCA LAS BRISAS<br>Valor: 20000]]></description>
+      <styleUrl>#poly-880E4F-4000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ECO HOTEL EL FIQUE
+CASA EN EL AIRE
+SAIVITA CASA DE CAMPO
+LA FRANCA
+LA FRAGUA
+MICROMERCADO MIRADOR DEL CARRIZAL
+VILLA LOLITA
+CASA PINTO
+CHALET MC MIRADOR CHICAMOCHA
+MOUNTAIN VIEW
+FINCA LAS BRISAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>20000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.034656,6.849246,0
+              -73.032288,6.83707,0
+              -73.027237,6.835291,0
+              -73.022316,6.838092,0
+              -73.032456,6.849608,0
+              -73.034656,6.849246,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8-$20.000</name>
+      <description><![CDATA[Descripción: MESITAS DE SAN JAVIER<br>GRANJA MESITAS<br>GRANJA VILLA CLAUDIA<br>GRANJA EL RETIRO<br>GRANJA VILLA LAURI<br>PARCELA VILLA LOMA FINCA DE SAN JOSE<br>TIENDA EL TESORO<br>GRANJA VICTORIA<br>GRANJA VILLA PAOLA<br>GRANJA ENCANTO<br>GRANJA RANGELANDIA<br>DONDE MARIAN<br>VILLA VIRULEA<br>LOS GIRASOLES<br>SALTO DEL MICO<br>Valor: 20000]]></description>
+      <styleUrl>#poly-880E4F-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MESITAS DE SAN JAVIER
+GRANJA MESITAS
+GRANJA VILLA CLAUDIA
+GRANJA EL RETIRO
+GRANJA VILLA LAURI
+PARCELA VILLA LOMA FINCA DE SAN JOSE
+TIENDA EL TESORO
+GRANJA VICTORIA
+GRANJA VILLA PAOLA
+GRANJA ENCANTO
+GRANJA RANGELANDIA
+DONDE MARIAN
+VILLA VIRULEA
+LOS GIRASOLES
+SALTO DEL MICO</value>
+        </Data>
+        <Data name="Valor">
+          <value>20000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.060089,6.929168,0
+              -73.076027,6.924295,0
+              -73.070223,6.913826,0
+              -73.060317,6.912947,0
+              -73.057493,6.917436,0
+              -73.060089,6.929168,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8-13.000</name>
+      <description><![CDATA[Descripción: SALTO DEL DUENDE<br>GRANJA AVICOLA BACATA<br>GRANJA AVICOLA VILLA PAOLA<br>ALLIED COLOMBIA<br>FINCA VILLA PATRICIA<br>FINCA EL RETIRO<br>Valor: 13000]]></description>
+      <styleUrl>#poly-880E4F-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>SALTO DEL DUENDE
+GRANJA AVICOLA BACATA
+GRANJA AVICOLA VILLA PAOLA
+ALLIED COLOMBIA
+FINCA VILLA PATRICIA
+FINCA EL RETIRO</value>
+        </Data>
+        <Data name="Valor">
+          <value>13000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.080393,6.888049,0
+              -73.083006,6.888022,0
+              -73.08579,6.887294,0
+              -73.088953,6.883106,0
+              -73.084434,6.881645,0
+              -73.078373,6.880147,0
+              -73.076356,6.883278,0
+              -73.073759,6.884748,0
+              -73.076434,6.887623,0
+              -73.080393,6.888049,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $20,000</name>
+      <description><![CDATA[Descripción: SAN MIGUEL DE LA PRADA<br>FINCA EL PARAISO<br>CABAÑA VILLA SOFIA<br>EL MANDARINO<br>NIRVANA<br>VILLA DIYAN<br>PARADOR LA CAÑADA<br>Valor: 20000]]></description>
+      <styleUrl>#poly-880E4F-4000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>SAN MIGUEL DE LA PRADA
+FINCA EL PARAISO
+CABAÑA VILLA SOFIA
+EL MANDARINO
+NIRVANA
+VILLA DIYAN
+PARADOR LA CAÑADA</value>
+        </Data>
+        <Data name="Valor">
+          <value>20000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.083346,6.824256,0
+              -73.084415,6.823283,0
+              -73.085841,6.822363,0
+              -73.079843,6.816884,0
+              -73.075917,6.81349,0
+              -73.072968,6.811302,0
+              -73.070747,6.812652,0
+              -73.063582,6.817077,0
+              -73.064991,6.819942,0
+              -73.070306,6.821231,0
+              -73.07281,6.82163,0
+              -73.079137,6.82814,0
+              -73.083346,6.824256,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $15,000</name>
+      <description><![CDATA[Descripción: TIENDA DE LOS JUANES / LEON<br>PARQUE NACIONAL<br>VILLA LILIANA LODGE<br>SANTA MARIA REINA CONDOMINIO<br>CASA MESA<br>LA ACAITA<br>CONDOMINIO CHICAMOCHA DORADO<br>FRAILES CARMELITAS DESCALZOS<br>KUYTAWA HOTEL ANCESTRAL<br>PARADOR COLINAS DEL CAMPESTRE<br>FINCA EL ALTO INVERNADEROS<br>Valor: 15000]]></description>
+      <styleUrl>#poly-880E4F-4000-64</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIENDA DE LOS JUANES / LEON
+PARQUE NACIONAL
+VILLA LILIANA LODGE
+SANTA MARIA REINA CONDOMINIO
+CASA MESA
+LA ACAITA
+CONDOMINIO CHICAMOCHA DORADO
+FRAILES CARMELITAS DESCALZOS
+KUYTAWA HOTEL ANCESTRAL
+PARADOR COLINAS DEL CAMPESTRE
+FINCA EL ALTO INVERNADEROS</value>
+        </Data>
+        <Data name="Valor">
+          <value>15000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.055637,6.832072,0
+              -73.037305,6.820825,0
+              -73.031589,6.826322,0
+              -73.037691,6.835226,0
+              -73.039282,6.844366,0
+              -73.042083,6.8475,0
+              -73.044908,6.847815,0
+              -73.050058,6.846702,0
+              -73.049163,6.845632,0
+              -73.049202,6.844286,0
+              -73.045399,6.842454,0
+              -73.045207,6.839945,0
+              -73.049286,6.838251,0
+              -73.055637,6.832072,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $18,000</name>
+      <description><![CDATA[Descripción: VEREDA LA FUENTE<br>Valor: 18000]]></description>
+      <styleUrl>#poly-880E4F-4000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>VEREDA LA FUENTE</value>
+        </Data>
+        <Data name="Valor">
+          <value>18000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.105013,6.81773,0
+              -73.1063,6.815818,0
+              -73.103597,6.814246,0
+              -73.100464,6.812782,0
+              -73.098361,6.813362,0
+              -73.090262,6.819501,0
+              -73.097791,6.824675,0
+              -73.105013,6.81773,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8-$25.000</name>
+      <description><![CDATA[Descripción: VILLA BONITA<br>VILLA JOSEFINA<br>COLEGIO TABACAL<br>GRANJA CHAPARRAL<br>GRANNJA EL TOPO<br>HORIZONTE CHICAMOCHA<br>LAGO LOS PECES<br>CHALE DE LA MUJER<br>VILLA LOS FICUS<br>Valor: 25000]]></description>
+      <styleUrl>#poly-880E4F-4000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>VILLA BONITA
+VILLA JOSEFINA
+COLEGIO TABACAL
+GRANJA CHAPARRAL
+GRANNJA EL TOPO
+HORIZONTE CHICAMOCHA
+LAGO LOS PECES
+CHALE DE LA MUJER
+VILLA LOS FICUS</value>
+        </Data>
+        <Data name="Valor">
+          <value>25000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.066167,6.802996,0
+              -73.065105,6.802006,0
+              -73.062772,6.799374,0
+              -73.055158,6.795952,0
+              -73.04821,6.797323,0
+              -73.049612,6.804306,0
+              -73.059387,6.806688,0
+              -73.066167,6.802996,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8-$10,000</name>
+      <description><![CDATA[Descripción: MESA REDONDA<br>VILLA ELSITA<br>VILLAS DEL CHICAMOCHA CONDOMINIO<br>VILLA SANTA INES<br>TIENDA ARTESANAL SOLIDARIA EL PAVO REAL<br>VILLA PINZON<br>CONDOMINIO CAMPESTRE COLINAS DEL LAGO<br>VISOR DIRECTO FILMS<br>Valor: 10000]]></description>
+      <styleUrl>#poly-880E4F-4000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MESA REDONDA
+VILLA ELSITA
+VILLAS DEL CHICAMOCHA CONDOMINIO
+VILLA SANTA INES
+TIENDA ARTESANAL SOLIDARIA EL PAVO REAL
+VILLA PINZON
+CONDOMINIO CAMPESTRE COLINAS DEL LAGO
+VISOR DIRECTO FILMS</value>
+        </Data>
+        <Data name="Valor">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.056026,6.848612,0
+              -73.054347,6.847632,0
+              -73.053419,6.848867,0
+              -73.051957,6.847847,0
+              -73.045216,6.851152,0
+              -73.045769,6.855504,0
+              -73.053684,6.856201,0
+              -73.057725,6.852912,0
+              -73.056026,6.848612,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9,000</name>
+      <description><![CDATA[Descripción: VILLA JULIANA<br>HACIENDA EL ROBLE<br>FINCA EL ROBLE<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-5000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>VILLA JULIANA
+HACIENDA EL ROBLE
+FINCA EL ROBLE</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.053916,6.871811,0
+              -73.054474,6.871225,0
+              -73.052918,6.870107,0
+              -73.053615,6.867348,0
+              -73.052972,6.865516,0
+              -73.050407,6.865228,0
+              -73.050397,6.870831,0
+              -73.053916,6.871811,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9.000</name>
+      <description><![CDATA[Descripción: MERCADO CAMPESINO ($8.000)<br>La lunera H-12<br>Hacienda palomares<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-5000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MERCADO CAMPESINO ($8.000)
+La lunera H-12
+Hacienda palomares</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.066858,6.857347,0
+              -73.06953,6.856836,0
+              -73.070227,6.852681,0
+              -73.068114,6.851297,0
+              -73.065635,6.850668,0
+              -73.06128,6.855349,0
+              -73.064059,6.856348,0
+              -73.066858,6.857347,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $12.000</name>
+      <description><![CDATA[Descripción: ENTRE PINOS CASA DE CAMPO<br>FINCA EL LAGO<br>CASA ENCANTO CAMPESTRE<br>CASTELLON DE LA SIERRA<br>HOTEL CAMPESTRE EL ENSUEÑO<br>GRANJA EL RETIRO<br>OYE BONITA<br>CONDOMINIO LA PRADERA<br>CABRIO DE COLOMBIA<br>Valor: 12000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ENTRE PINOS CASA DE CAMPO
+FINCA EL LAGO
+CASA ENCANTO CAMPESTRE
+CASTELLON DE LA SIERRA
+HOTEL CAMPESTRE EL ENSUEÑO
+GRANJA EL RETIRO
+OYE BONITA
+CONDOMINIO LA PRADERA
+CABRIO DE COLOMBIA</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.045493,6.878725,0
+              -73.050106,6.876275,0
+              -73.051179,6.873569,0
+              -73.047746,6.868137,0
+              -73.046094,6.86802,0
+              -73.044828,6.869117,0
+              -73.045922,6.874975,0
+              -73.043476,6.876765,0
+              -73.044943,6.877433,0
+              -73.045493,6.878725,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $17,000</name>
+      <description><![CDATA[Descripción: GRANJA TRINITARIOS<br>FLOR DE LOS SANTOS<br>GRANJA AVICOLA MONTECIELO<br>FINCA MONTEBELLO<br>GRANJAS AVICOLAS BELLA SUIZA<br>PARCELA EL MAESTRO<br>Valor: 17000]]></description>
+      <styleUrl>#poly-880E4F-5000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>GRANJA TRINITARIOS
+FLOR DE LOS SANTOS
+GRANJA AVICOLA MONTECIELO
+FINCA MONTEBELLO
+GRANJAS AVICOLAS BELLA SUIZA
+PARCELA EL MAESTRO</value>
+        </Data>
+        <Data name="Valor">
+          <value>17000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.049113,6.922751,0
+              -73.053165,6.923053,0
+              -73.058487,6.921935,0
+              -73.057493,6.917436,0
+              -73.054142,6.916067,0
+              -73.051867,6.915619,0
+              -73.049614,6.916546,0
+              -73.045819,6.920536,0
+              -73.049113,6.922751,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $25,000</name>
+      <description><![CDATA[Descripción: VEREDA LA NAVARRA AL FINAL (ZONA DE DIFICIL ACCESO)<br>GRANJA CASTAÑO<br>Valor: 25000]]></description>
+      <styleUrl>#poly-880E4F-5000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>VEREDA LA NAVARRA AL FINAL (ZONA DE DIFICIL ACCESO)
+GRANJA CASTAÑO</value>
+        </Data>
+        <Data name="Valor">
+          <value>25000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.047986,6.930707,0
+              -73.052279,6.934269,0
+              -73.055197,6.931223,0
+              -73.053362,6.927772,0
+              -73.051206,6.928518,0
+              -73.049644,6.92867,0
+              -73.047986,6.930707,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $17,000</name>
+      <description><![CDATA[Descripción: ENTRANDO VEREDA LA NAVARRA<br>FINCA TOCALIMA<br>Valor: 17000]]></description>
+      <styleUrl>#poly-880E4F-5000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ENTRANDO VEREDA LA NAVARRA
+FINCA TOCALIMA</value>
+        </Data>
+        <Data name="Valor">
+          <value>17000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.047986,6.930707,0
+              -73.049644,6.92867,0
+              -73.045739,6.925784,0
+              -73.043706,6.927161,0
+              -73.047986,6.930707,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $7.000</name>
+      <description><![CDATA[Descripción: GRANJA MARTIN TOURS<br>GRANJA SAN FRANCISCO<br>VILLA DAYAN<br>TANABUCA<br>Valor: 7000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>GRANJA MARTIN TOURS
+GRANJA SAN FRANCISCO
+VILLA DAYAN
+TANABUCA</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.053397,6.884102,0
+              -73.05223,6.890267,0
+              -73.052496,6.891552,0
+              -73.053627,6.891737,0
+              -73.05416,6.891765,0
+              -73.054586,6.891006,0
+              -73.055225,6.887036,0
+              -73.060525,6.885162,0
+              -73.059807,6.883319,0
+              -73.055253,6.882994,0
+              -73.053397,6.884102,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $12.000</name>
+      <description><![CDATA[Descripción: GRANJA AVICOLA TAYRONA<br>FINCA ORLY<br>Valor: 12000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>GRANJA AVICOLA TAYRONA
+FINCA ORLY</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.065921,6.873357,0
+              -73.063764,6.873729,0
+              -73.065176,6.879188,0
+              -73.073759,6.884748,0
+              -73.076356,6.883278,0
+              -73.078373,6.880147,0
+              -73.065921,6.873357,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $12,000</name>
+      <description><![CDATA[Descripción: SAUCES<br>HUERTA BIOLOGICA<br>ESCUELA RURAL<br>MI CASITA BLANCA<br>FINCA LA FORTUNA<br>APICOLA SANTA LUCIA<br>MI CASITA BLANCA<br>Valor: 12000]]></description>
+      <styleUrl>#poly-880E4F-5000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>SAUCES
+HUERTA BIOLOGICA
+ESCUELA RURAL
+MI CASITA BLANCA
+FINCA LA FORTUNA
+APICOLA SANTA LUCIA
+MI CASITA BLANCA</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.064477,6.891816,0
+              -73.070121,6.895314,0
+              -73.072374,6.895143,0
+              -73.081107,6.890776,0
+              -73.07718,6.888305,0
+              -73.076434,6.887623,0
+              -73.073759,6.884748,0
+              -73.068512,6.887815,0
+              -73.064477,6.891816,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9,000</name>
+      <description><![CDATA[Descripción: FINCA EL ENSUEÑO<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>FINCA EL ENSUEÑO</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.05416,6.891765,0
+              -73.052496,6.891552,0
+              -73.051752,6.895309,0
+              -73.052513,6.896673,0
+              -73.054251,6.895884,0
+              -73.05416,6.891765,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $9,000</name>
+      <description><![CDATA[Descripción: GRANJA AVICOLA LOS ANDES<br>GRANJA CAMPIÑA MADROÑO<br>VILLA MILATHO<br>FERRETERIA Y MADERAS BADILLO - FINCA MONTEREY<br>Valor: 9000]]></description>
+      <styleUrl>#poly-880E4F-5000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>GRANJA AVICOLA LOS ANDES
+GRANJA CAMPIÑA MADROÑO
+VILLA MILATHO
+FERRETERIA Y MADERAS BADILLO - FINCA MONTEREY</value>
+        </Data>
+        <Data name="Valor">
+          <value>9000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.056615,6.894961,0
+              -73.055066,6.89796,0
+              -73.060698,6.901316,0
+              -73.062469,6.899952,0
+              -73.060709,6.896991,0
+              -73.059229,6.896427,0
+              -73.059437,6.89552,0
+              -73.056615,6.894961,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $10.000</name>
+      <description><![CDATA[Descripción: HACIENDA VISTA HERMOSA<br>ESCUELA LA ESPERANZA<br>GRANJA VILLA DEL CARMEN<br>GRANJA VISTA HERMOSA<br>Valor: 10000]]></description>
+      <styleUrl>#poly-880E4F-4000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HACIENDA VISTA HERMOSA
+ESCUELA LA ESPERANZA
+GRANJA VILLA DEL CARMEN
+GRANJA VISTA HERMOSA</value>
+        </Data>
+        <Data name="Valor">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.060766,6.901286,0
+              -73.06023,6.902734,0
+              -73.059886,6.906579,0
+              -73.065165,6.906547,0
+              -73.06436,6.903277,0
+              -73.062469,6.899952,0
+              -73.060766,6.901286,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $10,000</name>
+      <description><![CDATA[Descripción: FINCA LA FLORESTA<br>VILLAS NAMASTE<br>FINCA BRACHO<br>CASA DEL ALFARERO RETIROS ESPIRITUALES<br>FINCA LAS BEGONIAS<br>GRANJA SULTANA<br>INCUBADORA DE SANTANDER<br>UNIFORMES Y VARIEDADES LA ESPERANZA<br>Valor: 10000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>FINCA LA FLORESTA
+VILLAS NAMASTE
+FINCA BRACHO
+CASA DEL ALFARERO RETIROS ESPIRITUALES
+FINCA LAS BEGONIAS
+GRANJA SULTANA
+INCUBADORA DE SANTANDER
+UNIFORMES Y VARIEDADES LA ESPERANZA</value>
+        </Data>
+        <Data name="Valor">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.062469,6.899952,0
+              -73.06436,6.903277,0
+              -73.070435,6.900441,0
+              -73.071916,6.897107,0
+              -73.068955,6.895435,0
+              -73.065082,6.8947,0
+              -73.062469,6.899952,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $12.000</name>
+      <description><![CDATA[Descripción: TIENDA SOFI<br>DONDE LA MONA<br>HACIENDA SAN PABLO<br>VINAJE CASA DE CAMPO<br>Valor: 12000]]></description>
+      <styleUrl>#poly-880E4F-5000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>TIENDA SOFI
+DONDE LA MONA
+HACIENDA SAN PABLO
+VINAJE CASA DE CAMPO</value>
+        </Data>
+        <Data name="Valor">
+          <value>12000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.070435,6.900441,0
+              -73.074672,6.900717,0
+              -73.07774,6.8965,0
+              -73.075208,6.895221,0
+              -73.071916,6.897107,0
+              -73.070435,6.900441,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $14,000</name>
+      <description><![CDATA[Descripción: GLAMPING MIRADOR DEL CIELO<br>Valor: 14000]]></description>
+      <styleUrl>#poly-880E4F-4000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>GLAMPING MIRADOR DEL CIELO</value>
+        </Data>
+        <Data name="Valor">
+          <value>14000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.075015,6.90027,0
+              -73.077086,6.901336,0
+              -73.081034,6.89651,0
+              -73.079586,6.895744,0
+              -73.076946,6.89961,0
+              -73.075863,6.899088,0
+              -73.075015,6.90027,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $35,000</name>
+      <description><![CDATA[Descripción: LOS SANTOS PUEBLO<br>Valor: 35000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>LOS SANTOS PUEBLO</value>
+        </Data>
+        <Data name="Valor">
+          <value>35000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.106419,6.764606,0
+              -73.116848,6.758256,0
+              -73.101913,6.746237,0
+              -73.073632,6.763838,0
+              -73.076121,6.768399,0
+              -73.085619,6.769499,0
+              -73.093,6.769669,0
+              -73.106419,6.764606,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $14,000</name>
+      <description><![CDATA[Descripción: CONDOMINIO LA PRADERA<br>EL CIELO<br>VILLA LINA<br>CONDOMINIO EL MOLINO<br>JDOM CAMP<br>CABAÑA EL GIRASOL<br>VILLA XERIDAS<br>FINCA MIA CANELA<br>VILLA PAULA CASA DE CAMPO<br>FRIENDLY HOSTAL<br>LA HERRADURA DORADA<br>CONDOMINIO PORTAL DEL SOL<br>Valor: 14000]]></description>
+      <styleUrl>#poly-880E4F-4000-64</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CONDOMINIO LA PRADERA
+EL CIELO
+VILLA LINA
+CONDOMINIO EL MOLINO
+JDOM CAMP
+CABAÑA EL GIRASOL
+VILLA XERIDAS
+FINCA MIA CANELA
+VILLA PAULA CASA DE CAMPO
+FRIENDLY HOSTAL
+LA HERRADURA DORADA
+CONDOMINIO PORTAL DEL SOL</value>
+        </Data>
+        <Data name="Valor">
+          <value>14000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.053987,6.841296,0
+              -73.057997,6.843769,0
+              -73.064059,6.843055,0
+              -73.066725,6.83963,0
+              -73.062997,6.836972,0
+              -73.059886,6.833052,0
+              -73.055637,6.832072,0
+              -73.049286,6.838251,0
+              -73.053987,6.841296,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $17,000</name>
+      <description><![CDATA[Descripción: CABAÑAS BALCONES DE LOS SANTOS<br>HOSTAL BOUTIQUE LA TORRE<br>CABAÑAS VIEJOEFRA<br>Valor: 17000]]></description>
+      <styleUrl>#poly-880E4F-3000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CABAÑAS BALCONES DE LOS SANTOS
+HOSTAL BOUTIQUE LA TORRE
+CABAÑAS VIEJOEFRA</value>
+        </Data>
+        <Data name="Valor">
+          <value>17000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.091611,6.824824,0
+              -73.092942,6.826304,0
+              -73.094615,6.82753,0
+              -73.097791,6.824675,0
+              -73.094259,6.822202,0
+              -73.091611,6.824824,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $25,000</name>
+      <description><![CDATA[Descripción: ECOLODGE VISTA HERMOSA<br>VILLA CECI<br>PARCELA DUBAI<br>GRANJA MESITAS<br>LAS MARIAS CASA DE CAMPO<br>Valor: 25000]]></description>
+      <styleUrl>#poly-880E4F-5000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ECOLODGE VISTA HERMOSA
+VILLA CECI
+PARCELA DUBAI
+GRANJA MESITAS
+LAS MARIAS CASA DE CAMPO</value>
+        </Data>
+        <Data name="Valor">
+          <value>25000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.102888,6.81978,0
+              -73.103339,6.824808,0
+              -73.104841,6.825916,0
+              -73.125548,6.824766,0
+              -73.125247,6.81635,0
+              -73.105013,6.81773,0
+              -73.102888,6.81978,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $10,000</name>
+      <description><![CDATA[Descripción: CONJUNTO LA LOMITA DEL MADRIGAL<br>GRANJA POMORROSO 3 Y 4<br>Valor: 10000]]></description>
+      <styleUrl>#poly-880E4F-5000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CONJUNTO LA LOMITA DEL MADRIGAL
+GRANJA POMORROSO 3 Y 4</value>
+        </Data>
+        <Data name="Valor">
+          <value>10000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.033345,6.8764,0
+              -73.035704,6.875984,0
+              -73.035188,6.873428,0
+              -73.038579,6.868315,0
+              -73.03491,6.866653,0
+              -73.031627,6.873108,0
+              -73.033345,6.8764,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $16,000</name>
+      <description><![CDATA[Descripción: FINCA MAURICIO<br>SANTA MARIA COFFEE SHOP<br>CONDOMINIO MESA DE LOS SANTOS (20,000)<br>BODEGA CLASIFICADORA<br>PARCELITA CONDOMINIO MESA DE LOS SANTOS<br>Valor: 16000]]></description>
+      <styleUrl>#poly-880E4F-6000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>FINCA MAURICIO
+SANTA MARIA COFFEE SHOP
+CONDOMINIO MESA DE LOS SANTOS (20,000)
+BODEGA CLASIFICADORA
+PARCELITA CONDOMINIO MESA DE LOS SANTOS</value>
+        </Data>
+        <Data name="Valor">
+          <value>16000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.0773,6.834681,0
+              -73.079156,6.833403,0
+              -73.07988,6.832711,0
+              -73.079137,6.82814,0
+              -73.07281,6.82163,0
+              -73.070306,6.821231,0
+              -73.06344,6.827261,0
+              -73.066701,6.830883,0
+              -73.070392,6.827602,0
+              -73.0773,6.834681,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $20,000</name>
+      <description><![CDATA[Descripción: ESTACIÓN TELEFERICO<br>PANACHI<br>PARCELA VILLA DOLLY<br>PARCELA LAS HUELLAS<br>EL LOTE L<br>BRISAS 1 Y 2<br>VILLA LILIANA<br>Valor: 20000]]></description>
+      <styleUrl>#poly-880E4F-5000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ESTACIÓN TELEFERICO
+PANACHI
+PARCELA VILLA DOLLY
+PARCELA LAS HUELLAS
+EL LOTE L
+BRISAS 1 Y 2
+VILLA LILIANA</value>
+        </Data>
+        <Data name="Valor">
+          <value>20000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.063582,6.817077,0
+              -73.072968,6.811302,0
+              -73.066735,6.807459,0
+              -73.059387,6.806688,0
+              -73.049612,6.804306,0
+              -73.047166,6.80944,0
+              -73.058431,6.815385,0
+              -73.063582,6.817077,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $12,000</name>
+      <description><![CDATA[Descripción: VILLA LIGIA<br>VOODOO MARKETING<br>ESTACIÓN BIOLOGICA GUAYACANAL<br>CONJUNTO PLAYAS DE ACUARELA<br>LA PATRONA<br>CONJUNTO EL MIRADOR<br>CERVECERIA BIER VOR EDER<br>CENTRO VACACIONAL MI CABAÑA<br>Valor: 120000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>VILLA LIGIA
+VOODOO MARKETING
+ESTACIÓN BIOLOGICA GUAYACANAL
+CONJUNTO PLAYAS DE ACUARELA
+LA PATRONA
+CONJUNTO EL MIRADOR
+CERVECERIA BIER VOR EDER
+CENTRO VACACIONAL MI CABAÑA</value>
+        </Data>
+        <Data name="Valor">
+          <value>120000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.065293,6.863921,0
+              -73.075206,6.869715,0
+              -73.092372,6.858424,0
+              -73.080184,6.850201,0
+              -73.071516,6.854334,0
+              -73.071146,6.859103,0
+              -73.066517,6.862473,0
+              -73.065293,6.863921,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $25,000</name>
+      <description><![CDATA[Descripción: SALTO MI VEREDA<br>LA PURNIA<br>MIRADOR DE GERIDAD<br>TIENDA 3 ESQUINAS<br>FINCA VILLA DIANA<br>FINCA VALLE DE ROCAS VEREDA LA PURNIA<br>TIENDA EL RAMAL<br>TIERRA BELLA<br>Valor: 25000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>SALTO MI VEREDA
+LA PURNIA
+MIRADOR DE GERIDAD
+TIENDA 3 ESQUINAS
+FINCA VILLA DIANA
+FINCA VALLE DE ROCAS VEREDA LA PURNIA
+TIENDA EL RAMAL
+TIERRA BELLA</value>
+        </Data>
+        <Data name="Valor">
+          <value>25000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.088953,6.883106,0
+              -73.102941,6.882498,0
+              -73.111738,6.866904,0
+              -73.102383,6.858809,0
+              -73.078822,6.870824,0
+              -73.078373,6.880147,0
+              -73.084434,6.881645,0
+              -73.088953,6.883106,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $14,000</name>
+      <description><![CDATA[Descripción: ESCUELA BRISAS DEL MAJADAL SEDE D<br>FINCA CAPITAN ANGARITA<br>VILLA PATRICIA<br>GRANJA SAN ALBERTO<br>STA MARIA<br>TRES MARIAS<br>Valor: 14000]]></description>
+      <styleUrl>#poly-880E4F-4000-64</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>ESCUELA BRISAS DEL MAJADAL SEDE D
+FINCA CAPITAN ANGARITA
+VILLA PATRICIA
+GRANJA SAN ALBERTO
+STA MARIA
+TRES MARIAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>14000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.084866,6.853306,0
+              -73.092441,6.844741,0
+              -73.08448,6.840182,0
+              -73.0793,6.840918,0
+              -73.076937,6.84437,0
+              -73.07727,6.848342,0
+              -73.080184,6.850201,0
+              -73.084866,6.853306,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $16,000</name>
+      <description><![CDATA[Descripción: MIRADOR DEL VALLE<br>CASA LA MAR<br>VISTA HERMOSA<br>VILLA SAN JUDAS<br>GRANJA VILLA MARGARITA<br>CLUB AVIACION DE SANTANDER<br>Valor: 16000]]></description>
+      <styleUrl>#poly-880E4F-3000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MIRADOR DEL VALLE
+CASA LA MAR
+VISTA HERMOSA
+VILLA SAN JUDAS
+GRANJA VILLA MARGARITA
+CLUB AVIACION DE SANTANDER</value>
+        </Data>
+        <Data name="Valor">
+          <value>16000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.09042,6.843502,0
+              -73.094046,6.83709,0
+              -73.09323,6.834938,0
+              -73.082008,6.83464,0
+              -73.081107,6.836792,0
+              -73.08448,6.840182,0
+              -73.09042,6.843502,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $17,000</name>
+      <description><![CDATA[Descripción: CONJUNTO MIADOR GERIDAS<br>LA TRANQUILA B&B LOS SANTOS<br>PARCELACION EL CHALET<br>GRANJA LA CUSTODIA<br>VILLA ROSABEL<br>PARCELACION LAS GAVIOTAS<br>Valor: 17000]]></description>
+      <styleUrl>#poly-880E4F-3000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value><![CDATA[CONJUNTO MIADOR GERIDAS
+LA TRANQUILA B&B LOS SANTOS
+PARCELACION EL CHALET
+GRANJA LA CUSTODIA
+VILLA ROSABEL
+PARCELACION LAS GAVIOTAS]]></value>
+        </Data>
+        <Data name="Valor">
+          <value>17000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.093482,6.838134,0
+              -73.09286,6.839306,0
+              -73.095092,6.839796,0
+              -73.097323,6.84231,0
+              -73.094572,6.849596,0
+              -73.103399,6.850043,0
+              -73.104844,6.846954,0
+              -73.102709,6.841628,0
+              -73.103203,6.837473,0
+              -73.098954,6.837026,0
+              -73.100606,6.829782,0
+              -73.096766,6.828994,0
+              -73.095864,6.829761,0
+              -73.097173,6.831103,0
+              -73.095414,6.837899,0
+              -73.093482,6.838134,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $11,000</name>
+      <description><![CDATA[Descripción: CONJUNTO ENTRE LAGOS<br>GRANJA EL HATO<br>VILLA LIS<br>CAMINO DE SANTO DOMINGO<br>Valor: 11000]]></description>
+      <styleUrl>#poly-880E4F-4000-74</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CONJUNTO ENTRE LAGOS
+GRANJA EL HATO
+VILLA LIS
+CAMINO DE SANTO DOMINGO</value>
+        </Data>
+        <Data name="Valor">
+          <value>11000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.034478,6.907432,0
+              -73.046452,6.916805,0
+              -73.051816,6.914973,0
+              -73.053919,6.89921,0
+              -73.046537,6.894352,0
+              -73.039585,6.901681,0
+              -73.035637,6.903811,0
+              -73.034478,6.907432,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $22,000</name>
+      <description><![CDATA[Descripción: <br>Valor: 22000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value/>
+        </Data>
+        <Data name="Valor">
+          <value>22000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.1063,6.815818,0
+              -73.122063,6.810166,0
+              -73.115755,6.798789,0
+              -73.100133,6.809016,0
+              -73.097773,6.810038,0
+              -73.098361,6.813362,0
+              -73.100464,6.812782,0
+              -73.1063,6.815818,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $22,000</name>
+      <description><![CDATA[Descripción: COLINA BIO HOTEL<br>Valor: 22000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>COLINA BIO HOTEL</value>
+        </Data>
+        <Data name="Valor">
+          <value>22000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.0385,6.925666,0
+              -73.03541,6.922492,0
+              -73.033071,6.923983,0
+              -73.036719,6.926497,0
+              -73.0385,6.925666,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $30,000</name>
+      <description><![CDATA[Descripción: <br>Valor: 30000]]></description>
+      <styleUrl>#poly-880E4F-4000-66</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value/>
+        </Data>
+        <Data name="Valor">
+          <value>30000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.098448,6.80958,0
+              -73.100133,6.809016,0
+              -73.112439,6.800802,0
+              -73.103169,6.788955,0
+              -73.088578,6.796199,0
+              -73.098448,6.80958,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z8 - $30,000</name>
+      <description><![CDATA[Descripción: <br>Valor: 30000]]></description>
+      <styleUrl>#poly-880E4F-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value/>
+        </Data>
+        <Data name="Valor">
+          <value>30000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.103169,6.788955,0
+              -73.118126,6.776713,0
+              -73.114725,6.766628,0
+              -73.093,6.769669,0
+              -73.085619,6.769499,0
+              -73.082486,6.775763,0
+              -73.084803,6.789102,0
+              -73.088578,6.796199,0
+              -73.103169,6.788955,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

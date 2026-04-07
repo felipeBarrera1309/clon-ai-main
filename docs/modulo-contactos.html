@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Módulo de Contactos — Echo AI</title>
+  <style>
+    :root {
+      --brand: #2563eb;
+      --brand-light: #eff6ff;
+      --brand-border: #bfdbfe;
+      --accent: #7c3aed;
+      --green: #16a34a;
+      --green-light: #f0fdf4;
+      --red: #dc2626;
+      --red-light: #fef2f2;
+      --orange: #ea580c;
+      --orange-light: #fff7ed;
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-400: #9ca3af;
+      --gray-600: #4b5563;
+      --gray-700: #374151;
+      --gray-800: #1f2937;
+      --gray-900: #111827;
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--gray-800);
+      background: #fff;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 48px;
+    }
+
+    /* ── COVER ─────────────────────────────────────────────── */
+    .cover {
+      text-align: center;
+      padding: 60px 0 50px;
+      border-bottom: 2px solid var(--gray-200);
+      margin-bottom: 48px;
+    }
+    .cover .badge {
+      display: inline-block;
+      background: var(--brand-light);
+      color: var(--brand);
+      border: 1px solid var(--brand-border);
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      padding: 4px 14px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+    .cover h1 {
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--gray-900);
+      margin-bottom: 10px;
+    }
+    .cover p {
+      font-size: 16px;
+      color: var(--gray-600);
+      max-width: 520px;
+      margin: 0 auto 24px;
+    }
+    .cover .meta {
+      font-size: 12px;
+      color: var(--gray-400);
+    }
+
+    /* ── TOC ────────────────────────────────────────────────── */
+    .toc {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      margin-bottom: 48px;
+    }
+    .toc h2 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      color: var(--gray-600);
+      margin-bottom: 14px;
+    }
+    .toc ol {
+      padding-left: 18px;
+    }
+    .toc li {
+      margin-bottom: 4px;
+    }
+    .toc a {
+      color: var(--brand);
+      text-decoration: none;
+      font-size: 13.5px;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .toc li.sub {
+      padding-left: 16px;
+      list-style: none;
+    }
+    .toc li.sub::before { content: "↳ "; color: var(--gray-400); }
+
+    /* ── SECTION HEADINGS ──────────────────────────────────── */
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin: 48px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--brand-border);
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--gray-800);
+      margin: 28px 0 10px;
+    }
+    h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--brand);
+      margin: 18px 0 6px;
+    }
+
+    p { margin-bottom: 10px; }
+
+    /* ── INFO BOXES ─────────────────────────────────────────── */
+    .box {
+      border-radius: var(--radius);
+      padding: 14px 18px;
+      margin: 16px 0;
+      border-left: 4px solid;
+    }
+    .box.info   { background: var(--brand-light);  border-color: var(--brand);  color: #1e40af; }
+    .box.tip    { background: var(--green-light);  border-color: var(--green);  color: #166534; }
+    .box.warn   { background: var(--orange-light); border-color: var(--orange); color: #9a3412; }
+    .box.danger { background: var(--red-light);    border-color: var(--red);    color: #991b1b; }
+    .box strong { display: block; margin-bottom: 4px; font-size: 13px; text-transform: uppercase; letter-spacing: .4px; }
+
+    /* ── CODE ───────────────────────────────────────────────── */
+    pre {
+      background: #1e1e2e;
+      color: #cdd6f4;
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      overflow-x: auto;
+      font-size: 12.5px;
+      line-height: 1.6;
+      margin: 14px 0;
+    }
+    code {
+      font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+    }
+    p code, li code, td code {
+      background: var(--gray-100);
+      border: 1px solid var(--gray-200);
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 12px;
+    }
+
+    /* ── TABLES ─────────────────────────────────────────────── */
+    .table-wrap { overflow-x: auto; margin: 16px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    thead tr { background: var(--brand); color: #fff; }
+    thead th { padding: 10px 14px; text-align: left; font-weight: 600; }
+    tbody tr:nth-child(even) { background: var(--gray-50); }
+    tbody td { padding: 9px 14px; border-bottom: 1px solid var(--gray-200); vertical-align: top; }
+    tbody td:first-child { font-weight: 600; color: var(--gray-700); }
+
+    /* ── FUNCTION CARDS ─────────────────────────────────────── */
+    .fn-card {
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin: 14px 0;
+    }
+    .fn-card .fn-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .fn-card .fn-name {
+      font-size: 14px;
+      font-weight: 700;
+      font-family: 'Cascadia Code', monospace;
+      color: var(--gray-900);
+    }
+    .fn-card .fn-type {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .fn-type.query    { background: #dbeafe; color: #1d4ed8; }
+    .fn-type.mutation { background: #fce7f3; color: #be185d; }
+    .fn-type.action   { background: #ede9fe; color: #6d28d9; }
+    .fn-type.internal { background: #f3f4f6; color: #374151; }
+    .fn-card .fn-desc { color: var(--gray-600); font-size: 13px; margin-bottom: 8px; }
+    .fn-card ul { padding-left: 18px; color: var(--gray-700); font-size: 13px; }
+    .fn-card li { margin-bottom: 3px; }
+    .fn-card .fn-path {
+      margin-top: 10px;
+      font-size: 11px;
+      color: var(--gray-400);
+      font-family: monospace;
+    }
+
+    /* ── COMPONENT CARDS ────────────────────────────────────── */
+    .comp-card {
+      border: 1px solid var(--brand-border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin: 14px 0;
+      background: var(--brand-light);
+    }
+    .comp-card h4 { margin-top: 0; }
+    .comp-card ul { padding-left: 18px; font-size: 13px; color: #1e40af; }
+    .comp-card li { margin-bottom: 3px; }
+    .comp-card .comp-path {
+      font-size: 11px;
+      color: var(--brand);
+      font-family: monospace;
+      margin-bottom: 8px;
+    }
+
+    /* ── FLOW DIAGRAM ───────────────────────────────────────── */
+    .flow {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin: 16px 0;
+      font-size: 13px;
+    }
+    .flow .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 6px 0;
+    }
+    .flow .step-num {
+      min-width: 24px;
+      height: 24px;
+      background: var(--brand);
+      color: #fff;
+      border-radius: 50%;
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+    }
+    .flow .step-connector {
+      border-left: 2px dashed var(--gray-300);
+      margin-left: 11px;
+      height: 16px;
+    }
+
+    /* ── BADGES ─────────────────────────────────────────────── */
+    .badge-status {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+    .badge-status.active   { background: #dcfce7; color: #15803d; }
+    .badge-status.blocked  { background: #fee2e2; color: #b91c1c; }
+    .badge-status.new      { background: #e0e7ff; color: #4338ca; }
+    .badge-status.existing { background: #fef9c3; color: #92400e; }
+
+    /* ── DIVIDER ─────────────────────────────────────────────── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--gray-200);
+      margin: 40px 0;
+    }
+
+    /* ── PRINT ───────────────────────────────────────────────── */
+    @media print {
+      body { padding: 20px; max-width: 100%; }
+      pre { font-size: 11px; }
+      h2 { page-break-before: always; }
+      .cover { page-break-after: always; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════════
+     PORTADA
+═══════════════════════════════════════════════════════════════ -->
+<div class="cover">
+  <div class="badge">Documentación Técnica</div>
+  <h1>Módulo de Contactos</h1>
+  <p>Guía completa para entender, usar y desarrollar el módulo de gestión de contactos de la plataforma Echo AI.</p>
+  <div class="meta">Echo AI — Plataforma de Gestión de Restaurantes · Última actualización: Marzo 2026</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     TABLA DE CONTENIDOS
+═══════════════════════════════════════════════════════════════ -->
+<nav class="toc">
+  <h2>Tabla de Contenidos</h2>
+  <ol>
+    <li><a href="#que-es">¿Qué es un Contacto?</a></li>
+    <li><a href="#para-el-cliente">Cómo lo ve el cliente (restaurante)</a></li>
+    <li><a href="#arquitectura">Arquitectura general</a></li>
+    <li><a href="#schema">Estructura de datos (Base de Datos)</a></li>
+    <li><a href="#backend">Backend — Funciones del servidor</a>
+      <li class="sub"><a href="#backend-public">API Pública</a></li>
+      <li class="sub"><a href="#backend-private">API del Dashboard</a></li>
+      <li class="sub"><a href="#backend-system">API Interna / Sistema</a></li>
+      <li class="sub"><a href="#backend-model">Capa Modelo</a></li>
+      <li class="sub"><a href="#backend-aggregate">Agregado</a></li>
+    </li>
+    <li><a href="#frontend">Frontend — Interfaz de usuario</a>
+      <li class="sub"><a href="#contacts-view">Vista Principal</a></li>
+      <li class="sub"><a href="#edit-dialog">Editar Contacto</a></li>
+      <li class="sub"><a href="#import-dialog">Importar Contactos (CSV)</a></li>
+      <li class="sub"><a href="#selector-dialog">Selector para Campañas</a></li>
+      <li class="sub"><a href="#export">Exportar a CSV</a></li>
+    </li>
+    <li><a href="#phone-normalization">Normalización de teléfonos</a></li>
+    <li><a href="#flujos">Flujos de datos</a></li>
+    <li><a href="#relaciones">Relaciones con otras entidades</a></li>
+    <li><a href="#guia-dev">Guía para el desarrollador</a></li>
+  </ol>
+</nav>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     1. ¿QUÉ ES UN CONTACTO?
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="que-es">1. ¿Qué es un Contacto?</h2>
+
+<p>Un <strong>Contacto</strong> representa a un cliente del restaurante que alguna vez se comunicó a través de WhatsApp (o fue importado manualmente). Es la entidad central que vincula a una persona real con sus conversaciones, pedidos y preferencias.</p>
+
+<div class="box info">
+  <strong>Concepto clave</strong>
+  Un contacto NO es un usuario de la plataforma. Es el cliente final que ordena comida. Los administradores del restaurante son usuarios; sus clientes son contactos.
+</div>
+
+<p>Cada contacto pertenece a <strong>una sola organización</strong> (restaurante). Dos organizaciones distintas pueden tener el mismo número telefónico registrado como contactos independientes — no se comparten.</p>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     2. CÓMO LO VE EL CLIENTE
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="para-el-cliente">2. Cómo lo ve el cliente (restaurante)</h2>
+
+<p>Desde la perspectiva de un administrador de restaurante que usa el dashboard web, el módulo de contactos permite:</p>
+
+<h3>Pantalla principal de Contactos</h3>
+<p>Al entrar al menú <strong>Contactos</strong> se muestra una tabla (o tarjetas en móvil) con todos los clientes:</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th>Columna</th>
+      <th>Qué muestra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Contacto</td><td>Avatar con iniciales + nombre completo</td></tr>
+    <tr><td>Teléfono</td><td>Número normalizado (ej. 573001234567)</td></tr>
+    <tr><td>Fecha de registro</td><td>dd/MM/yyyy + tiempo relativo ("hace 3 días")</td></tr>
+    <tr><td>Estado</td><td><span class="badge-status active">Activo</span> o <span class="badge-status blocked">Bloqueado</span></td></tr>
+    <tr><td>Conversaciones</td><td>Total + estado de la última (Sin resolver / Escalada / Resuelta)</td></tr>
+    <tr><td>Pedidos</td><td>Cantidad de pedidos realizados</td></tr>
+    <tr><td>Última dirección</td><td>Dirección de entrega del último pedido</td></tr>
+    <tr><td>Última actividad</td><td>Tiempo desde el último mensaje ("hace 2 horas")</td></tr>
+    <tr><td>Acciones</td><td>Menú: Editar · Bloquear/Desbloquear</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Búsqueda y paginación</h3>
+<ul>
+  <li>Campo de búsqueda en tiempo real por nombre o teléfono (debounce 300ms).</li>
+  <li>Selector de cantidad por página: 10, 20 ó 50 contactos.</li>
+  <li>Navegación con botones Anterior / Siguiente usando cursores.</li>
+</ul>
+
+<h3>Acciones disponibles</h3>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Acción</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Editar contacto</td><td>Cambiar nombre, dirección, o bloquear/desbloquear</td></tr>
+    <tr><td>Bloquear</td><td>Impide que el cliente inicie nuevas conversaciones. El historial se conserva.</td></tr>
+    <tr><td>Desbloquear</td><td>Reactiva al cliente bloqueado</td></tr>
+    <tr><td>Exportar CSV</td><td>Descarga todos los contactos en un archivo .csv</td></tr>
+    <tr><td>Importar CSV</td><td>Carga masiva de contactos desde un archivo CSV</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Importación masiva</h3>
+<p>El administrador puede importar cientos de contactos cargando un CSV. El proceso tiene 4 pasos:</p>
+<div class="flow">
+  <div class="step"><div class="step-num">1</div><div><strong>Subir archivo</strong> — Selecciona el CSV (máx. 5 MB). Debe tener columna <code>telefono</code>.</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">2</div><div><strong>Vista previa</strong> — Se muestran estadísticas: contactos nuevos, duplicados, inválidos y errores. Se elige qué hacer con duplicados: Omitir o Actualizar.</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">3</div><div><strong>Importando…</strong> — Se procesa el archivo en el servidor.</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">4</div><div><strong>Resultado</strong> — Resumen final: X importados, Y actualizados, Z omitidos.</div></div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     3. ARQUITECTURA GENERAL
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="arquitectura">3. Arquitectura general</h2>
+
+<pre><code>┌────────────────────────────────────────────────────────────────┐
+│  FRONTEND (Next.js · apps/web)                                 │
+│  ┌────────────────────┐  ┌──────────────┐  ┌───────────────┐  │
+│  │  ContactsView      │  │ EditContact  │  │ ImportDialog  │  │
+│  │  (lista principal) │  │ Dialog       │  │ (wizard CSV)  │  │
+│  └────────────────────┘  └──────────────┘  └───────────────┘  │
+│          │ useQuery / useMutation (Convex React hooks)         │
+└──────────┼─────────────────────────────────────────────────────┘
+           │
+           ▼  WebSocket / HTTP
+┌─────────────────────────────────────────────────────────────────┐
+│  BACKEND (Convex · packages/backend)                            │
+│                                                                 │
+│  public/contacts.ts ◄── WhatsApp Webhook                       │
+│  private/contacts.ts ◄── Dashboard (auth required)             │
+│  system/contacts.ts ◄── Otros módulos internos (agente AI)     │
+│  model/contacts.ts ◄── Helper compartido                       │
+│                                                                 │
+│           │                                                     │
+│           ▼                                                     │
+│  ┌──────────────────────────────────┐                          │
+│  │  Base de datos Convex (contacts) │                          │
+│  │  + contactsAggregate             │                          │
+│  └──────────────────────────────────┘                          │
+└─────────────────────────────────────────────────────────────────┘</code></pre>
+
+<div class="box info">
+  <strong>Convex</strong>
+  Convex es el backend como servicio que usa este proyecto. Toda la lógica del servidor vive ahí. Las funciones se llaman directamente desde React mediante hooks reactivos — no hay REST API tradicional.
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     4. ESTRUCTURA DE DATOS
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="schema">4. Estructura de datos (Base de Datos)</h2>
+
+<p><strong>Archivo:</strong> <code>packages/backend/convex/schema.ts</code></p>
+
+<pre><code>contacts: defineTable({
+  phoneNumber:      v.string(),            // Teléfono normalizado (solo dígitos)
+  displayName:      v.optional(v.string()), // Nombre del cliente
+  organizationId:   v.string(),            // ID de la organización dueña
+  lastMessageAt:    v.optional(v.number()), // Timestamp último mensaje (ms)
+  isBlocked:        v.optional(v.boolean()),// true = bloqueado
+  lastKnownAddress: v.optional(v.string()), // Última dirección de entrega
+})
+  .index("by_organization_id",        ["organizationId"])
+  .index("by_phone_number",           ["phoneNumber"])
+  .index("by_organization_and_phone", ["organizationId", "phoneNumber"])</code></pre>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Campo</th><th>Tipo</th><th>Obligatorio</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>phoneNumber</td><td>string</td><td>Sí</td><td>Número normalizado a solo dígitos. Ej: <code>573001234567</code></td></tr>
+    <tr><td>displayName</td><td>string</td><td>No</td><td>Nombre visible. Si no se conoce, puede quedar vacío o ser el teléfono.</td></tr>
+    <tr><td>organizationId</td><td>string</td><td>Sí</td><td>Referencia al restaurante. Aísla datos entre organizaciones.</td></tr>
+    <tr><td>lastMessageAt</td><td>number</td><td>No</td><td>Unix timestamp en ms del último mensaje recibido.</td></tr>
+    <tr><td>isBlocked</td><td>boolean</td><td>No</td><td>Si es <code>true</code>, no puede iniciar nuevas conversaciones.</td></tr>
+    <tr><td>lastKnownAddress</td><td>string</td><td>No</td><td>Se actualiza automáticamente cuando hace un pedido.</td></tr>
+    <tr><td>_id</td><td>Id&lt;"contacts"&gt;</td><td>Auto</td><td>ID único generado por Convex.</td></tr>
+    <tr><td>_creationTime</td><td>number</td><td>Auto</td><td>Timestamp de creación (ms).</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Índices de la tabla</h3>
+<p>Los índices permiten búsquedas eficientes sin escanear toda la tabla:</p>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Índice</th><th>Campos</th><th>Uso</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>by_organization_id</td><td>organizationId</td><td>Listar todos los contactos de una org</td></tr>
+    <tr><td>by_phone_number</td><td>phoneNumber</td><td>Buscar contacto por teléfono</td></tr>
+    <tr><td>by_organization_and_phone</td><td>organizationId + phoneNumber</td><td>Buscar contacto específico dentro de una org</td></tr>
+  </tbody>
+</table>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     5. BACKEND
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="backend">5. Backend — Funciones del servidor</h2>
+
+<p>El backend está dividido en <strong>cuatro capas</strong> según quién puede llamarlas:</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Archivo</th><th>Quién lo llama</th><th>Requiere auth</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>public/contacts.ts</code></td><td>Webhook de WhatsApp</td><td>No (token de verificación)</td></tr>
+    <tr><td><code>private/contacts.ts</code></td><td>Dashboard web (admin)</td><td>Sí (sesión de usuario)</td></tr>
+    <tr><td><code>system/contacts.ts</code></td><td>Otras funciones Convex</td><td>Solo interno (no expuesto)</td></tr>
+    <tr><td><code>model/contacts.ts</code></td><td>Funciones internas</td><td>Solo interno (helper)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<!-- ── 5A. API PÚBLICA ──────────────────────────────────────── -->
+<h3 id="backend-public">5A. API Pública</h3>
+<p><strong>Archivo:</strong> <code>packages/backend/convex/public/contacts.ts</code></p>
+<p>Accesible desde fuera sin sesión de usuario. Es llamada por el webhook de WhatsApp cuando llega un mensaje nuevo.</p>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">getOrCreate</span>
+    <span class="fn-type mutation">mutation</span>
+  </div>
+  <div class="fn-desc">Crea un contacto nuevo si no existe, o devuelve el existente cuando llega un mensaje de WhatsApp.</div>
+  <ul>
+    <li><strong>Entrada:</strong> <code>contactPhoneNumber</code>, <code>displayName</code>, <code>businessPhoneNumber</code></li>
+    <li><strong>Salida:</strong> <code>{ contactId, organizationId }</code></li>
+    <li>Busca la organización usando la configuración de WhatsApp (<code>businessPhoneNumber</code>)</li>
+    <li>Si el contacto es nuevo: lo inserta con <code>lastMessageAt: Date.now()</code> y actualiza el agregado</li>
+    <li>Si el contacto ya existe: NO sobreescribe el nombre (para no perder nombres guardados manualmente)</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/public/contacts.ts</div>
+</div>
+
+<!-- ── 5B. API PRIVADA ─────────────────────────────────────── -->
+<h3 id="backend-private">5B. API del Dashboard (privada)</h3>
+<p><strong>Archivo:</strong> <code>packages/backend/convex/private/contacts.ts</code></p>
+<p>Todas las funciones requieren sesión activa de administrador. El <code>organizationId</code> se obtiene automáticamente de la sesión — el frontend no lo envía.</p>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">getByOrganization</span>
+    <span class="fn-type query">authQuery</span>
+  </div>
+  <div class="fn-desc">Lista paginada de contactos con búsqueda. Es la función principal que alimenta la pantalla de Contactos.</div>
+  <ul>
+    <li><strong>Entrada:</strong> <code>paginationOpts</code>, <code>search?: string</code></li>
+    <li><strong>Salida:</strong> <code>{ page, isDone, continueCursor }</code> — cada item enriquecido con <code>conversationCount</code>, <code>lastConversation</code>, <code>orderCount</code></li>
+    <li>Búsqueda: filtra en memoria por nombre y teléfono (la búsqueda es insensible a mayúsculas)</li>
+    <li>Cada contacto muestra cuántas conversaciones tuvo y cuántos pedidos hizo</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">update</span>
+    <span class="fn-type mutation">authMutation</span>
+  </div>
+  <div class="fn-desc">Actualiza los datos editables de un contacto. Usado por el diálogo de edición y para bloquear/desbloquear.</div>
+  <ul>
+    <li><strong>Entrada:</strong> <code>contactId</code>, <code>displayName?</code>, <code>isBlocked?</code>, <code>lastKnownAddress?</code></li>
+    <li>Verifica que el contacto pertenezca a la organización antes de modificar</li>
+    <li>Solo actualiza los campos que se envíen (no borra los demás)</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">previewContactsImport</span>
+    <span class="fn-type mutation">authMutation</span>
+  </div>
+  <div class="fn-desc">Analiza un CSV de importación y devuelve una vista previa SIN escribir nada en la base de datos.</div>
+  <ul>
+    <li><strong>Entrada:</strong> Contenido CSV como string, <code>organizationId</code></li>
+    <li><strong>Salida:</strong> <code>{ totalRows, validRows, invalidRows, newContacts, duplicateContacts, rows[], errors[] }</code></li>
+    <li>Detecta duplicados dentro del propio archivo y comparando con la base de datos</li>
+    <li>Valida formato de teléfono (10-15 dígitos después de normalizar)</li>
+    <li>Identifica columnas por alias: <code>telefono/teléfono/phone_number</code>, <code>nombre/name</code>, <code>direccion/address</code></li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">importContacts</span>
+    <span class="fn-type mutation">authMutation</span>
+  </div>
+  <div class="fn-desc">Ejecuta la importación real del CSV tras la confirmación del usuario.</div>
+  <ul>
+    <li><strong>Entrada:</strong> CSV como string, <code>conflictResolution: "skip" | "update"</code></li>
+    <li><strong>Salida:</strong> <code>{ imported, skipped, updated, errors[] }</code></li>
+    <li><code>skip</code>: si el teléfono ya existe, lo ignora</li>
+    <li><code>update</code>: si existe, actualiza nombre y dirección</li>
+    <li>Para cada contacto nuevo: actualiza el <strong>agregado</strong> de conteo</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">getAllForExport</span>
+    <span class="fn-type query">authQuery</span>
+  </div>
+  <div class="fn-desc">Retorna todos los contactos enriquecidos para generar el CSV de exportación.</div>
+  <ul>
+    <li>Sin paginación — devuelve todos</li>
+    <li>Enriquece con <code>orderCount</code> y <code>conversationCount</code></li>
+    <li>Usado solo por la función de exportación del frontend</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">listForCampaignSelection</span>
+    <span class="fn-type query">authQuery</span>
+  </div>
+  <div class="fn-desc">Lista paginada de contactos para seleccionar destinatarios en campañas de mensajería masiva.</div>
+  <ul>
+    <li><strong>Entrada:</strong> <code>paginationOpts</code>, <code>search?</code>, <code>excludeBlocked?: boolean</code></li>
+    <li>Por defecto excluye contactos bloqueados</li>
+    <li>Muestra <code>orderCount</code> para ayudar a identificar clientes valiosos</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">getByIds</span>
+    <span class="fn-type query">authQuery</span>
+  </div>
+  <div class="fn-desc">Obtiene múltiples contactos por array de IDs. Filtra automáticamente los que no pertenecen a la organización.</div>
+  <ul>
+    <li>Usado para mostrar los contactos ya seleccionados en el selector de campañas</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">importContactsBatch</span>
+    <span class="fn-type mutation">authMutation</span>
+  </div>
+  <div class="fn-desc">Importa contactos desde un array JSON (no CSV). Usado por el módulo de campañas para provisionar destinatarios nuevos.</div>
+  <ul>
+    <li><strong>Entrada:</strong> <code>[{ phoneNumber, displayName? }]</code></li>
+    <li><strong>Salida:</strong> Array de IDs de contactos (existentes o recién creados)</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">validate</span>
+    <span class="fn-type mutation">authMutation</span>
+  </div>
+  <div class="fn-desc">Verifica que un contacto existe y pertenece a la organización activa.</div>
+  <ul>
+    <li><strong>Salida:</strong> <code>{ valid: true, contact } | { valid: false, reason }</code></li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/private/contacts.ts</div>
+</div>
+
+<!-- ── 5C. API SISTEMA ─────────────────────────────────────── -->
+<h3 id="backend-system">5C. API Interna / Sistema</h3>
+<p><strong>Archivo:</strong> <code>packages/backend/convex/system/contacts.ts</code></p>
+<p>Funciones internas (<code>internalQuery</code> / <code>internalMutation</code>) que <strong>solo pueden ser llamadas por otras funciones Convex</strong> — no por el frontend ni por webhooks externos.</p>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">getOne</span>
+    <span class="fn-type internal">internalQuery</span>
+  </div>
+  <div class="fn-desc">Obtiene un contacto por su ID.</div>
+  <div class="fn-path">packages/backend/convex/system/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">getOneByPhoneNumber</span>
+    <span class="fn-type internal">internalQuery</span>
+  </div>
+  <div class="fn-desc">Busca un contacto por número de teléfono normalizado y organización.</div>
+  <div class="fn-path">packages/backend/convex/system/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">getOrCreate</span>
+    <span class="fn-type internal">internalMutation</span>
+  </div>
+  <div class="fn-desc">Versión interna del getOrCreate. Actualiza el agregado al crear. Usado por otros módulos del sistema.</div>
+  <div class="fn-path">packages/backend/convex/system/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">updateDisplayName</span>
+    <span class="fn-type internal">internalMutation</span>
+  </div>
+  <div class="fn-desc">Actualiza el nombre del contacto. Llamado por la herramienta de IA <code>saveCustomerName</code> cuando el cliente proporciona su nombre en el chat.</div>
+  <div class="fn-path">packages/backend/convex/system/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">updateLastKnownAddress</span>
+    <span class="fn-type internal">internalMutation</span>
+  </div>
+  <div class="fn-desc">Guarda la dirección de entrega más reciente. Llamado por la herramienta de IA <code>makeOrder</code> al completar un pedido.</div>
+  <div class="fn-path">packages/backend/convex/system/contacts.ts</div>
+</div>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">createOne</span>
+    <span class="fn-type internal">internalMutation</span>
+  </div>
+  <div class="fn-desc">Inserta un contacto incondicionalmente (sin verificar duplicados). Solo para uso interno controlado.</div>
+  <div class="fn-path">packages/backend/convex/system/contacts.ts</div>
+</div>
+
+<!-- ── 5D. MODELO ──────────────────────────────────────────── -->
+<h3 id="backend-model">5D. Capa Modelo</h3>
+<p><strong>Archivo:</strong> <code>packages/backend/convex/model/contacts.ts</code></p>
+
+<div class="fn-card">
+  <div class="fn-header">
+    <span class="fn-name">getOrCreateContact(ctx, args)</span>
+    <span class="fn-type internal">helper</span>
+  </div>
+  <div class="fn-desc">Helper compartido con lógica inteligente de nombre. Se usa cuando se quiere crear o recuperar un contacto y además mejorar su nombre si es posible.</div>
+  <ul>
+    <li>Si el contacto existe pero su nombre es vacío o es su propio teléfono, y el llamador tiene un nombre real → lo actualiza automáticamente</li>
+    <li>Ejemplo: la primera vez que el cliente escribe no da su nombre; luego en un pedido dice "Soy Juan" → el sistema actualiza el contacto</li>
+    <li>Lanza <code>CreationFailedError</code> si falla la creación</li>
+  </ul>
+  <div class="fn-path">packages/backend/convex/model/contacts.ts</div>
+</div>
+
+<!-- ── 5E. AGREGADO ────────────────────────────────────────── -->
+<h3 id="backend-aggregate">5E. Agregado</h3>
+<p><strong>Archivo:</strong> <code>packages/backend/convex/contactsAggregate.ts</code></p>
+
+<pre><code>aggregateContactsByOrganization = new TableAggregate({
+  Namespace: organizationId,  // Agrupado por organización
+  Key: _creationTime,         // Ordenado por fecha de creación
+  TableName: "contacts"
+})</code></pre>
+
+<div class="box tip">
+  <strong>¿Por qué existe un agregado?</strong>
+  En lugar de contar todos los registros con un query costoso (<code>SELECT COUNT(*)</code>), el agregado mantiene el conteo actualizado en tiempo real. Cada vez que se crea un contacto nuevo, se debe llamar a <code>aggregateContactsByOrganization.insertIfDoesNotExist(ctx, contact)</code>. Si olvidas esto al crear un contacto, el conteo del dashboard quedará desactualizado.
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     6. FRONTEND
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="frontend">6. Frontend — Interfaz de usuario</h2>
+
+<p>Toda la interfaz está en <code>apps/web/</code>. La ruta principal es <code>/contacts</code>.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Archivo</th><th>Propósito</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>app/(dashboard)/contacts/page.tsx</code></td><td>Página raíz de la ruta /contacts. Solo renderiza &lt;ContactsView /&gt;</td></tr>
+    <tr><td><code>app/(dashboard)/contacts/import/page.tsx</code></td><td>Guía de importación CSV con plantilla descargable</td></tr>
+    <tr><td><code>modules/dashboard/ui/views/contacts-view.tsx</code></td><td>Vista principal (tabla de contactos)</td></tr>
+    <tr><td><code>modules/dashboard/ui/components/edit-contact-dialog.tsx</code></td><td>Diálogo para editar datos de un contacto</td></tr>
+    <tr><td><code>modules/dashboard/ui/components/contacts-import-dialog.tsx</code></td><td>Wizard de 4 pasos para importar CSV</td></tr>
+    <tr><td><code>modules/dashboard/ui/components/contact-selector-dialog.tsx</code></td><td>Selector de contactos para campañas</td></tr>
+    <tr><td><code>lib/export-contacts.ts</code></td><td>Utilidad para generar y descargar CSV de exportación</td></tr>
+  </tbody>
+</table>
+</div>
+
+<!-- ── 6A. CONTACTS VIEW ───────────────────────────────────── -->
+<h3 id="contacts-view">6A. ContactsView — Vista Principal</h3>
+<p><strong>Archivo:</strong> <code>apps/web/modules/dashboard/ui/views/contacts-view.tsx</code> (~660 líneas)</p>
+
+<div class="comp-card">
+  <div class="comp-path">apps/web/modules/dashboard/ui/views/contacts-view.tsx</div>
+  <h4>Funcionalidades</h4>
+  <ul>
+    <li>Tabla responsive (cambia a tarjetas en pantallas pequeñas)</li>
+    <li>Búsqueda con debounce de 300ms (no hace query por cada tecla)</li>
+    <li>Paginación con cursores (no número de página)</li>
+    <li>Exportar todos los contactos a CSV</li>
+    <li>Abrir diálogo de importación masiva</li>
+    <li>Abrir diálogo de edición al hacer clic en "Editar"</li>
+    <li>Bloquear/Desbloquear con diálogo de confirmación</li>
+  </ul>
+</div>
+
+<h4>Estado del componente</h4>
+<pre><code>// Paginación
+const [cursor, setCursor] = useState&lt;string | null&gt;(null)
+const [prevCursors, setPrevCursors] = useState&lt;string[]&gt;([])
+
+// Búsqueda
+const [searchValue, setSearchValue] = useState("")       // Input inmediato
+const [searchQuery, setSearchQuery] = useState("")       // Enviado al servidor (debounced)
+
+// Presentación
+const [viewMode, setViewMode] = useState&lt;"table" | "cards"&gt;("table")
+const [pageSize, setPageSize] = useState(10)
+
+// Diálogos
+const [selectedContact, setSelectedContact] = useState(null)     // Para editar
+const [contactToBlock, setContactToBlock] = useState(null)       // Para bloquear
+const [isExporting, setIsExporting] = useState(false)</code></pre>
+
+<h4>Queries y mutations que usa</h4>
+<pre><code>// Listar contactos (reactivo — se actualiza automáticamente)
+const contacts = useQuery(api.private.contacts.getByOrganization, {
+  paginationOpts: { numItems: pageSize, cursor },
+  search: searchQuery || undefined,
+})
+
+// Obtener todos para exportar
+const allContacts = useQuery(api.private.contacts.getAllForExport)
+
+// Bloquear o editar
+const updateContact = useMutation(api.private.contacts.update)</code></pre>
+
+<!-- ── 6B. EDIT DIALOG ─────────────────────────────────────── -->
+<h3 id="edit-dialog">6B. EditContactDialog — Editar Contacto</h3>
+<p><strong>Archivo:</strong> <code>apps/web/modules/dashboard/ui/components/edit-contact-dialog.tsx</code> (~212 líneas)</p>
+
+<div class="comp-card">
+  <div class="comp-path">apps/web/modules/dashboard/ui/components/edit-contact-dialog.tsx</div>
+  <h4>Campos del formulario</h4>
+  <ul>
+    <li><strong>Nombre</strong> (displayName) — texto libre, opcional</li>
+    <li><strong>Dirección</strong> (lastKnownAddress) — texto libre, opcional</li>
+    <li><strong>Bloqueado</strong> (isBlocked) — toggle switch</li>
+    <li><strong>Teléfono</strong> — solo lectura, no editable</li>
+  </ul>
+</div>
+
+<h4>Schema de validación (Zod)</h4>
+<pre><code>const schema = z.object({
+  displayName:      z.string().optional(),
+  lastKnownAddress: z.string().optional(),
+  isBlocked:        z.boolean(),
+})</code></pre>
+
+<!-- ── 6C. IMPORT DIALOG ───────────────────────────────────── -->
+<h3 id="import-dialog">6C. ContactsImportDialog — Wizard de Importación CSV</h3>
+<p><strong>Archivo:</strong> <code>apps/web/modules/dashboard/ui/components/contacts-import-dialog.tsx</code> (~650 líneas)</p>
+
+<div class="comp-card">
+  <div class="comp-path">apps/web/modules/dashboard/ui/components/contacts-import-dialog.tsx</div>
+  <h4>Pasos del wizard</h4>
+  <ul>
+    <li><strong>Paso 1 — Subir:</strong> Valida extensión (.csv) y tamaño (max 5 MB). Lee el archivo como texto.</li>
+    <li><strong>Paso 2 — Vista Previa:</strong> Llama a <code>previewContactsImport</code>. Muestra estadísticas y errores. Permite elegir resolución de conflictos.</li>
+    <li><strong>Paso 3 — Importando:</strong> Llama a <code>importContacts</code>. Muestra spinner.</li>
+    <li><strong>Paso 4 — Listo:</strong> Muestra resumen con contadores finales.</li>
+  </ul>
+</div>
+
+<h4>Parsing del CSV</h4>
+<p>El componente tiene su propio parser CSV que maneja casos especiales:</p>
+<pre><code>// Maneja valores con comas dentro de comillas:
+// "García, Juan" → correcto
+
+// Maneja comillas escapadas:
+// "Dirección ""especial""" → Dirección "especial"
+
+// Detecta header con alias (case-insensitive):
+// telefono / teléfono / phone_number  → phoneNumber
+// nombre / name / display_name        → displayName
+// direccion / dirección / address     → lastKnownAddress</code></pre>
+
+<!-- ── 6D. SELECTOR DIALOG ────────────────────────────────── -->
+<h3 id="selector-dialog">6D. ContactSelectorDialog — Para Campañas</h3>
+<p><strong>Archivo:</strong> <code>apps/web/modules/dashboard/ui/components/contact-selector-dialog.tsx</code> (~392 líneas)</p>
+
+<div class="comp-card">
+  <div class="comp-path">apps/web/modules/dashboard/ui/components/contact-selector-dialog.tsx</div>
+  <h4>Funcionalidades</h4>
+  <ul>
+    <li>Búsqueda con debounce (300ms)</li>
+    <li>Scroll infinito — botón "Cargar más"</li>
+    <li>Seleccionar todo / Deseleccionar todo</li>
+    <li>Badge con cantidad de pedidos por contacto</li>
+    <li>Excluye bloqueados por defecto</li>
+    <li>Selección local — solo se confirma al presionar "Confirmar"</li>
+  </ul>
+</div>
+
+<h4>Props del componente</h4>
+<pre><code>interface Props {
+  open: boolean
+  onOpenChange: (open: boolean) => void
+  selectedContactIds: Id&lt;"contacts"&gt;[]
+  onSelectionChange: (ids: Id&lt;"contacts"&gt;[]) => void
+  title?: string        // Default: "Seleccionar Contactos"
+  description?: string  // Default: texto de destinatarios
+}</code></pre>
+
+<!-- ── 6E. EXPORTAR ────────────────────────────────────────── -->
+<h3 id="export">6E. Exportar a CSV</h3>
+<p><strong>Archivo:</strong> <code>apps/web/lib/export-contacts.ts</code></p>
+
+<p>Funciones utilitarias para generar y descargar el archivo CSV:</p>
+
+<pre><code>// Genera el contenido del CSV como string
+function generateContactsCSV(contacts: ContactForExport[]): string
+
+// Descarga el archivo en el navegador
+function downloadContactsCSV(content: string, filename: string): void</code></pre>
+
+<p>El CSV incluye BOM UTF-8 al inicio (<code>\uFEFF</code>) para que Excel abra correctamente los caracteres especiales (tildes, ñ).</p>
+
+<p>Columnas del CSV exportado (en español):</p>
+<pre><code>Nombre, Teléfono, Dirección, Estado, Fecha Registro, Última Actividad, Pedidos, Conversaciones</code></pre>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     7. NORMALIZACIÓN DE TELÉFONOS
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="phone-normalization">7. Normalización de teléfonos</h2>
+
+<p>Todos los teléfonos pasan por el mismo proceso antes de guardarse. Esto garantiza que el mismo número escrito de formas distintas siempre quede igual en la base de datos.</p>
+
+<pre><code>function normalizePhone(phone: string): string {
+  // 1. Eliminar todo excepto dígitos y '+'
+  let normalized = phone.replace(/[^\d+]/g, "")
+
+  // 2. Quitar el '+' inicial si existe
+  normalized = normalized.replace(/^\+/, "")
+
+  // 3. Si tiene 10 dígitos y empieza con '3'
+  //    → número celular colombiano → agregar código de país 57
+  if (/^3\d{9}$/.test(normalized)) {
+    normalized = "57" + normalized
+  }
+
+  return normalized
+}</code></pre>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Entrada</th><th>Salida</th><th>Caso</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>+57 300 123 4567</td><td>573001234567</td><td>Colombiano con +57 y espacios</td></tr>
+    <tr><td>3001234567</td><td>573001234567</td><td>Celular colombiano sin código de país</td></tr>
+    <tr><td>573001234567</td><td>573001234567</td><td>Ya normalizado</td></tr>
+    <tr><td>+1-800-555-0100</td><td>18005550100</td><td>Número de EE.UU.</td></tr>
+    <tr><td>(300) 123-4567</td><td>573001234567</td><td>Con paréntesis y guiones</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="box warn">
+  <strong>Importante para el desarrollador</strong>
+  SIEMPRE normaliza el teléfono antes de buscarlo o guardarlo. Si buscas <code>+57300...</code> en la base de datos y el registro tiene <code>57300...</code>, no encontrarás nada. El helper de normalización debe aplicarse en ambos lados.
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     8. FLUJOS DE DATOS
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="flujos">8. Flujos de datos</h2>
+
+<h3>Flujo 1: Cliente nuevo escribe por WhatsApp</h3>
+<div class="flow">
+  <div class="step"><div class="step-num">1</div><div>Cliente envía mensaje de WhatsApp al número del restaurante</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">2</div><div>Meta/WhatsApp llama al webhook HTTP de Convex (<code>/webhook</code>)</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">3</div><div><code>public.contacts.getOrCreate</code> busca la organización por el número de negocio</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">4</div><div>Si el contacto no existe: se crea con <code>lastMessageAt: now</code> y se actualiza el agregado</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">5</div><div>Se crea una conversación vinculada al <code>contactId</code></div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">6</div><div>El agente de IA responde al cliente. Si el cliente da su nombre, se llama <code>system.contacts.updateDisplayName</code></div></div>
+</div>
+
+<h3>Flujo 2: Administrador busca y edita un contacto</h3>
+<div class="flow">
+  <div class="step"><div class="step-num">1</div><div>Admin entra a <code>/contacts</code> → <code>ContactsView</code> carga con <code>useQuery(getByOrganization)</code></div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">2</div><div>Admin escribe en la búsqueda → tras 300ms se actualiza <code>searchQuery</code> → nuevo query al servidor</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">3</div><div>Admin hace clic en "Editar" → abre <code>EditContactDialog</code> con los datos del contacto pre-cargados</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">4</div><div>Admin modifica el nombre y guarda → <code>useMutation(update)</code> actualiza la base de datos</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">5</div><div>La lista se actualiza automáticamente por reactividad de Convex</div></div>
+</div>
+
+<h3>Flujo 3: Importación CSV</h3>
+<div class="flow">
+  <div class="step"><div class="step-num">1</div><div>Admin sube archivo CSV → se lee como texto en el navegador</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">2</div><div>Se llama a <code>previewContactsImport</code> con el texto del CSV → retorna estadísticas sin escribir nada</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">3</div><div>Admin revisa vista previa, elige conflictResolution (<code>skip</code> o <code>update</code>)</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">4</div><div>Admin confirma → se llama a <code>importContacts</code> → se insertan/actualizan registros</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">5</div><div>Para cada contacto nuevo: se actualiza el agregado de conteo</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">6</div><div>Se muestra resumen final: X importados, Y omitidos, Z con error</div></div>
+</div>
+
+<h3>Flujo 4: Agente AI actualiza datos del contacto</h3>
+<div class="flow">
+  <div class="step"><div class="step-num">1</div><div>Cliente hace pedido y confirma dirección de entrega</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">2</div><div>Tool <code>makeOrder</code> del agente crea el pedido en la base de datos</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">3</div><div><code>system.contacts.updateLastKnownAddress</code> guarda la dirección en el contacto</div></div>
+  <div class="step-connector"></div>
+  <div class="step"><div class="step-num">4</div><div>La próxima vez que el cliente pida, el agente ya tiene su dirección disponible vía <code>getContactInfo</code></div></div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     9. RELACIONES CON OTRAS ENTIDADES
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="relaciones">9. Relaciones con otras entidades</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Entidad</th><th>Relación</th><th>Cómo se usa</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>conversations</td>
+      <td>1 contacto → N conversaciones</td>
+      <td>Cada conversación tiene un <code>contactId</code>. Se cuentan para el dashboard.</td>
+    </tr>
+    <tr>
+      <td>orders</td>
+      <td>1 contacto → N pedidos</td>
+      <td>Cada pedido tiene un <code>contactId</code>. Al crear pedido, se actualiza <code>lastKnownAddress</code>.</td>
+    </tr>
+    <tr>
+      <td>whatsappConfigurations</td>
+      <td>Lookup al crear contacto</td>
+      <td>Se usa <code>businessPhoneNumber</code> para determinar a qué organización pertenece el contacto nuevo.</td>
+    </tr>
+    <tr>
+      <td>campaignRecipients</td>
+      <td>N contactos ↔ N campañas</td>
+      <td>Tabla pivote que vincula contactos con campañas de mensajería masiva.</td>
+    </tr>
+    <tr>
+      <td>aggregateContactsByOrganization</td>
+      <td>Denormalización</td>
+      <td>Mantiene conteo por organización. Debe actualizarse en cada inserción.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════
+     10. GUÍA PARA EL DESARROLLADOR
+═══════════════════════════════════════════════════════════════ -->
+<h2 id="guia-dev">10. Guía para el desarrollador</h2>
+
+<h3>Checklist para agregar una nueva función de contactos</h3>
+
+<div class="box tip">
+  <strong>Antes de crear una función nueva, pregúntate:</strong>
+  ¿La llama el webhook (public), el dashboard (private), u otro módulo interno (system/model)?
+</div>
+
+<pre><code>// ✅ CORRECTO — nueva función para el dashboard
+// Archivo: packages/backend/convex/private/contacts.ts
+
+export const myNewFunction = authQuery({
+  args: {
+    contactId: v.id("contacts"),
+  },
+  returns: v.union(v.object({ ... }), v.null()),
+  handler: async (ctx, args) => {
+    // 1. ctx.orgId viene automáticamente de la sesión
+    const contact = await ctx.db.get(args.contactId)
+
+    // 2. SIEMPRE verificar que pertenece a la organización
+    if (!contact || contact.organizationId !== ctx.orgId) {
+      return null
+    }
+
+    return contact
+  },
+})</code></pre>
+
+<h3>Reglas obligatorias al crear/actualizar contactos</h3>
+
+<pre><code>// ❌ MAL — olvidaste actualizar el agregado
+await ctx.db.insert("contacts", newContact)
+
+// ✅ BIEN — siempre actualiza el agregado al insertar
+const contactId = await ctx.db.insert("contacts", newContact)
+const contact = await ctx.db.get(contactId)!
+await aggregateContactsByOrganization.insertIfDoesNotExist(ctx, contact)</code></pre>
+
+<pre><code>// ❌ MAL — buscar sin normalizar el teléfono
+const contact = await ctx.db
+  .query("contacts")
+  .withIndex("by_organization_and_phone", q =>
+    q.eq("organizationId", orgId).eq("phoneNumber", "+57 300 123 4567")
+  ).unique()
+// → No encontrará nada porque el DB tiene "573001234567"
+
+// ✅ BIEN — siempre normalizar antes de buscar
+const normalizedPhone = normalizePhone("+57 300 123 4567") // → "573001234567"
+const contact = await ctx.db
+  .query("contacts")
+  .withIndex("by_organization_and_phone", q =>
+    q.eq("organizationId", orgId).eq("phoneNumber", normalizedPhone)
+  ).unique()</code></pre>
+
+<h3>Cómo usar las funciones desde el frontend (React)</h3>
+
+<pre><code>import { useQuery, useMutation } from "convex/react"
+import { api } from "@workspace/backend/convex/_generated/api"
+
+// --- Lectura reactiva (se actualiza automáticamente) ---
+const contactsPage = useQuery(api.private.contacts.getByOrganization, {
+  paginationOpts: { numItems: 10, cursor: null },
+})
+
+// --- Mutación (escritura) ---
+const update = useMutation(api.private.contacts.update)
+
+async function handleBlock(contactId) {
+  await update({ contactId, isBlocked: true })
+  // La lista se actualiza sola — no necesitas refetch manual
+}</code></pre>
+
+<h3>Cómo llamar a funciones internas desde otras funciones Convex</h3>
+
+<pre><code>// Dentro de otra función Convex (mutation/action)
+import { internal } from "./_generated/api"
+
+// ✅ Llamar función interna de contacts
+const contact = await ctx.runQuery(
+  internal.system.contacts.getOneByPhoneNumber,
+  { phoneNumber: normalizedPhone, organizationId: orgId }
+)
+
+await ctx.runMutation(
+  internal.system.contacts.updateLastKnownAddress,
+  { contactId: contact._id, address: "Calle 100 #15-20" }
+)</code></pre>
+
+<h3>Formato del CSV para importar</h3>
+
+<pre><code>telefono,nombre,direccion
+"573001234567","Juan Pérez","Calle 100 #15-20, Bogotá"
+"573109876543","María García",
+3001112233,,</code></pre>
+
+<div class="box info">
+  <strong>Notas del CSV</strong>
+  • La columna <code>telefono</code> es obligatoria. <code>nombre</code> y <code>direccion</code> son opcionales.<br/>
+  • Los alias de columna funcionan: <code>teléfono</code>, <code>phone_number</code>, <code>name</code>, <code>address</code>, etc.<br/>
+  • Los números de 10 dígitos que empiezan con 3 se reconocen como colombianos automáticamente.<br/>
+  • Máximo 5 MB por archivo.
+</div>
+
+<h3>Puntos clave para recordar</h3>
+
+<div class="box danger">
+  <strong>Errores comunes</strong>
+  1. Olvidar actualizar el agregado al crear un contacto → conteo incorrecto en dashboard.<br/>
+  2. No normalizar el teléfono antes de buscar → resultados vacíos incorrectos.<br/>
+  3. No verificar <code>organizationId</code> en funciones privadas → fuga de datos entre organizaciones.<br/>
+  4. Usar <code>filter</code> en lugar de índices → rendimiento degradado.
+</div>
+
+<div class="box tip">
+  <strong>Buenas prácticas</strong>
+  1. Siempre filtra por <code>organizationId</code> — nunca devuelvas contactos sin este filtro.<br/>
+  2. Usa <code>model/contacts.ts</code> cuando necesites get-or-create con lógica de nombre — evita duplicar la lógica.<br/>
+  3. La búsqueda actual es en memoria. Para organizaciones con +10.000 contactos considera agregar índices de texto.<br/>
+  4. El campo <code>isBlocked</code> solo impide nuevas conversaciones — el historial se preserva siempre.
+</div>
+
+<hr/>
+
+<p style="text-align:center; color: var(--gray-400); font-size: 12px; padding: 20px 0;">
+  Echo AI — Módulo de Contactos · Documentación técnica generada para el equipo de desarrollo
+</p>
+
+</body>
+</html>

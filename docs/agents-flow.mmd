@@ -1,0 +1,80 @@
+flowchart TD
+    %% Nodos principales
+    A[Cliente] --> B[supportAgent]
+    B --> C{¿Qué herramienta usar?}
+    
+    %% Herramientas relacionadas al menú
+    C -->|Pregunta sobre menú| D[searchMenuProductsTool<br/>askAboutMenuWithContext]
+    C -->|Validar combinación| E[askCombinationValidationTool<br/>askCombinationValidation]
+    C -->|Confirmar pedido| F[confirmOrderTool<br/>confirmOrder]
+    C -->|Crear pedido inmediato| G[makeOrderTool<br/>makeOrder]
+    C -->|Programar pedido| H[scheduleOrderTool<br/>scheduleOrder]
+    
+    %% Subprocesos de searchMenuProductsTool
+    D --> I[createMenuQuestionAgentWithContext<br/>Agente especializado en preguntas de menú]
+    I --> J[Obtener productos disponibles<br/>getManyWithSizeAndCategoryAndAvailabilityForAI]
+    J --> K[Crear thread hijo<br/>menuQuestionAgent.createThread]
+    K --> L[Preparar mensaje de pregunta<br/>con productos en contexto]
+    L --> M[menuQuestionAgent.saveMessage<br/>con pregunta del cliente]
+    M --> N[Generar respuesta<br/>menuQuestionAgent.generateText]
+    N --> O[Respuesta del menú<br/>con recordatorio para comunicar al cliente]
+    O --> B
+    
+    %% Subprocesos de askCombinationValidationTool
+    E --> P[createValidationMenuAgent<br/>Agente especializado en validación]
+    P --> Q[Obtener productos disponibles<br/>getMany para organización y ubicación]
+    Q --> R[Crear thread hijo<br/>validationAgent.createThread]
+    R --> S[Preparar mensaje de identificación<br/>con productos y pedido del cliente]
+    S --> T[validationAgent.saveMessage<br/>para identificar IDs]
+    T --> U[Generar IDs de productos<br/>validationAgent.generateText]
+    U --> V[Crear thread de validación<br/>validationAgent.createThread]
+    V --> W[Preparar mensaje de validación<br/>con IDs identificados]
+    W --> X[validationAgent.saveMessage<br/>para validar combinaciones]
+    X --> Y[Generar validación<br/>validationAgent.generateText]
+    Y --> Z[Respuesta de validación<br/>con estructura orderItems]
+    Z --> B
+    
+    %% Subprocesos de confirmOrderTool
+    F --> AA[verifyOrderQuery<br/>Validar contacto, ubicación y conversación]
+    AA --> BB[Calcular precios<br/>getManyByIdsWithSizeAndCategoryAndAvailability]
+    BB --> CC[Formatear resumen del pedido<br/>con productos, precios, totales]
+    CC --> DD[Validar métodos de pago<br/>y montos si hay split]
+    DD --> EE[Incluir datos de factura<br/>si requiere]
+    EE --> FF[Respuesta de confirmación<br/>con resumen completo]
+    FF --> B
+    
+    %% Subprocesos de makeOrderTool
+    G --> GG[Validar requisitos<br/>dirección, deliveryFee, etc.]
+    GG --> HH[createFromAiTool<br/>Crear pedido inmediato]
+    HH --> II[Formatear respuesta<br/>con número de pedido y métodos de pago]
+    II --> JJ{¿Requiere escalación?}
+    JJ -->|Pago especial| KK[Escalar conversación<br/>conversations.escalate]
+    JJ -->|Pago normal| LL[Respuesta final<br/>pedido creado]
+    KK --> LL
+    LL --> B
+    
+    %% Subprocesos de scheduleOrderTool
+    H --> MM[Validar requisitos<br/>dirección, deliveryFee, hora programada]
+    MM --> NN[Parsear hora colombiana<br/>parseColombianTime]
+    NN --> OO[createFromAiTool<br/>Crear pedido programado]
+    OO --> PP[Formatear respuesta<br/>con fecha programada y métodos de pago]
+    PP --> QQ{¿Requiere escalación?}
+    QQ -->|Pago especial| RR[Escalar conversación<br/>conversations.escalate]
+    QQ -->|Pago normal| SS[Respuesta final<br/>pedido programado]
+    RR --> SS
+    SS --> B
+    
+    %% Flujo final de vuelta al cliente
+    B --> TT[Respuesta al cliente<br/>con información procesada]
+    TT --> A
+    
+    %% Estilos para mejor visualización
+    classDef agentClass stroke:#01579b,stroke-width:2px
+    classDef toolClass stroke:#4a148c,stroke-width:2px
+    classDef processClass stroke:#1b5e20,stroke-width:2px
+    classDef responseClass stroke:#e65100,stroke-width:2px
+    
+    class B,I,P agentClass
+    class D,E,F,G,H toolClass
+    class J,K,L,M,N,Q,R,S,T,U,V,W,X,Y,AA,BB,CC,DD,EE,GG,HH,II,KK,MM,NN,OO,PP,RR processClass
+    class O,Z,FF,LL,SS,TT responseClass

@@ -1,0 +1,2543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zirus San Gil</name>
+    <Style id="icon-1602-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1602-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1602-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1651-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1651-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1651-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1651-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1651-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-36-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>24d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-36-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>24d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-36">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-36-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-36-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-38-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>26d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-38-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>26d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-38">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-38-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-38-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-41-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>29d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-41-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>29d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-41">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-41-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-41-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-43-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2bd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-43-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2bd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-43">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-43-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-43-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-46-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2ed18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-46-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2ed18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-46">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-46-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-46-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-48-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>30d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-48-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>30d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-48">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-48-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-48-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-51-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>33d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-51-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>33d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-51">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-51-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-51-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-54-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>36d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-54-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>36d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-54">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-54-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-54-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-56-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>38d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-56-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>38d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-56">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-56-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-56-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-59-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3bd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-59-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3bd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-59">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-59-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-59-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-3000-61-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-3000-61-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-3000-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-3000-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-3000-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-36-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>24d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-36-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>24d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-36">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-36-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-36-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-38-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>26d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-38-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>26d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-38">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-38-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-38-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-41-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>29d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-41-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>29d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-41">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-41-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-41-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-46-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2ed18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-46-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2ed18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-46">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-46-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-46-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-48-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>30d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-48-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>30d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-48">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-48-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-48-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-51-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>33d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-51-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>33d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-51">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-51-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-51-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-54-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>36d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-54-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>36d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-54">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-54-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-54-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-56-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>38d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-56-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>38d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-56">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-56-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-56-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-61-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-61-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-69-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>45d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-69-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>45d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-69">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-69-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-69-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-77-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-77-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Zirus Pizza San Gil</name>
+      <description><![CDATA[Descripción: Horario domicilio:<br>Todos los días de 11:00 AM - 10:00 PM<br>Valor: ]]></description>
+      <styleUrl>#icon-1651-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Horario domicilio:
+Todos los días de 11:00 AM - 10:00 PM</value>
+        </Data>
+        <Data name="Valor">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -73.132969,6.551747,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $5.000</name>
+      <description><![CDATA[Descripción: Entrada Hotel Guarigua Cajasan<br>Valor: 5000]]></description>
+      <styleUrl>#icon-1602-1A237E</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Entrada Hotel Guarigua Cajasan</value>
+        </Data>
+        <Data name="Valor">
+          <value>5000.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -73.157864,6.550526,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $6.000</name>
+      <description><![CDATA[Descripción: Hotel Guarigua Cajasan<br>Valor: 6000]]></description>
+      <styleUrl>#icon-1602-1A237E</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Hotel Guarigua Cajasan</value>
+        </Data>
+        <Data name="Valor">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -73.162156,6.552764,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $8,000</name>
+      <description><![CDATA[Descripción: <br>Valor: 8000]]></description>
+      <styleUrl>#poly-0288D1-4000-69</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value/>
+        </Data>
+        <Data name="Valor">
+          <value>8000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.163304,6.544194,0
+              -73.164429,6.543428,0
+              -73.162938,6.54169,0
+              -73.160599,6.542927,0
+              -73.162219,6.54476,0
+              -73.163304,6.544194,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $3.500</name>
+      <description><![CDATA[Descripción: MARSELLA CAMPESTRE 2  $6,000 (la ubicación en este sector esta mal).<br><br>Sagrada Familia<br>Clínica Foscal<br>Valor: 3500]]></description>
+      <styleUrl>#poly-0288D1-4000-41</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>MARSELLA CAMPESTRE 2  $6,000 (la ubicación en este sector esta mal).
+
+Sagrada Familia
+Clínica Foscal</value>
+        </Data>
+        <Data name="Valor">
+          <value>3500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.140614,6.554245,0
+              -73.140479,6.554155,0
+              -73.139342,6.55342,0
+              -73.138709,6.5531,0
+              -73.137266,6.551944,0
+              -73.13705,6.552167,0
+              -73.137349,6.552454,0
+              -73.136784,6.552427,0
+              -73.136649,6.552495,0
+              -73.136624,6.552168,0
+              -73.136299,6.552247,0
+              -73.13611,6.552329,0
+              -73.135946,6.552237,0
+              -73.135485,6.552034,0
+              -73.134994,6.552325,0
+              -73.134335,6.552712,0
+              -73.136515,6.554123,0
+              -73.13748,6.554758,0
+              -73.138164,6.554989,0
+              -73.138388,6.555084,0
+              -73.138569,6.554699,0
+              -73.139041,6.554752,0
+              -73.13946,6.554752,0
+              -73.139792,6.554624,0
+              -73.140618,6.554262,0
+              -73.140614,6.554245,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $15,500</name>
+      <description><![CDATA[Descripción: CONDOMINIO PALMAIRE<br>VIA SANGIL - MOGOTES<br>Valor: 15500]]></description>
+      <styleUrl>#poly-0288D1-4000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CONDOMINIO PALMAIRE
+VIA SANGIL - MOGOTES</value>
+        </Data>
+        <Data name="Valor">
+          <value>15500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.1204,6.549266,0
+              -73.115208,6.542978,0
+              -73.112847,6.543809,0
+              -73.114113,6.54803,0
+              -73.116624,6.550247,0
+              -73.1204,6.549266,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $13,500</name>
+      <description><![CDATA[Descripción: HOTEL VERDE MENTA<br>Valor: 13500]]></description>
+      <styleUrl>#poly-0288D1-4000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HOTEL VERDE MENTA</value>
+        </Data>
+        <Data name="Valor">
+          <value>13500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.098978,6.587563,0
+              -73.105083,6.583449,0
+              -73.10151,6.580123,0
+              -73.09576,6.585506,0
+              -73.098978,6.587563,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Villa Olimpica<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-36</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Villa Olimpica</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.140613,6.554278,0
+              -73.140718,6.554241,0
+              -73.140804,6.553995,0
+              -73.141287,6.554304,0
+              -73.141727,6.553164,0
+              -73.141491,6.552972,0
+              -73.141813,6.552503,0
+              -73.140236,6.551427,0
+              -73.139806,6.551992,0
+              -73.138685,6.551118,0
+              -73.139506,6.550066,0
+              -73.138021,6.548822,0
+              -73.13719,6.549873,0
+              -73.13644,6.55077,0
+              -73.137433,6.551599,0
+              -73.137288,6.551894,0
+              -73.137438,6.552081,0
+              -73.13873,6.55309,0
+              -73.13935,6.553402,0
+              -73.140613,6.554278,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Portal de la cruz<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-4000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Portal de la cruz</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.138031,6.548789,0
+              -73.137795,6.548597,0
+              -73.137897,6.548469,0
+              -73.137189,6.547766,0
+              -73.136733,6.547819,0
+              -73.136009,6.547888,0
+              -73.13558,6.548357,0
+              -73.13462,6.547611,0
+              -73.13404,6.548251,0
+              -73.134121,6.548869,0
+              -73.134196,6.54929,0
+              -73.133702,6.549935,0
+              -73.134539,6.550526,0
+              -73.135467,6.549476,0
+              -73.136266,6.550207,0
+              -73.136326,6.55034,0
+              -73.136374,6.550436,0
+              -73.136497,6.550494,0
+              -73.13661,6.5505,0
+              -73.136658,6.550505,0
+              -73.138031,6.548789,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: San Martin<br>Tierrero de los pobres<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-4000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>San Martin
+Tierrero de los pobres</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.141619,6.555793,0
+              -73.140176,6.555388,0
+              -73.1402,6.555982,0
+              -73.140996,6.556161,0
+              -73.142193,6.556502,0
+              -73.143062,6.55688,0
+              -73.143319,6.557184,0
+              -73.143282,6.557424,0
+              -73.143528,6.55768,0
+              -73.144365,6.558308,0
+              -73.144977,6.558404,0
+              -73.145717,6.558298,0
+              -73.145798,6.558065,0
+              -73.145802,6.557966,0
+              -73.145815,6.557893,0
+              -73.145826,6.557744,0
+              -73.145814,6.557104,0
+              -73.145824,6.556337,0
+              -73.145867,6.55623,0
+              -73.145878,6.555782,0
+              -73.145932,6.555612,0
+              -73.145921,6.554535,0
+              -73.144666,6.554557,0
+              -73.143797,6.554791,0
+              -73.142981,6.554994,0
+              -73.142552,6.555122,0
+              -73.141619,6.555196,0
+              -73.141619,6.555793,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Betania<br>Seminario San Carlos<br>FIMAR<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-4000-38</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Betania
+Seminario San Carlos
+FIMAR</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.147433,6.553688,0
+              -73.142476,6.553474,0
+              -73.14254,6.5547,0
+              -73.14371,6.554316,0
+              -73.143785,6.554732,0
+              -73.144676,6.554562,0
+              -73.145748,6.554508,0
+              -73.147476,6.554466,0
+              -73.147433,6.553688,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: INPEC<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>INPEC</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.147558,6.55465,0
+              -73.145959,6.554629,0
+              -73.145906,6.556324,0
+              -73.14744,6.556388,0
+              -73.147558,6.55465,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: La libertad<br>Porvenir<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>La libertad
+Porvenir</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.147634,6.554543,0
+              -73.147505,6.55644,0
+              -73.145835,6.556342,0
+              -73.145821,6.558177,0
+              -73.146272,6.558284,0
+              -73.146475,6.558273,0
+              -73.146658,6.558369,0
+              -73.146776,6.558476,0
+              -73.147012,6.558422,0
+              -73.147334,6.558476,0
+              -73.147516,6.558529,0
+              -73.148256,6.558668,0
+              -73.148321,6.558124,0
+              -73.148374,6.557165,0
+              -73.148439,6.55596,0
+              -73.14846,6.554852,0
+              -73.148331,6.554703,0
+              -73.148031,6.554639,0
+              -73.147634,6.554543,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Villa del Prado<br>San Luis<br>Villa Eddy<br>La Feria<br>Tierrero de los ricos<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Villa del Prado
+San Luis
+Villa Eddy
+La Feria
+Tierrero de los ricos</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.14846,6.554852,0
+              -73.14833,6.558232,0
+              -73.149317,6.558359,0
+              -73.149993,6.558381,0
+              -73.150058,6.55885,0
+              -73.152804,6.558125,0
+              -73.1526,6.557166,0
+              -73.152364,6.555444,0
+              -73.151463,6.554298,0
+              -73.150809,6.554384,0
+              -73.150326,6.554512,0
+              -73.150015,6.554714,0
+              -73.149747,6.555013,0
+              -73.149543,6.555268,0
+              -73.149274,6.555375,0
+              -73.148963,6.555322,0
+              -73.148727,6.55514,0
+              -73.14846,6.554852,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.500</name>
+      <description><![CDATA[Descripción: Portal del Conde<br>Valor: 4500]]></description>
+      <styleUrl>#poly-0288D1-4000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Portal del Conde</value>
+        </Data>
+        <Data name="Valor">
+          <value>4500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.155368,6.552593,0
+              -73.156356,6.551207,0
+              -73.155562,6.551239,0
+              -73.155529,6.550323,0
+              -73.155229,6.550035,0
+              -73.154564,6.550547,0
+              -73.154618,6.55125,0
+              -73.154746,6.552657,0
+              -73.154821,6.552881,0
+              -73.155368,6.552593,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: C.C. San Gil Plaza<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-4000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>C.C. San Gil Plaza</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.154592,6.553076,0
+              -73.154227,6.552873,0
+              -73.153798,6.552702,0
+              -73.153283,6.552585,0
+              -73.152918,6.552734,0
+              -73.152307,6.553108,0
+              -73.152038,6.553598,0
+              -73.15265,6.554397,0
+              -73.152865,6.554333,0
+              -73.154592,6.553076,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.500</name>
+      <description><![CDATA[Descripción: Coovip<br>Ciudad Blanca<br>Samuel Martínez<br>Pedro Fermín Vargas<br>Valor: 4500]]></description>
+      <styleUrl>#poly-0288D1-4000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Coovip
+Ciudad Blanca
+Samuel Martínez
+Pedro Fermín Vargas</value>
+        </Data>
+        <Data name="Valor">
+          <value>4500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.145445,6.560087,0
+              -73.144951,6.561473,0
+              -73.14523,6.561643,0
+              -73.145016,6.562048,0
+              -73.146185,6.562528,0
+              -73.145778,6.563466,0
+              -73.145359,6.563412,0
+              -73.145134,6.565033,0
+              -73.146067,6.565779,0
+              -73.147037,6.566023,0
+              -73.146404,6.568474,0
+              -73.148314,6.56889,0
+              -73.149258,6.566897,0
+              -73.149558,6.566577,0
+              -73.149902,6.566364,0
+              -73.150148,6.566012,0
+              -73.150105,6.564573,0
+              -73.15017,6.563795,0
+              -73.150331,6.563348,0
+              -73.150266,6.56322,0
+              -73.150105,6.563286,0
+              -73.149853,6.563158,0
+              -73.148979,6.562314,0
+              -73.148335,6.562111,0
+              -73.148249,6.561983,0
+              -73.147691,6.56177,0
+              -73.146532,6.561289,0
+              -73.14666,6.560969,0
+              -73.146242,6.560703,0
+              -73.146049,6.560276,0
+              -73.145445,6.560087,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.500</name>
+      <description><![CDATA[Descripción: Provivienda<br>Santa More<br>Altos de la playa<br>Valor: 4500]]></description>
+      <styleUrl>#poly-0288D1-3000-51</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Provivienda
+Santa More
+Altos de la playa</value>
+        </Data>
+        <Data name="Valor">
+          <value>4500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.135832,6.544976,0
+              -73.135853,6.54116,0
+              -73.134866,6.539369,0
+              -73.134072,6.539156,0
+              -73.131755,6.539518,0
+              -73.131476,6.537536,0
+              -73.13051,6.537898,0
+              -73.13036,6.53841,0
+              -73.130167,6.538474,0
+              -73.129995,6.538431,0
+              -73.12963,6.538516,0
+              -73.129759,6.539454,0
+              -73.129523,6.539753,0
+              -73.129931,6.541053,0
+              -73.13154,6.540456,0
+              -73.131819,6.541309,0
+              -73.131969,6.541501,0
+              -73.132205,6.541565,0
+              -73.132441,6.54165,0
+              -73.132742,6.543057,0
+              -73.13257,6.54376,0
+              -73.132227,6.543952,0
+              -73.132076,6.543632,0
+              -73.131283,6.543867,0
+              -73.131154,6.542567,0
+              -73.13081,6.542673,0
+              -73.130532,6.543462,0
+              -73.130918,6.544336,0
+              -73.130918,6.546553,0
+              -73.132806,6.547768,0
+              -73.135832,6.544976,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Torres del Castillo<br>José Antonio Galán<br>UniSanGil<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-41</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Torres del Castillo
+José Antonio Galán
+UniSanGil</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.12727,6.542844,0
+              -73.128525,6.542353,0
+              -73.128514,6.541575,0
+              -73.129051,6.541149,0
+              -73.129083,6.540467,0
+              -73.128461,6.539721,0
+              -73.1283,6.539571,0
+              -73.128504,6.539294,0
+              -73.128547,6.538878,0
+              -73.128568,6.538154,0
+              -73.127882,6.537621,0
+              -73.126562,6.537941,0
+              -73.126176,6.538079,0
+              -73.126251,6.538729,0
+              -73.126197,6.539326,0
+              -73.12698,6.542918,0
+              -73.12727,6.542844,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $6.000</name>
+      <description><![CDATA[Descripción: Marsella campestre 1 y 2<br>Valor: 6000]]></description>
+      <styleUrl>#poly-0288D1-3000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Marsella campestre 1 y 2</value>
+        </Data>
+        <Data name="Valor">
+          <value>6000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.125448,6.530414,0
+              -73.128924,6.530084,0
+              -73.129256,6.529999,0
+              -73.129889,6.528218,0
+              -73.129589,6.527366,0
+              -73.127121,6.525703,0
+              -73.126531,6.525831,0
+              -73.125212,6.526214,0
+              -73.125158,6.529338,0
+              -73.125448,6.530414,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $5,000</name>
+      <description><![CDATA[Descripción: La Floresta <br>Bellavista<br>Valor: 5000]]></description>
+      <styleUrl>#poly-0288D1-3000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>La Floresta 
+Bellavista</value>
+        </Data>
+        <Data name="Valor">
+          <value>5000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.122863,6.536856,0
+              -73.122359,6.535386,0
+              -73.118571,6.536622,0
+              -73.119076,6.538018,0
+              -73.122863,6.536856,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Bella Isla<br>Bella Isla Reservado<br>Palmeras I y II<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Bella Isla
+Bella Isla Reservado
+Palmeras I y II</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.122785,6.547872,0
+              -73.126068,6.547318,0
+              -73.125553,6.545271,0
+              -73.126668,6.544738,0
+              -73.126154,6.542521,0
+              -73.124416,6.542926,0
+              -73.124158,6.541221,0
+              -73.122377,6.541754,0
+              -73.12272,6.543203,0
+              -73.121604,6.543608,0
+              -73.122785,6.547872,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $3.500</name>
+      <description><![CDATA[Descripción: Estacion de policía<br>Valor: 3500]]></description>
+      <styleUrl>#poly-0288D1-3000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Estacion de policía</value>
+        </Data>
+        <Data name="Valor">
+          <value>3500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.133475,6.551259,0
+              -73.133427,6.551232,0
+              -73.133277,6.551206,0
+              -73.133196,6.551067,0
+              -73.132928,6.550971,0
+              -73.132515,6.550934,0
+              -73.132129,6.551003,0
+              -73.131952,6.551136,0
+              -73.131758,6.551264,0
+              -73.132574,6.55184,0
+              -73.132767,6.551637,0
+              -73.13318,6.551456,0
+              -73.133378,6.551392,0
+              -73.133475,6.551259,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: La playa<br>Castillo Resort<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-51</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>La playa
+Castillo Resort</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.132241,6.550886,0
+              -73.130455,6.548961,0
+              -73.129774,6.547831,0
+              -73.12913,6.546392,0
+              -73.127875,6.546877,0
+              -73.128025,6.547213,0
+              -73.128368,6.547773,0
+              -73.128894,6.548476,0
+              -73.129607,6.549452,0
+              -73.130085,6.550012,0
+              -73.130369,6.550412,0
+              -73.130616,6.550928,0
+              -73.131324,6.551621,0
+              -73.132241,6.550886,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Ragonessi<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Ragonessi</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.122653,6.55546,0
+              -73.125013,6.554608,0
+              -73.125464,6.554565,0
+              -73.125743,6.554757,0
+              -73.126193,6.553691,0
+              -73.127138,6.551559,0
+              -73.126451,6.551879,0
+              -73.125979,6.552242,0
+              -73.125356,6.552391,0
+              -73.124756,6.552583,0
+              -73.122653,6.55546,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Pablo VI<br>Hospital Regional<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-61</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Pablo VI
+Hospital Regional</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.125056,6.556121,0
+              -73.127374,6.557315,0
+              -73.127803,6.557528,0
+              -73.128554,6.558168,0
+              -73.129476,6.558594,0
+              -73.130356,6.557336,0
+              -73.126837,6.555332,0
+              -73.127502,6.55416,0
+              -73.126193,6.553691,0
+              -73.125743,6.554757,0
+              -73.125421,6.555183,0
+              -73.125163,6.55529,0
+              -73.125314,6.555823,0
+              -73.125056,6.556121,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $3.500</name>
+      <description><![CDATA[Descripción: Fátima<br>Valor: 3500]]></description>
+      <styleUrl>#poly-0288D1-3000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Fátima</value>
+        </Data>
+        <Data name="Valor">
+          <value>3500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.130356,6.557336,0
+              -73.13115,6.555951,0
+              -73.130528,6.555759,0
+              -73.129476,6.55529,0
+              -73.127502,6.55416,0
+              -73.126837,6.555332,0
+              -73.130356,6.557336,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Maria Auxiliadora<br>Parque Gallineral<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Maria Auxiliadora
+Parque Gallineral</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.126193,6.553691,0
+              -73.127502,6.55416,0
+              -73.128661,6.554885,0
+              -73.130528,6.555759,0
+              -73.132008,6.552476,0
+              -73.130592,6.552199,0
+              -73.129476,6.551751,0
+              -73.128167,6.551069,0
+              -73.127138,6.551559,0
+              -73.126193,6.553691,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Carlos martinez<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Carlos martinez</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.129725,6.558263,0
+              -73.131846,6.559699,0
+              -73.132544,6.558751,0
+              -73.13352,6.559209,0
+              -73.134671,6.559798,0
+              -73.13554,6.558508,0
+              -73.134789,6.558007,0
+              -73.13115,6.555951,0
+              -73.129725,6.558263,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $3.500</name>
+      <description><![CDATA[Descripción: Centro<br>Valor: 3500]]></description>
+      <styleUrl>#poly-0288D1-3000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Centro</value>
+        </Data>
+        <Data name="Valor">
+          <value>3500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.132008,6.552476,0
+              -73.130528,6.555759,0
+              -73.13115,6.555951,0
+              -73.134381,6.557773,0
+              -73.136012,6.555108,0
+              -73.135315,6.554575,0
+              -73.134574,6.554085,0
+              -73.132008,6.552476,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: San Antonio<br>El Vergel<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>San Antonio
+El Vergel</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.134381,6.557773,0
+              -73.136276,6.55905,0
+              -73.137284,6.559797,0
+              -73.137713,6.56001,0
+              -73.138765,6.560308,0
+              -73.140009,6.557537,0
+              -73.138894,6.556908,0
+              -73.137552,6.556098,0
+              -73.136012,6.555108,0
+              -73.134381,6.557773,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: La Industrial<br>SENA<br>La Cementos<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-4000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>La Industrial
+SENA
+La Cementos</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.140009,6.557537,0
+              -73.138765,6.560308,0
+              -73.139795,6.560575,0
+              -73.140192,6.560063,0
+              -73.140438,6.558923,0
+              -73.14135,6.55937,0
+              -73.14237,6.560031,0
+              -73.142928,6.559509,0
+              -73.142488,6.559146,0
+              -73.141415,6.558443,0
+              -73.140009,6.557537,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: La Gruta<br>El Bosque<br>Cementerio<br>Santorini<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>La Gruta
+El Bosque
+Cementerio
+Santorini</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.137638,6.56002,0
+              -73.137284,6.559797,0
+              -73.13554,6.558508,0
+              -73.134671,6.559798,0
+              -73.13352,6.559209,0
+              -73.132746,6.560585,0
+              -73.134226,6.561662,0
+              -73.135235,6.562088,0
+              -73.135728,6.562184,0
+              -73.136126,6.562184,0
+              -73.136769,6.561086,0
+              -73.137048,6.561449,0
+              -73.137638,6.56002,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Ciudad Futuro I, II y III<br>Simón Bolivar<br>Miradores del Bosque<br>La casa del comercio<br>Alta Gracía<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Ciudad Futuro I, II y III
+Simón Bolivar
+Miradores del Bosque
+La casa del comercio
+Alta Gracía</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.137649,6.560031,0
+              -73.136984,6.56147,0
+              -73.136423,6.563193,0
+              -73.137614,6.563694,0
+              -73.138325,6.563838,0
+              -73.13868,6.56392,0
+              -73.138864,6.563363,0
+              -73.13932,6.563555,0
+              -73.139835,6.563758,0
+              -73.140168,6.563086,0
+              -73.140404,6.562532,0
+              -73.140607,6.561999,0
+              -73.140768,6.561541,0
+              -73.13973,6.560596,0
+              -73.13918,6.560443,0
+              -73.137649,6.560031,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.500</name>
+      <description><![CDATA[Descripción: Cerros del Moral<br>Valor: 4500]]></description>
+      <styleUrl>#poly-0288D1-3000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Cerros del Moral</value>
+        </Data>
+        <Data name="Valor">
+          <value>4500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.136701,6.564866,0
+              -73.135091,6.56397,0
+              -73.134383,6.56559,0
+              -73.136143,6.566315,0
+              -73.136701,6.564866,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $6.500</name>
+      <description><![CDATA[Descripción: HOTELES:<br>- Terrazas<br>- La Montaña<br>Valor: 6500]]></description>
+      <styleUrl>#poly-0288D1-4000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HOTELES:
+- Terrazas
+- La Montaña</value>
+        </Data>
+        <Data name="Valor">
+          <value>6500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.114645,6.556202,0
+              -73.115546,6.556,0
+              -73.115793,6.555786,0
+              -73.116115,6.555371,0
+              -73.116812,6.555392,0
+              -73.117113,6.555094,0
+              -73.11663,6.55455,0
+              -73.115868,6.553889,0
+              -73.115471,6.55358,0
+              -73.115214,6.553953,0
+              -73.114474,6.554358,0
+              -73.11368,6.554401,0
+              -73.113036,6.554188,0
+              -73.112585,6.555253,0
+              -73.11295,6.555328,0
+              -73.113411,6.555424,0
+              -73.113894,6.555605,0
+              -73.114205,6.555562,0
+              -73.114409,6.555712,0
+              -73.114441,6.555989,0
+              -73.114645,6.556202,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Punta del Este<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-4000-36</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Punta del Este</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.141582,6.555207,0
+              -73.141035,6.55518,0
+              -73.141287,6.554304,0
+              -73.140804,6.553995,0
+              -73.140718,6.554241,0
+              -73.140225,6.554455,0
+              -73.13972,6.554658,0
+              -73.139404,6.554754,0
+              -73.139041,6.554752,0
+              -73.138569,6.554699,0
+              -73.138388,6.555084,0
+              -73.138594,6.555356,0
+              -73.139082,6.55567,0
+              -73.139522,6.555766,0
+              -73.139817,6.555836,0
+              -73.1402,6.555982,0
+              -73.140176,6.555388,0
+              -73.141619,6.555793,0
+              -73.141582,6.555207,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Terminal de transporte<br>Paseo Real<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-38</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Terminal de transporte
+Paseo Real</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.148145,6.55451,0
+              -73.14828,6.554563,0
+              -73.148392,6.554616,0
+              -73.148553,6.554712,0
+              -73.148725,6.554867,0
+              -73.14888,6.554995,0
+              -73.148977,6.555064,0
+              -73.149065,6.555088,0
+              -73.149175,6.555096,0
+              -73.149293,6.555032,0
+              -73.149411,6.554931,0
+              -73.149668,6.554731,0
+              -73.149979,6.554583,0
+              -73.150114,6.554504,0
+              -73.150319,6.554383,0
+              -73.150454,6.554344,0
+              -73.150645,6.554312,0
+              -73.149926,6.55314,0
+              -73.149546,6.553247,0
+              -73.149272,6.553305,0
+              -73.148859,6.553321,0
+              -73.148328,6.553449,0
+              -73.148145,6.55451,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $3,500</name>
+      <description><![CDATA[Descripción: C.C. El Puente (preguntar al punto si puede ir a llevarlo, de lo contrario se cobraría la tarifa mínima) O sino recomendar pasar a recoger.<br>Valor: 3500]]></description>
+      <styleUrl>#poly-0288D1-4000-56</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>C.C. El Puente (preguntar al punto si puede ir a llevarlo, de lo contrario se cobraría la tarifa mínima) O sino recomendar pasar a recoger.</value>
+        </Data>
+        <Data name="Valor">
+          <value>3500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.134335,6.552712,0
+              -73.134994,6.552325,0
+              -73.135564,6.551975,0
+              -73.134003,6.55109,0
+              -73.133531,6.551159,0
+              -73.133475,6.551259,0
+              -73.133378,6.551392,0
+              -73.13318,6.551456,0
+              -73.132767,6.551637,0
+              -73.132574,6.55184,0
+              -73.132925,6.552087,0
+              -73.133139,6.552225,0
+              -73.133418,6.552358,0
+              -73.133767,6.552486,0
+              -73.134335,6.552712,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Paseo del mango<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Paseo del mango</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.121044,6.55674,0
+              -73.121709,6.556676,0
+              -73.122438,6.556761,0
+              -73.122975,6.556761,0
+              -73.123511,6.556249,0
+              -73.124005,6.556143,0
+              -73.125056,6.556121,0
+              -73.125314,6.555823,0
+              -73.125228,6.555588,0
+              -73.125163,6.55529,0
+              -73.125421,6.555183,0
+              -73.125743,6.554757,0
+              -73.125464,6.554565,0
+              -73.124863,6.55465,0
+              -73.122653,6.55546,0
+              -73.122052,6.555972,0
+              -73.121558,6.55642,0
+              -73.121044,6.55674,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $5.500</name>
+      <description><![CDATA[Descripción: Hotel Monterrey<br>Hotel San Carlos<br>Valor: 5500]]></description>
+      <styleUrl>#poly-0288D1-4000-51</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Hotel Monterrey
+Hotel San Carlos</value>
+        </Data>
+        <Data name="Valor">
+          <value>5500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.115213,6.557407,0
+              -73.115782,6.556831,0
+              -73.114366,6.556426,0
+              -73.113218,6.556282,0
+              -73.111555,6.556309,0
+              -73.112456,6.556554,0
+              -73.115213,6.557407,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Los Nogales<br>Acacias<br>Almendros<br>Portal del café<br>Acuasan<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-59</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Los Nogales
+Acacias
+Almendros
+Portal del café
+Acuasan</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.129808,6.558282,0
+              -73.129487,6.558594,0
+              -73.128327,6.55809,0
+              -73.12778,6.557994,0
+              -73.126846,6.557973,0
+              -73.126643,6.55954,0
+              -73.127533,6.559763,0
+              -73.129078,6.560158,0
+              -73.130408,6.560733,0
+              -73.13132,6.561522,0
+              -73.131503,6.561724,0
+              -73.131621,6.561661,0
+              -73.131728,6.561613,0
+              -73.131803,6.561522,0
+              -73.132254,6.561213,0
+              -73.132608,6.560829,0
+              -73.132746,6.560585,0
+              -73.132908,6.560424,0
+              -73.13353,6.559209,0
+              -73.132554,6.558751,0
+              -73.131857,6.559699,0
+              -73.129808,6.558282,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - 4.500</name>
+      <description><![CDATA[Descripción: CIUDADELA VISTA CAMPESTRE<br>Valor: 4500]]></description>
+      <styleUrl>#poly-0288D1-4000-41</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>CIUDADELA VISTA CAMPESTRE</value>
+        </Data>
+        <Data name="Valor">
+          <value>4500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.132786,6.560696,0
+              -73.131503,6.561724,0
+              -73.133612,6.564256,0
+              -73.134728,6.564757,0
+              -73.136126,6.562184,0
+              -73.135576,6.562242,0
+              -73.134696,6.561932,0
+              -73.132786,6.560696,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: EL POBLADO<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-4000-46</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>EL POBLADO</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.128167,6.551069,0
+              -73.126068,6.547318,0
+              -73.122785,6.547872,0
+              -73.12234,6.550738,0
+              -73.12337,6.551995,0
+              -73.124756,6.552583,0
+              -73.125979,6.552242,0
+              -73.126451,6.551879,0
+              -73.126674,6.551739,0
+              -73.127138,6.551559,0
+              -73.128167,6.551069,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $6.500</name>
+      <description><![CDATA[Descripción: HOTEL ÚMPALA<br>Valor: 6500]]></description>
+      <styleUrl>#poly-0288D1-4000-77</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HOTEL ÚMPALA</value>
+        </Data>
+        <Data name="Valor">
+          <value>6500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.109637,6.558102,0
+              -73.109192,6.557292,0
+              -73.108296,6.557723,0
+              -73.108773,6.558554,0
+              -73.109637,6.558102,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $8.500</name>
+      <description><![CDATA[Descripción: HOTEL DAVILEJA<br>Valor: 8500]]></description>
+      <styleUrl>#poly-0288D1-3000-43</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HOTEL DAVILEJA</value>
+        </Data>
+        <Data name="Valor">
+          <value>8500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.107412,6.562114,0
+              -73.107374,6.561634,0
+              -73.106768,6.561632,0
+              -73.106811,6.562111,0
+              -73.107412,6.562114,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $7.500</name>
+      <description><![CDATA[Descripción: HOTEL DOS QUEBRADAS<br>Valor: 7500]]></description>
+      <styleUrl>#poly-0288D1-4000-51</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HOTEL DOS QUEBRADAS</value>
+        </Data>
+        <Data name="Valor">
+          <value>7500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.111714,6.555248,0
+              -73.110599,6.553521,0
+              -73.10811,6.555312,0
+              -73.109697,6.556996,0
+              -73.111714,6.555248,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $4.000</name>
+      <description><![CDATA[Descripción: Barrio Simón Bolivar<br>Valor: 4000]]></description>
+      <styleUrl>#poly-0288D1-3000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Barrio Simón Bolivar</value>
+        </Data>
+        <Data name="Valor">
+          <value>4000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.140768,6.561541,0
+              -73.139603,6.564435,0
+              -73.14073,6.564979,0
+              -73.14161,6.562986,0
+              -73.141298,6.562176,0
+              -73.140768,6.561541,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $7.000</name>
+      <description><![CDATA[Descripción: HOTEL CAMPESTRE LA TRINIDAD<br>Valor: 7000]]></description>
+      <styleUrl>#poly-0288D1-4000-51</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>HOTEL CAMPESTRE LA TRINIDAD</value>
+        </Data>
+        <Data name="Valor">
+          <value>7000.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.164828,6.546817,0
+              -73.163304,6.544194,0
+              -73.159184,6.546284,0
+              -73.161609,6.548906,0
+              -73.164828,6.546817,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $8.500</name>
+      <description><![CDATA[Descripción: Entrada Pinchote<br>Valor: 8500]]></description>
+      <styleUrl>#poly-0288D1-4000-48</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>Entrada Pinchote</value>
+        </Data>
+        <Data name="Valor">
+          <value>8500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.167668,6.542065,0
+              -73.169127,6.541361,0
+              -73.167883,6.53859,0
+              -73.163441,6.540978,0
+              -73.164922,6.543472,0
+              -73.167668,6.542065,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Z5 - $9.500</name>
+      <description><![CDATA[Descripción: PINCHOTE<br>Valor: 9500]]></description>
+      <styleUrl>#poly-0288D1-3000-54</styleUrl>
+      <ExtendedData>
+        <Data name="Descripción">
+          <value>PINCHOTE</value>
+        </Data>
+        <Data name="Valor">
+          <value>9500.0</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -73.176664,6.532983,0
+              -73.17484,6.528719,0
+              -73.16851,6.531362,0
+              -73.170978,6.535775,0
+              -73.176664,6.532983,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
