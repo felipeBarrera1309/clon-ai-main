@@ -5,22 +5,22 @@ import { RoleGuard } from "@/modules/auth/ui/components/role-guard"
 import { DashboardClientLayout } from "@/modules/dashboard/ui/layouts/dashboard-client-layout"
 
 export const DashboardLayout = async ({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode
 }) => {
-  const cookieStore = await cookies()
-  const defaultOpen = cookieStore.get("sidebar_state")?.value === "true"
+	const cookieStore = await cookies()
+	const defaultOpen = cookieStore.get("sidebar_state")?.value === "true"
 
-  return (
-    <AuthGuard>
-      <OrganizationGuard>
-        <RoleGuard>
-          <DashboardClientLayout defaultOpen={defaultOpen}>
-            {children}
-          </DashboardClientLayout>
-        </RoleGuard>
-      </OrganizationGuard>
-    </AuthGuard>
-  )
+	return (
+		<AuthGuard>
+			<OrganizationGuard>
+				<RoleGuard>
+					<DashboardClientLayout defaultOpen={defaultOpen}>
+						{children}
+					</DashboardClientLayout>
+				</RoleGuard>
+			</OrganizationGuard>
+		</AuthGuard>
+	)
 }
