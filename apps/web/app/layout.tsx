@@ -6,30 +6,30 @@ import { Providers } from "@/components/providers"
 import { getToken } from "@/lib/auth-server"
 
 const fontSans = Geist({
-  subsets: ["latin"],
-  variable: "--font-sans",
+	subsets: ["latin"],
+	variable: "--font-sans",
 })
 
 const fontMono = Geist_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
+	subsets: ["latin"],
+	variable: "--font-mono",
 })
 
 export default async function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode
+	children: React.ReactNode
 }>) {
-  const initialToken = await getToken()
+	const initialToken = await getToken()
 
-  return (
-    <html lang="es" suppressHydrationWarning>
-      <body
-        className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}
-      >
-        <Providers initialToken={initialToken}>{children}</Providers>
-        <Toaster />
-      </body>
-    </html>
-  )
+	return (
+		<html lang="es" suppressHydrationWarning>
+			<body
+				className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}
+			>
+				<Providers initialToken={initialToken}>{children}</Providers>
+				<Toaster />
+			</body>
+		</html>
+	)
 }
