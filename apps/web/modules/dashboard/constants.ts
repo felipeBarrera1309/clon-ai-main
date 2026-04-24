@@ -37,6 +37,11 @@ export const DASHBOARD_VIEWS = {
 		icon: InboxIcon,
 		url: "/conversations",
 	},
+	"/test": {
+		title: "Pruebas",
+		icon: InboxIcon,
+		url: "/test",
+	},
 	"/quick-responses": {
 		title: "Respuestas Rápidas",
 		icon: MessageSquareIcon,
@@ -142,6 +147,7 @@ export const DASHBOARD_URLS = [DASHBOARD_VIEWS["/"].url] as const
 
 export const CUSTOMER_SUPPORT_URLS = [
 	DASHBOARD_VIEWS["/conversations"].url,
+	DASHBOARD_VIEWS["/test"].url,
 	DASHBOARD_VIEWS["/quick-responses"].url,
 	DASHBOARD_VIEWS["/contacts"].url,
 	DASHBOARD_VIEWS["/orders"].url,

@@ -10,37 +10,37 @@ import { Loader } from "@/components/loader"
  * Used consistently across all authentication states
  */
 function LoadingScreen() {
-  return (
-    <div className="flex h-screen w-full items-center justify-center">
-      <Loader />
-    </div>
-  )
+	return (
+		<div className="flex h-screen w-full items-center justify-center">
+			<Loader />
+		</div>
+	)
 }
 
 export const AuthGuard = ({ children }: { children: React.ReactNode }) => {
-  const router = useRouter()
+	const router = useRouter()
 
-  return (
-    <>
-      <AuthLoading>
-        <LoadingScreen />
-      </AuthLoading>
-      <Authenticated>{children}</Authenticated>
-      <Unauthenticated>
-        <UnauthenticatedRedirect router={router} />
-      </Unauthenticated>
-    </>
-  )
+	return (
+		<>
+			<AuthLoading>
+				<LoadingScreen />
+			</AuthLoading>
+			<Authenticated>{children}</Authenticated>
+			<Unauthenticated>
+				<UnauthenticatedRedirect router={router} />
+			</Unauthenticated>
+		</>
+	)
 }
 
 function UnauthenticatedRedirect({
-  router,
+	router,
 }: {
-  router: ReturnType<typeof useRouter>
+	router: ReturnType<typeof useRouter>
 }) {
-  useEffect(() => {
-    router.push("/sign-in")
-  }, [router])
+	useEffect(() => {
+		router.push("/sign-in")
+	}, [router])
 
-  return <LoadingScreen />
+	return <LoadingScreen />
 }
