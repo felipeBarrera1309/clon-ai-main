@@ -10,15 +10,14 @@ import { Button } from "@workspace/ui/components/button"
 
 export const ViewTest = () => {
 
-	const [name, setNameValue] = useState("")
+	const [name, setNameValue] = useState(1)
 
 	useEffect(() => {
-		console.log("Se ejecuta solo una vez");
+
 	}, [name]);
 
 	function showMessage() {
-		console.log('show message i get it')
-		setNameValue('Este es el nuevo nombre para mostrar en el DOM')
+		setNameValue(name + 1)
 	}
 
 	return(
